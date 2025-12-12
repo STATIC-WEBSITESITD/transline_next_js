@@ -8,7 +8,7 @@ export default function Menu() {
         <>
             <ul className="main-menu">
                 <li><Link className="active" href="/">Home</Link></li>
-                <li><Link href="/about">About Us</Link></li>
+                <li><Link href="/">About Us</Link></li>
                 <li className="has-children">
                     <Link href="#">Services</Link>
                     <ul className="sub-menu">
@@ -18,7 +18,7 @@ export default function Menu() {
                     </ul>
                 </li>
                 <li><Link href="/certifications">Certifications</Link></li>
-                <li><Link href="/contact">Contact Us</Link></li>
+                <li><Link href="/">Contact Us</Link></li>
             </ul>
         </>
     );
