@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Requestquote3() {
     return (
         <>
-            <section className="section mt-200 bg-2 bg-request-quote-3">
+            <section id="request-a-quote" className="section mt-200 bg-2 bg-request-quote-3">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
@@ -13,40 +13,42 @@ export default function Requestquote3() {
                                         Request a Quote
                                     </h2>
                                     <p className="font-md color-grey-700 mb-25 wow animate__animated animate__fadeIn">
-                                        Please submit your inquiry below to receive your total price.
+                                        If you have any queries, please fill out the form below to get a quote.
                                     </p>
-                                    <div className="row align-items-center wow animate__animated animate__fadeIn">
-                                        <div className="col-lg-6">
-                                            <div className="form-group">
-                                                <input className="form-control" type="text" placeholder="Your name *" name="name" />
+                                    <form>
+                                        <div className="row align-items-center wow animate__animated animate__fadeIn">
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <input className="form-control" type="text" placeholder="Your name *" name="name" />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <input className="form-control" type="email" placeholder="Your email *" name="email" />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <input className="form-control" type="text" placeholder="Mobile *" name="mobile" />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <input className="form-control" type="text" placeholder="Subject *" name="subject" />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <div className="form-group">
+                                                    <textarea className="form-control" name="message" rows={8} placeholder="Message *" defaultValue={""} />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-12">
+                                                <button type="submit" className="btn btn-brand-1-big">
+                                                    Submit Now
+                                                </button>
                                             </div>
                                         </div>
-                                        <div className="col-lg-6">
-                                            <div className="form-group">
-                                                <input className="form-control" type="email" placeholder="Your email *" name="email" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6">
-                                            <div className="form-group">
-                                                <input className="form-control" type="text" placeholder="Mobile *" name="mobile" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-6">
-                                            <div className="form-group">
-                                                <input className="form-control" type="text" placeholder="Subject *" name="subject" />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12">
-                                            <div className="form-group">
-                                                <textarea className="form-control" name="message" rows={8} placeholder="Message *" defaultValue={""} />
-                                            </div>
-                                        </div>
-                                        <div className="col-lg-12">
-                                            <button type="submit" className="btn btn-brand-1-big">
-                                                Submit Now
-                                            </button>
-                                        </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>

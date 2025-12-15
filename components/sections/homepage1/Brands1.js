@@ -3,7 +3,7 @@ import Brand1Slider from "@/components/slider/Brand1Slider";
 export default function Brands1() {
     return (
         <>
-            <div className="section bg-transparent pt-0 pb-65">
+            <div className="section bg-transparent pt-0 pb-0">
                 <div className="container">
                     <div className="text-center">
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our Clients</p>

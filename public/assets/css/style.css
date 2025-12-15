@@ -2534,15 +2534,17 @@ iframe {
   width: 100%;
 }
 .header .main-header .header-left .header-logo {
-  max-width: 150px;
+  max-width: 70px;
   width: 100%;
-  min-width: 130px;
+  min-width: 70px;
 }
 .header .main-header .header-left .header-logo a {
   display: block;
 }
 .header .main-header .header-left .header-logo a img {
-  min-height: 37px;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
 }
 .header .main-header .header-left .header-nav {
   display: inline-block;
@@ -8068,8 +8070,8 @@ a.color-brand-2:hover {
     padding: 8px 0px 8px 38px;
   }
   .header .main-header .header-left .header-logo {
-    max-width: 110px;
-    min-width: 110px;
+    max-width: 70px;
+    min-width: 70px;
   }
   .btn.btn-signin {
     padding-left: 15%;

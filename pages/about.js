@@ -1,7 +1,8 @@
 import Layout from "@/components/layout/Layout";
-import Brand1Slider from "@/components/slider/Brand1Slider";
-import News2Slider from "@/components/slider/News2Slider";
-import Testimonial2Slider from "@/components/slider/Testimonial2Slider";
+import Brands1 from "@/components/sections/homepage1/Brands1"
+// import Brand1Slider from "@/components/slider/Brand1Slider";
+// import News2Slider from "@/components/slider/News2Slider";
+// import Testimonial2Slider from "@/components/slider/Testimonial2Slider";
 import Link from "next/link";
 import { useState } from "react";
 import ModalVideo from 'react-modal-video';
@@ -12,48 +13,72 @@ export default function About() {
             <Layout>
                 <section className="section">
                     <div className="container">
-                        <div className="box-pageheader-1 text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn">Who We Are</span>
+                        <div className="box-pageheader-1 text-center">
+                            {/* <span className="btn btn-tag wow animate__animated animate__fadeIn">Who We Are</span> */}
                             <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">About Us</h2>
-                            <p className="font-md color-white wow animate__animated animate__fadeIn">We have been pioneering the industry in Europe for 20 years, and delivering value<br className="d-none d-lg-block" />products within given timeframe, every single time.</p>
+                            {/* <p className="font-md color-white wow animate__animated animate__fadeIn">We have been pioneering the industry in Europe for 20 years, and delivering value<br className="d-none d-lg-block" />products within given timeframe, every single time.</p> */}
                         </div>
                     </div>
                 </section>
-                <section className="section mt-100 mb-50">
+                <section className="section pt-100 pb-100">
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-lg-6 mb-30">
-                                <h2 className="color-brand-2 mb-25 wow animate__animated animate__fadeIn">Simplifying complex shipping challenges with innovative solutions</h2>
-                                <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Logistics companies are essential to the smooth functioning of global supply chains. They offer a range of services such as transportation, warehousing, inventory management, and distribution to businesses across different industries. The role of logistics companies has become increasingly important in recent years due to the growth of e-commerce and global trade.</p>
-                                <div className="box-button mt-40"><Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeIn" href="#">Calculate Package</Link><a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeIn" onClick={() => setOpen(true)}><img src="/assets/imgs/template/icons/play.svg" alt="transp" /></a></div>
-                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
+                            <div className="col-lg-6">
+                                <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">About Us</p>
+                                <h2 className="color-brand-2 text-capitalize mb-65 mt-15 wow animate__animated animate__fadeIn">
+                                    Your Dedicated Partner in Pharmaceutical Logistics
+                                </h2>
+                                <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">
+                                    The Transline Group was founded in 1989 by Mr. Dinesh Kirodian. From a single operation, we have grown into one of India's most trusted logistics and freight forwarding partners, specializing exclusively in pharmaceutical cargo movement. Our journey is defined by a consistent focus on compliance, quality, and the safe, fast, and timely delivery of life-saving medicines. We ensure your supply chain remains robust and reliable.
+                                </p>
                             </div>
-                            <div className="col-lg-6 position-relative mb-30">
-                                <div className="row align-items-end">
-                                    <div className="col-lg-5 col-md-5 col-sm-5"><img className="mb-20 wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-1.png" alt="transp" /><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-2.png" alt="transp" /></div>
-                                    <div className="col-lg-7 col-md-7 col-sm-7"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-1-3.png" alt="transp" /></div>
+                            <div className="col-lg-6 position-relative">
+                                <div className="certified-icon wow animate__animated animate__fadeIn">
+                                    <img src="/assets/imgs/page/homepage3/certified.png" alt="transp" />
                                 </div>
-                                <div className="quote-center shape-2" />
+                                <div className="row">
+                                    <div className="col-md-6 wow animate__animated animate__fadeIn">
+                                        <img className="mt-90" src="/assets/imgs/page/homepage3/img-info-5.png" alt="transp" />
+                                    </div>
+                                    <div className="col-md-6 wow animate__animated animate__fadeIn">
+                                        <img src="/assets/imgs/page/homepage3/img-info-5-2.png" alt="transp" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="section mt-50 mb-50">
+                <Brands1 />
+                <section className="section pt-100 pb-100">
                     <div className="container">
                         <div className="row align-items-center item-about-2">
                             <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-1.png" alt="transp" /></div>
                             <div className="col-lg-6">
-                                <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn">Mission</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">At Logistic Transp, our mission is to provide our clients with exceptional transportation services that meet and exceed their expectations. We aim to be the most reliable, efficient, and cost-effective transportation provider in the industry.</p>
+                                <div className="box-info-aabout-2">
+                                    <span className="btn btn-tag wow animate__animated animate__fadeIn">Mission</span>
+                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">
+                                        Delivering Excellence in Global Logistics
+                                    </h2>
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
+                                        Our mission is to provide reliable, efficient and cost-effective logistics solutions that consistently exceed customer expectations. We are committed to delivering cargo safely, on time, and with complete transparency, especially in handling critical pharmaceutical shipments.
+                                    </p>
                                     <div className="box-button mt-40">
                                         <div className="row">
                                             <div className="col-lg-6 mb-30">
-                                                <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Affordable Cost</h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                                <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Customer Commitment
+                                                </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
+                                                    We prioritize long-term client relationships through personalized service and dependable execution.
+                                                </p>
                                             </div>
                                             <div className="col-lg-6 mb-30">
-                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">Shot Time Delivery</h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">The latest design trends meet hand-crafted templates.</p>
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Operational Excellence
+                                                </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Leveraging expertise, technology and strong carrier partnerships to ensure smooth and timely deliveries.
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
@@ -62,13 +87,34 @@ export default function About() {
                         </div>
                         <div className="row align-items-center item-about-2 item-about-2-revert">
                             <div className="col-lg-6">
-                                <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn">History</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">Globally Connected by Large Network</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">Logistic Transp was founded in 2005 by a group of transportation professionals who saw an opportunity to provide a better level of service to businesses. Since our founding, we have grown to become a leading transportation provider, with a presence in over 30 countries around the world.</p>
-                                    <div className="box-button mt-40"><Link className="btn btn-brand-2 mr-20 wow animate__animated animate__fadeIn" href="/contact">Contact Us</Link><Link className="btn btn-link-medium wow animate__animated animate__fadeIn" href="#">Learn More
-                                        <svg className="w-6 h-6 icon-16 ml-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                        </svg></Link></div>
+                                <div className="box-info-aabout-2">
+                                    <span className="btn btn-tag wow animate__animated animate__fadeIn">Vision</span>
+                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">
+                                        To Be India’s Most Trusted Pharma Logistics Partner
+                                    </h2>
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
+                                        Our vision is to become India’s leading integrated logistics solution provider with a strong global presence, recognized for our specialization in pharmaceutical cargo and end-to-end supply chain management.
+                                    </p>
+                                    <div className="box-button mt-40">
+                                        <div className="row">
+                                            <div className="col-lg-6 mb-30">
+                                                <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Industry Leadership
+                                                </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Setting benchmarks in quality, compliance and cold chain logistics across global markets.
+                                                </p>
+                                            </div>
+                                            <div className="col-lg-6 mb-30">
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Global Expansion
+                                                </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Strengthening our worldwide network to support seamless international trade.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-2.png" alt="transp" /></div>
@@ -76,16 +122,40 @@ export default function About() {
                         <div className="row align-items-center item-about-2">
                             <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="transp" /></div>
                             <div className="col-lg-6">
-                                <div className="box-info-aabout-2"><span className="btn btn-tag wow animate__animated animate__fadeIn">Our Partners</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">We have established strong relationships with our partners</h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">We strive to become pioneers in the field, providing first quality and cost-effective service, and smart solutions to the market. Our 30 years’ experience in the shipping, transport and logistics industry is our strength, which support us to deliver our promises to our customers.</p>
-                                    <div className="box-button d-flex mt-40"><Link className="hover-up mr-10 wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link className="hover-up wow animate__animated animate__fadeIn" href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link></div>
+                                <div className="box-info-aabout-2">
+                                    <span className="btn btn-tag wow animate__animated animate__fadeIn">Values</span>
+                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">
+                                        Values That Drive Our Commitment
+                                    </h2>
+                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
+                                        Our values define who we are and guide every decision we make. They are the foundation of our long-standing client relationships and operational integrity.
+                                    </p>
+                                    <div className="box-button mt-40">
+                                        <div className="row">
+                                            <div className="col-lg-6 mb-30">
+                                                <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Integrity & Transparency
+                                                </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
+                                                    We conduct business ethically, ensuring honesty and fairness in all our dealings.
+                                                </p>
+                                            </div>
+                                            <div className="col-lg-6 mb-30">
+                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Reliability & Trust
+                                                </h6>
+                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
+                                                    Consistent performance and accountability have helped us retain clients for decades.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="section mt-55 bg-1 position-relative pt-90 pb-90">
+                {/* <section className="section mt-55 bg-1 position-relative pt-90 pb-90">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6"><span className="btn btn-tag wow animate__animated animate__fadeIn">Get in touch</span>
@@ -460,7 +530,7 @@ export default function About() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </Layout>
         </>
     )

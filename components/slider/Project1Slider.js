@@ -57,7 +57,7 @@ export default function Project1Slider() {
                                 Fast, predictable, and dedicated pharma-handling expertise with strong partnerships with global carriers. We deliver reliable pharmaceutical logistics solutions via air.
                             </p>
                             <div className="box-button mt-30">
-                                <a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span>
@@ -78,7 +78,7 @@ export default function Project1Slider() {
                                 Reliable ocean freight forwarding and global shipping support for LCL, FCL, and non-containerized cargo.
                             </p>
                             <div className="box-button mt-30">
-                                <a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span>
@@ -99,7 +99,7 @@ export default function Project1Slider() {
                                 Efficient and fast customs management for time-sensitive pharma cargo for both air and sea shipments. We are known for our reliable regulatory compliance.
                             </p>
                             <div className="box-button mt-30">
-                                <a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span>
@@ -119,7 +119,7 @@ export default function Project1Slider() {
                                 Fast, predictable, and dedicated pharma-handling expertise with strong partnerships with global carriers. We deliver reliable pharmaceutical logistics solutions via air.
                             </p>
                             <div className="box-button mt-30">
-                                <a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span>
@@ -140,7 +140,7 @@ export default function Project1Slider() {
                                 Reliable ocean freight forwarding and global shipping support for LCL, FCL, and non-containerized cargo.
                             </p>
                             <div className="box-button mt-30">
-                                <a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span>
@@ -161,7 +161,7 @@ export default function Project1Slider() {
                                 Efficient and fast customs management for time-sensitive pharma cargo for both air and sea shipments. We are known for our reliable regulatory compliance.
                             </p>
                             <div className="box-button mt-30">
-                                <a className="btn btn-link font-sm color-brand-2">View Details<span>
+                                <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
                                     <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                     </svg></span>
