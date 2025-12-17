@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout";
 import Faqs2 from "@/components/sections/homepage1/Faqs2"
+import Info4 from "@/components/sections/homepage2/Info4"
 // import Brand1Slider from "@/components/slider/Brand1Slider";
 // import News2Slider from "@/components/slider/News2Slider";
 // import Testimonial2Slider from "@/components/slider/Testimonial2Slider";
@@ -129,6 +130,7 @@ export default function About() {
                         </div>
                     </div>
                 </section>
+                <Info4 />
                 <Faqs2 />
                 {/* <section className="section mt-55 bg-1 position-relative pt-90 pb-90">
                     <div className="container">
