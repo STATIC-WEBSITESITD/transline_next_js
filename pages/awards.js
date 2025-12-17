@@ -1,7 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import Link from "next/link";
 import { useState } from "react";
-import ModalVideo from 'react-modal-video';
 
 const box = [
     { src: "/assets/imgs/awards/aw1.svg" },
@@ -10,7 +8,6 @@ const box = [
     { src: "/assets/imgs/awards/aw4.jpeg" },
 ];
 
-// Simple css-in-js to add hover effect
 const cardStyle = {
     transition: "box-shadow 0.3s, transform 0.3s",
     boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
@@ -24,10 +21,8 @@ const cardHoverStyle = {
     border: "1px solid #a3d6ff",
 };
 
-import { useState as useReactState } from 'react';
-
 function Card({ children }) {
-    const [hovered, setHovered] = useReactState(false);
+    const [hovered, setHovered] = useState(false);
     return (
         <div
             className="card h-100 shadow-sm text-center"

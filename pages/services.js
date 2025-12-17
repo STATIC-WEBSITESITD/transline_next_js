@@ -1,33 +1,7 @@
-import { useEffect, useState } from 'react'
-import CountUp from '@/components/elements/CounterUp'
-import Accordion from "@/components/elements/Accordion"
 import Layout from "@/components/layout/Layout"
-import Pricing2 from "@/components/sections/homepage2/Pricing2"
-import Link from "next/link"
 import Faqs3 from "@/components/sections/homepage1/Faqs3"
 
 export default function Service() {
-    const [isOpen, setOpen] = useState(false)
-    const [inViewport, setInViewport] = useState(false)
-
-    const handleScroll = () => {
-        const elements = document.getElementsByClassName('counterUp')
-        if (elements.length > 0) {
-            const element = elements[0]
-            const rect = element.getBoundingClientRect();
-            const isInViewport = rect.top >= 0 && rect.bottom <= window.innerHeight
-            if (isInViewport && !inViewport) {
-                setInViewport(true);
-            }
-        }
-    }
-
-    useEffect(() => {
-        window.addEventListener('scroll', handleScroll)
-        return () => {
-            window.removeEventListener('scroll', handleScroll)
-        }
-    }, [])
 
     return (
         <>
@@ -40,9 +14,7 @@ export default function Service() {
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 text-center">
-                            {/* <span className="btn btn-tag wow animate__animated animate__fadeIn">Who We Are</span> */}
                             <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Our Services</h2>
-                            {/* <p className="font-md color-white wow animate__animated animate__fadeIn">We have been pioneering the industry in Europe for 20 years, and delivering value<br className="d-none d-lg-block" />products within given timeframe, every single time.</p> */}
                         </div>
                     </div>
                 </section>
