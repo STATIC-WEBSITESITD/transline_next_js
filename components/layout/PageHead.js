@@ -5,7 +5,7 @@ const PageHead = ({ headTitle }) => {
         <>
             <Head>
                 <title>
-                    {headTitle ? headTitle : "Transp - Transport Courier Logistics HTML Template"}
+                    {headTitle ? headTitle : "Transline Logistics"}
                 </title>
                 <link rel="shortcut icon" href="/favicon.svg" />
             </Head>

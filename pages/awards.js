@@ -4,17 +4,10 @@ import { useState } from "react";
 import ModalVideo from 'react-modal-video';
 
 const box = [
-    { src: "/assets/imgs/clients/alkem.png", alt: "Alkem" },
-    { src: "/assets/imgs/clients/emcure.png", alt: "Emcure" },
-    { src: "/assets/imgs/clients/lupin.png", alt: "Lupin" },
-    { src: "/assets/imgs/clients/medreich.jpg", alt: "Medreich" },
-    { src: "/assets/imgs/clients/mega.jpg", alt: "Mega" },
-    { src: "/assets/imgs/clients/micro-lab.jpg", alt: "Micro Lab" },
-    { src: "/assets/imgs/clients/ngl.png", alt: "NGL" },
-    { src: "/assets/imgs/clients/serum.png", alt: "Serum" },
-    { src: "/assets/imgs/clients/strides.png", alt: "Strides" },
-    { src: "/assets/imgs/clients/torrent.png", alt: "Torrent" },
-    { src: "/assets/imgs/clients/zydus.jpg", alt: "Zydus" },
+    { src: "/assets/imgs/awards/aw1.svg" },
+    { src: "/assets/imgs/awards/aw2.jpeg" },
+    { src: "/assets/imgs/awards/aw3.jpeg" },
+    { src: "/assets/imgs/awards/aw4.jpeg" },
 ];
 
 // Simple css-in-js to add hover effect
@@ -67,14 +60,14 @@ export default function About() {
                     <div className="container">
                         <div className="row justify-content-center">
                             {box.map((item, idx) => (
-                                <div className="col-md-2 mb-4" key={idx}>
+                                <div className="col-md-3 mb-4" key={idx}>
                                     <Card>
                                         <div className="card-body d-flex flex-column align-items-center justify-content-center">
                                             <img
                                                 src={item.src}
                                                 alt={item.alt}
-                                                style={{ maxHeight: 100, maxWidth: 150, objectFit: "contain" }}
-                                                className="mb-3"
+                                                style={{ maxHeight: 300, width: "100%", objectFit: "contain" }}
+                                                className="mb-0"
                                             />
                                             <h5 className="card-title">{item.alt}</h5>
                                         </div>
