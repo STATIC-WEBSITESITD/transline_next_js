@@ -4,7 +4,12 @@ export default function Contact() {
 
     return (
         <>
-            <Layout>
+            <Layout
+                headTitle="Contact Transline Logistics"
+                metaDescription="Contact Transline Logistics for pharmaceutical logistics, air freight, sea freight and cold chain solutions from India. Reach our specialist team for quotes, support and partnership enquiries."
+                metaKeywords="contact Transline Logistics, pharma logistics contact, freight forwarding enquiry, pharma cold chain contact, logistics support India"
+                canonicalUrl="https://transline-logistics.com/contact"
+            >
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 text-center">

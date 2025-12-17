@@ -1,12 +1,34 @@
 import Head from 'next/head'
 
-const PageHead = ({ headTitle }) => {
+const BASE_URL = 'https://transline-logistics.com'
+
+const PageHead = ({
+    headTitle,
+    metaDescription,
+    metaKeywords,
+    canonicalUrl,
+}) => {
+    const title = headTitle
+        ? `${headTitle} | Transline Logistics`
+        : 'Transline Logistics | Pharmaceutical Logistics & Freight Forwarding'
+
+    const description =
+        metaDescription ||
+        'Transline Logistics specialises in pharmaceutical logistics, air freight, sea freight and cold chain solutions from India to global destinations with compliant, time‑critical delivery.'
+
+    const keywords =
+        metaKeywords ||
+        'Transline Logistics, pharmaceutical logistics, pharma freight, air freight India, sea freight India, cold chain logistics, pharma supply chain, freight forwarding Mumbai'
+
+    const canonical = canonicalUrl || BASE_URL
+
     return (
         <>
             <Head>
-                <title>
-                    {headTitle ? headTitle : "Transline Logistics"}
-                </title>
+                <title>{title}</title>
+                <meta name="description" content={description} />
+                <meta name="keywords" content={keywords} />
+                <link rel="canonical" href={canonical} />
                 <link rel="shortcut icon" href="/favicon.svg" />
             </Head>
         </>

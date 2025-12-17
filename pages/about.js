@@ -11,7 +11,12 @@ export default function About() {
     const [isOpen, setOpen] = useState(false)
     return (
         <>
-            <Layout>
+            <Layout
+                headTitle="About Transline Logistics"
+                metaDescription="Learn about Transline Logistics, founded in 1989 and now one of India’s most trusted pharmaceutical logistics and freight forwarding partners, dedicated to compliant, safe and on‑time delivery of life‑saving medicines."
+                metaKeywords="About Transline Logistics, pharma logistics company India, pharmaceutical freight forwarder, cold chain specialist, logistics partner for medicines"
+                canonicalUrl="https://transline-logistics.com/about"
+            >
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 text-center">

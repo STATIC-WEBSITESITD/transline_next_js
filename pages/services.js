@@ -31,7 +31,12 @@ export default function Service() {
 
     return (
         <>
-            <Layout>
+            <Layout
+                headTitle="Pharmaceutical Logistics Services"
+                metaDescription="Explore Transline Logistics’ specialised pharmaceutical logistics services, including export air freight, export sea freight and compliant customs clearance for time‑sensitive pharma cargo."
+                metaKeywords="pharma logistics services, air freight exports pharma, sea freight exports pharma, customs clearance pharma cargo, Transline Logistics services"
+                canonicalUrl="https://transline-logistics.com/services"
+            >
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 text-center">
