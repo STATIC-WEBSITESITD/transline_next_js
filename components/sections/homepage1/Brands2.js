@@ -1,20 +1,20 @@
-import Brand1Slider from "@/components/slider/Brand1Slider";
+import Brand2Slider from "@/components/slider/Brand2Slider";
 
-export default function Brands1() {
+export default function Brands2() {
     return (
         <>
-            <div className="section bg-transparent pt-0 pb-0">
+            <div className="section bg-transparent pt-100 pb-0">
                 <div className="container">
                     <div className="text-center">
-                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our Clients</p>
+                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Certifications</p>
                         <h2 className="color-brand-2 text-capitalize mb-65 mt-15 wow animate__animated animate__fadeIn">
-                            Trusted by brands<br className="d-none d-lg-block" /> worldwide
+                            Certified & Trusted<br className="d-none d-lg-block" /> Worldwide
                         </h2>
                     </div>
                     <div className="mt-35">
                         <div className="box-swiper">
                             <div className="swiper-container swiper-group-6 pb-0">
-                                <Brand1Slider />
+                                <Brand2Slider />
                             </div>
                         </div>
                     </div>

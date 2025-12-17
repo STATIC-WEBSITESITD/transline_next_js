@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Info5() {
     return (
         <>
-            <section className="section pt-20 pb-120">
+            <section className="section pt-100 pb-100">
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">

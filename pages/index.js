@@ -1,5 +1,6 @@
 import Layout from "@/components/layout/Layout"
 import Brands1 from "@/components/sections/homepage1/Brands1"
+import Brands2 from "@/components/sections/homepage1/Brands2"
 import Hero1 from "@/components/sections/homepage1/Hero1"
 // import Info2 from "@/components/sections/homepage1/Info2"
 import Info5 from "@/components/sections/homepage3/Info5"
@@ -8,7 +9,7 @@ import Requestquote3 from "@/components/sections/homepage3/Requestquote3"
 // import Services1 from "@/components/sections/homepage1/Services1"
 // import Bgmap from "@/components/sections/homepage1/Bgmap"
 // import Cta1 from "@/components/sections/homepage1/Cta1"
-// import Faqs1 from "@/components/sections/homepage1/Faqs1"
+import Faqs1 from "@/components/sections/homepage1/Faqs1"
 // import Howitwork1 from "@/components/sections/homepage1/Howitwork1"
 // import Info1 from "@/components/sections/homepage1/Info1"
 // import News1 from "@/components/sections/homepage1/News1"
@@ -24,9 +25,11 @@ export default function Home() {
                 <Hero1 />
                 <Info5 />
                 <Brands1 />
+                <Brands2 />
                 <Projects3 />
                 {/* <Info2 /> */}
                 <Requestquote3 />
+                <Faqs1 />
                 {/* <Services1 />
                 <Info1 />
                 <Howitwork1 />
@@ -34,7 +37,6 @@ export default function Home() {
                 <Projects1 />
                 <Requestquote1 />
                 <Pricing1 />
-                <Faqs1 />
                 <Cta1 />
                 <News1 />
                 <Bgmap /> */}

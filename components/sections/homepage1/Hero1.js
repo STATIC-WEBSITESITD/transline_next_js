@@ -1,5 +1,5 @@
 import Hero1Slider from "@/components/slider/Hero1Slider";
-import Hero4Slider from "@/components/slider/Hero4Slider";
+// import Hero4Slider from "@/components/slider/Hero4Slider";
 export default function Hero1() {
     return (
         <>
@@ -9,7 +9,7 @@ export default function Hero1() {
                         <Hero1Slider/>
                     </div>
                 </div>
-                <div className="box-slider-homepage2 box-slider-homepage-4">
+                {/* <div className="box-slider-homepage2 box-slider-homepage-4">
                     <div className="container">
                         <div className="box-swiper">
                             <div className="swiper-container swiper-group-4 swiper-group-3-style-2">
@@ -27,7 +27,7 @@ export default function Hero1() {
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </section>
         </>
     )
