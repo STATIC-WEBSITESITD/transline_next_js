@@ -20,7 +20,8 @@ export default function Footer1({ }) {
                                 <ul className="menu-footer">
                                     <li><Link href="/">Home</Link></li>
                                     <li><Link href="/about">About Us</Link></li>
-                                    <li><Link href="/certifications">Certifications</Link></li>
+                                    <li><Link href="/awards">Awards</Link></li>
+                                    <li><Link href="/tracking">Tracking</Link></li>
                                     <li><Link href="/contact">Contact Us</Link></li>
                                 </ul>
                             </div>
@@ -106,8 +107,12 @@ export default function Footer1({ }) {
                     <div className="container">
                         <div className="footer-bottom">
                             <div className="row align-items-center">
-                                <div className="col-lg-6 col-md-12 text-center text-lg-start"><span className="color-grey-300 font-md">©Transp Official {new Date().getFullYear()}. All right reversed.</span></div>
-                                <div className="col-lg-6 col-md-12 text-center text-lg-end">
+                                <div className="col-lg-12 col-md-12 text-center text-lg-center">
+                                    <span className="color-white font-md">
+                                    © {new Date().getFullYear()} Transline Developed by <a href="https://www.itdgrowthlabs.com/" target="_blank" className="color-white">ITD Growthlabs Pvt. Ltd.</a>
+                                    </span>
+                                </div>
+                                {/* <div className="col-lg-6 col-md-12 text-center text-lg-end">
                                     <ul className="menu-bottom">
                                         <li><Link className="font-sm color-grey-300" href="/term-conditions">Privacy policy</Link>
                                         </li>
@@ -115,7 +120,7 @@ export default function Footer1({ }) {
                                         <li><Link className="font-sm color-grey-300" href="/term-conditions">Terms of service</Link>
                                         </li>
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>

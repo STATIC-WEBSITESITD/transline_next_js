@@ -18,7 +18,8 @@ export default function Menu() {
                         <li><Link href="/customs-clearance">Customs Clearance</Link></li>
                     </ul>
                 </li> */}
-                <li><Link href="/certifications">Certifications</Link></li>
+                <li><Link href="/awards">Awards</Link></li>
+                <li><Link href="/tracking">Tracking</Link></li>
                 <li><Link href="/contact">Contact Us</Link></li>
             </ul>
         </>
