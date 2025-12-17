@@ -43,13 +43,12 @@ export default function About() {
         <>
             <Layout>
                 <section className="section">
-                    <div className="container">
                         <div className="box-pageheader-1 text-center">
-                            {/* <span className="btn btn-tag wow animate__animated animate__fadeIn"></span> */}
                             <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Awards</h2>
-                            {/* <p className="font-md color-white wow animate__animated animate__fadeIn"></p> */}
+                            <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
+                                Honours and recognitions for our commitment to safe, compliant pharma logistics
+                            </p>
                         </div>
-                    </div>
                 </section>
                 <section className="section pt-100 pb-100">
                     <div className="container">

@@ -19,8 +19,8 @@ export default function Home() {
                 <Hero1 />
                 <Info5 />
                 <Brands1 />
-                <Brands2 />
                 <Projects3 />
+                <Brands2 />
                 <Requestquote3 />
                 <Faqs1 />
             </Layout>
