@@ -1,0 +1,90 @@
+import Layout from "@/components/layout/Layout";
+import Link from "next/link";
+import { useState } from "react";
+import ModalVideo from 'react-modal-video';
+
+const box = [
+    { src: "/assets/imgs/clients/alkem.png", alt: "Alkem" },
+    { src: "/assets/imgs/clients/emcure.png", alt: "Emcure" },
+    { src: "/assets/imgs/clients/lupin.png", alt: "Lupin" },
+    { src: "/assets/imgs/clients/medreich.jpg", alt: "Medreich" },
+    { src: "/assets/imgs/clients/mega.jpg", alt: "Mega" },
+    { src: "/assets/imgs/clients/micro-lab.jpg", alt: "Micro Lab" },
+    { src: "/assets/imgs/clients/ngl.png", alt: "NGL" },
+    { src: "/assets/imgs/clients/serum.png", alt: "Serum" },
+    { src: "/assets/imgs/clients/strides.png", alt: "Strides" },
+    { src: "/assets/imgs/clients/torrent.png", alt: "Torrent" },
+    { src: "/assets/imgs/clients/zydus.jpg", alt: "Zydus" },
+];
+
+// Simple css-in-js to add hover effect
+const cardStyle = {
+    transition: "box-shadow 0.3s, transform 0.3s",
+    boxShadow: "0 2px 8px rgba(0,0,0,0.08)",
+    borderRadius: "8px",
+    cursor: "pointer",
+    border: "1px solid #eee",
+};
+const cardHoverStyle = {
+    boxShadow: "0 6px 24px 0 rgba(0,0,0,0.20)",
+    transform: "translateY(-4px) scale(1.03)",
+    border: "1px solid #a3d6ff",
+};
+
+import { useState as useReactState } from 'react';
+
+function Card({ children }) {
+    const [hovered, setHovered] = useReactState(false);
+    return (
+        <div
+            className="card h-100 shadow-sm text-center"
+            style={{
+                ...cardStyle,
+                ...(hovered ? cardHoverStyle : {})
+            }}
+            onMouseEnter={() => setHovered(true)}
+            onMouseLeave={() => setHovered(false)}
+        >
+            {children}
+        </div>
+    );
+}
+
+export default function About() {
+    return (
+        <>
+            <Layout>
+                <section className="section">
+                    <div className="container">
+                        <div className="box-pageheader-1 text-center">
+                            {/* <span className="btn btn-tag wow animate__animated animate__fadeIn"></span> */}
+                            <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Awards</h2>
+                            {/* <p className="font-md color-white wow animate__animated animate__fadeIn"></p> */}
+                        </div>
+                    </div>
+                </section>
+                <section className="section pt-100 pb-100">
+                    <div className="container">
+                        <div className="row justify-content-center">
+                            {box.map((item, idx) => (
+                                <div className="col-md-2 mb-4" key={idx}>
+                                    <Card>
+                                        <div className="card-body d-flex flex-column align-items-center justify-content-center">
+                                            <img
+                                                src={item.src}
+                                                alt={item.alt}
+                                                style={{ maxHeight: 100, maxWidth: 150, objectFit: "contain" }}
+                                                className="mb-3"
+                                            />
+                                            <h5 className="card-title">{item.alt}</h5>
+                                        </div>
+                                    </Card>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            </Layout>
+        </>
+    );
+}
