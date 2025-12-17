@@ -175,7 +175,8 @@ input:checked+.slider:before {
         left: 0px;
         width: 100%;
         bottom: 165px;
-        background-color: $background-bg-2;
+        // Use brand yellow for the top info band background
+        background-color: $color-brand-1;
         z-index: 1;
     }
     .container {

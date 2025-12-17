@@ -112,7 +112,7 @@ export default function Service() {
                                 </div>
                                 <div className="col-md-6">
                                     <div className="wow animate__animated animate__fadeInRight" style={{ animationDelay: "0.5s" }}>
-                                        <h5 className="color-brand-2 mb-3">Efficient and Reliable Customs Clearance for Time-Sensitive Pharma Cargo</h5>
+                                        <h5 className="color-brand-2 mb-3">Customs Clearance (Air &amp; Sea)</h5>
                                         <p className="color-grey-900 mb-3 animate__animated animate__fadeIn" style={{ animationDelay: "0.65s" }}>
                                             Navigating international Customs procedures can be complex, but with Transline, it is a fast and reliable process.
                                             Our team is highly skilled in managing the documentation and regulatory compliance required for both Air and Sea Freight shipments of pharmaceutical goods, ensuring rapid turnaround for both Import and Export cargo.

@@ -9,7 +9,7 @@ export default function Footer1({ }) {
                         <div className="row">
                             <div className="col-lg-4 mb-30">
                                 <div className="mb-20">
-                                    <img src="/assets/imgs/logo.png" alt="transp" style={{width: "160px"}} />
+                                    <img src="/assets/imgs/logo.svg" alt="transp" style={{width: "80px"}} />
                                 </div>
                                 <p className="font-xs mb-20 color-white">Transline Air Cargo is India’s trusted partner in pharmaceutical logistics, specializing in reliable air, sea, and cold chain cargo solutions. Since 1989, we have ensured safe, fast, and compliant delivery of temperature-sensitive shipments, supporting healthcare providers and life-saving products across the globe.</p>
                                 <h6 className="color-brand-1">Follow Us</h6>
@@ -59,9 +59,12 @@ export default function Footer1({ }) {
                                             </svg>
                                         </span>
                                         <span className="font-xs color-white">
-                                            15/16, 3rd Floor, Camy House,<br/>
-                                            Dhun Road, Near Tardeo A/c Market,<br/>
-                                            Tardeo, Mumbai - 400034, India
+                                            <strong>Head Office (Mumbai)</strong><br/>
+                                            <a href="https://maps.app.goo.gl/M9ijtgBueTaxsCBE9" target="_blank" rel="noopener noreferrer" className="color-white">
+                                                116/117, Sahar Cargo Estate,<br/>
+                                                J B Nagar, Andheri East,<br/>
+                                                Mumbai 400099, India
+                                            </a>
                                         </span>
                                     </li>
                                     <li className="d-flex align-items-start mb-2">
@@ -95,7 +98,11 @@ export default function Footer1({ }) {
                                             </svg>
                                         </span>
                                         <span className="font-xs color-white">
-                                            Branch Offices: Bangalore | Chennai | Delhi | Ahmedabad | Goa
+                                            <strong>Branch Offices:</strong><br/>
+                                            <a href="https://maps.app.goo.gl/Dc8tUXv8bAmhHYuN9" target="_blank" className="color-white">Bengaluru</a><br/>
+                                            <a href="https://maps.app.goo.gl/ECu3FJWvhqXA2i7e6" target="_blank" className="color-white">Chennai</a><br/>
+                                            <a href="https://maps.app.goo.gl/gy6V4PrJUe1NgTia9" target="_blank" className="color-white">Delhi</a><br/>
+                                            <a href="https://maps.app.goo.gl/BJwVwthXZLPUuqA59" target="_blank" className="color-white">Ahmedabad</a>
                                         </span>
                                     </li>
                                 </ul>
@@ -103,7 +110,7 @@ export default function Footer1({ }) {
                         </div>
                     </div>
                 </div>
-                <div className="footer-2">
+                <div className="footer-2 border-top border-white">
                     <div className="container">
                         <div className="footer-bottom">
                             <div className="row align-items-center">

@@ -7,15 +7,29 @@ export default function Info5() {
                 <div className="container">
                     <div className="row align-items-center">
                         <div className="col-lg-6">
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">About Us</p>
-                            <h2 className="color-brand-2 text-capitalize mb-65 mt-15 wow animate__animated animate__fadeIn">
-                                Your Dedicated Partner in Pharmaceutical Logistics
-                            </h2>
-                            <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">
-                                The Transline Group was founded in 1989 by Mr. Dinesh Kirodian. From a single operation, we have grown into one of India's most trusted logistics and freight forwarding partners, specializing exclusively in pharmaceutical cargo movement. Our journey is defined by a consistent focus on compliance, quality, and the safe, fast, and timely delivery of life-saving medicines. We ensure your supply chain remains robust and reliable.
+                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">
+                                About Transline Logistics
                             </p>
-                            <div className="mt-20">
-                                <Link className="btn btn-brand-2 wow animate__animated animate__fadeIn" href="/about">Explore More</Link>
+                            <h2 className="color-brand-2 text-capitalize mb-30 mt-15 wow animate__animated animate__fadeIn">
+                                Pharma-Focused, Cold Chain Ready
+                            </h2>
+                            <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
+                                For more than three decades, Transline has focused exclusively on moving
+                                pharmaceutical cargo safely and compliantly from India to global destinations.
+                                Our teams understand the criticality of temperature-sensitive products and
+                                work closely with manufacturers, airlines and shipping lines to protect every
+                                shipment end-to-end.
+                            </p>
+                            <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">
+                                From validated cold chain solutions to time-definite air freight and
+                                cost-efficient sea freight, we combine specialist expertise, robust processes
+                                and transparent communication so your medicines arrive on time, in-spec and
+                                audit-ready.
+                            </p>
+                            <div className="mt-10">
+                                <Link className="btn btn-brand-2 wow animate__animated animate__fadeIn" href="/about">
+                                    Explore More
+                                </Link>
                             </div>
                         </div>
                         <div className="col-lg-6 position-relative">

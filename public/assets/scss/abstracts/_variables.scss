@@ -13,10 +13,10 @@ $font-xl: 20px;
 $font-2xl: 24px;
 $font-3xl: 30px;
 //2.COLOR
-// New Ecom
-$color-brand-1: #ffe799;
-$color-brand-1-hover: #066a4c;
-$color-brand-2: #111111;
+// Brand colors
+$color-brand-1: #ffe799; // Primary brand color (Yellow)
+$color-brand-1-hover: #e6cf70; // Slightly darker yellow for hover states
+$color-brand-2: #000000; // Secondary brand color (Black)
 
 $color-success: #16BA8F;
 $color-danger: #FF3E3E;
@@ -26,10 +26,10 @@ $color-info: #28A7E6;
 $color-white: #fff;
 
 
-$color-black: #414357;
-$color-blue: #006D77;
-$color-brand-3: #AFEAE4;
-$color-brand-4: #E8B0E8;
+$color-black: #000000;
+$color-blue: #000000; // unify accent blue to brand black
+$color-brand-3: #fff3bf; // light yellow shade for subtle backgrounds
+$color-brand-4: #ffefc2; // softer yellow accent
 $color-gray-60: #020202;
 $color-gray-80: #CDE2E7;
 $color-gray-200: #8EA4AC;

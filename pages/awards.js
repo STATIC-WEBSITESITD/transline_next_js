@@ -1,11 +1,12 @@
 import Layout from "@/components/layout/Layout";
 import { useState } from "react";
 
+// Add award names in the array, matching to image order.
 const box = [
-    { src: "/assets/imgs/awards/aw1.svg" },
-    { src: "/assets/imgs/awards/aw2.jpeg" },
-    { src: "/assets/imgs/awards/aw3.jpeg" },
-    { src: "/assets/imgs/awards/aw4.jpeg" },
+    { src: "/assets/imgs/awards/aw1.svg", name: "Ethiopian Airlines" },
+    { src: "/assets/imgs/awards/aw2.jpeg", name: "IAG Cargo" },
+    { src: "/assets/imgs/awards/aw3.jpeg", name: "Emirates SkyCargo" },
+    { src: "/assets/imgs/awards/aw4.jpeg", name: "Gold Sponsor" },
 ];
 
 const cardStyle = {
@@ -59,11 +60,13 @@ export default function About() {
                                         <div className="card-body d-flex flex-column align-items-center justify-content-center">
                                             <img
                                                 src={item.src}
-                                                alt={item.alt}
+                                                alt={item.name}
                                                 style={{ maxHeight: 300, width: "100%", objectFit: "contain" }}
-                                                className="mb-0"
+                                                className="mb-3"
                                             />
-                                            <h5 className="card-title">{item.alt}</h5>
+                                            <div style={{ minHeight: 60, display: "flex", alignItems: "center", justifyContent: "center" }}>
+                                                <h5 className="card-title mb-0" style={{ fontSize: "1.08rem" }}>{item.name}</h5>
+                                            </div>
                                         </div>
                                     </Card>
                                 </div>
