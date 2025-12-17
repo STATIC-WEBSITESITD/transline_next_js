@@ -1,5 +1,5 @@
 import Layout from "@/components/layout/Layout";
-import Brands1 from "@/components/sections/homepage1/Brands1"
+import Faqs2 from "@/components/sections/homepage1/Faqs2"
 // import Brand1Slider from "@/components/slider/Brand1Slider";
 // import News2Slider from "@/components/slider/News2Slider";
 // import Testimonial2Slider from "@/components/slider/Testimonial2Slider";
@@ -14,13 +14,13 @@ export default function About() {
                 <section className="section">
                     <div className="container">
                         <div className="box-pageheader-1 text-center">
-                            {/* <span className="btn btn-tag wow animate__animated animate__fadeIn">Who We Are</span> */}
+                            {/* <span className="btn btn-tag wow animate__animated animate__fadeIn"></span> */}
                             <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">About Us</h2>
-                            {/* <p className="font-md color-white wow animate__animated animate__fadeIn">We have been pioneering the industry in Europe for 20 years, and delivering value<br className="d-none d-lg-block" />products within given timeframe, every single time.</p> */}
+                            {/* <p className="font-md color-white wow animate__animated animate__fadeIn"></p> */}
                         </div>
                     </div>
                 </section>
-                <section className="section pt-100 pb-100">
+                <section className="section pt-100">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-6">
@@ -48,106 +48,80 @@ export default function About() {
                         </div>
                     </div>
                 </section>
-                <Brands1 />
-                <section className="section pt-100 pb-100">
+                <section className="section pt-100">
                     <div className="container">
-                        <div className="row align-items-center item-about-2">
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-1.png" alt="transp" /></div>
-                            <div className="col-lg-6">
-                                <div className="box-info-aabout-2">
-                                    <span className="btn btn-tag wow animate__animated animate__fadeIn">Mission</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">
-                                        Delivering Excellence in Global Logistics
-                                    </h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-                                        Our mission is to provide reliable, efficient and cost-effective logistics solutions that consistently exceed customer expectations. We are committed to delivering cargo safely, on time, and with complete transparency, especially in handling critical pharmaceutical shipments.
-                                    </p>
-                                    <div className="box-button mt-40">
-                                        <div className="row">
-                                            <div className="col-lg-6 mb-30">
-                                                <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Customer Commitment
-                                                </h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
-                                                    We prioritize long-term client relationships through personalized service and dependable execution.
-                                                </p>
-                                            </div>
-                                            <div className="col-lg-6 mb-30">
-                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Operational Excellence
-                                                </h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Leveraging expertise, technology and strong carrier partnerships to ensure smooth and timely deliveries.
-                                                </p>
-                                            </div>
+                        <div className="row">
+                            {/* Vision */}
+                            <div className="col-12 col-md-6 mb-30">
+                                <div className="card d-flex flex-column p-4 h-100 shadow-sm border-0 w-100" style={{ boxShadow: "0 4px 24px rgba(30,34,40,0.12)", minHeight: "160px" }}>
+                                    <div className="d-flex align-items-center mb-2">
+                                        <span style={{ fontSize: "2.5rem", color: "#2B6CB0", marginRight: "18px" }} role="img" aria-label="Vision">
+                                            💡
+                                        </span>
+                                        <div>
+                                            <h4 className="color-brand-2 mb-10 mb-lg-2" style={{ marginBottom: 0 }}>Our Vision</h4>
+                                        </div>
+                                    </div>
+                                    <div className="mt-3">
+                                        <div className="mb-3">
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>01. Inspire Excellence</h6>
+                                            <p className="font-md color-grey-700 mb-0">
+                                                To be among India’s leading integrated logistics solution providers, delivering excellence and innovation in pharmaceutical and cold chain logistics.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div className="row align-items-center item-about-2 item-about-2-revert">
-                            <div className="col-lg-6">
-                                <div className="box-info-aabout-2">
-                                    <span className="btn btn-tag wow animate__animated animate__fadeIn">Vision</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">
-                                        To Be India’s Most Trusted Pharma Logistics Partner
-                                    </h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-                                        Our vision is to become India’s leading integrated logistics solution provider with a strong global presence, recognized for our specialization in pharmaceutical cargo and end-to-end supply chain management.
-                                    </p>
-                                    <div className="box-button mt-40">
-                                        <div className="row">
-                                            <div className="col-lg-6 mb-30">
-                                                <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Industry Leadership
-                                                </h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Setting benchmarks in quality, compliance and cold chain logistics across global markets.
-                                                </p>
-                                            </div>
-                                            <div className="col-lg-6 mb-30">
-                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Global Expansion
-                                                </h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Strengthening our worldwide network to support seamless international trade.
-                                                </p>
-                                            </div>
+                            {/* Mission */}
+                            <div className="col-12 col-md-6 mb-30">
+                                <div className="card d-flex flex-column p-4 h-100 shadow-sm border-0 w-100" style={{ boxShadow: "0 4px 24px rgba(30,34,40,0.12)", minHeight: "160px" }}>
+                                    <div className="d-flex align-items-center mb-2">
+                                        <span style={{ fontSize: "2.5rem", color: "#2B6CB0", marginRight: "18px" }} role="img" aria-label="Mission">
+                                            🎯
+                                        </span>
+                                        <div>
+                                            <h4 className="color-brand-2 mb-10 mb-lg-2" style={{ marginBottom: 0 }}>Our Mission</h4>
+                                        </div>
+                                    </div>
+                                    <div className="mt-3">
+                                        <div className="mb-3">
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>01. Deliver with Purpose</h6>
+                                            <p className="font-md color-grey-700 mb-0">
+                                                To provide safe, efficient, and compliant logistics services tailored to the pharmaceutical industry's special cargo requirements, ensuring life-saving medicines reach those in need—on time, every time.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-2.png" alt="transp" /></div>
-                        </div>
-                        <div className="row align-items-center item-about-2">
-                            <div className="col-lg-6"><img className="wow animate__animated animate__fadeIn" src="/assets/imgs/page/about/img-about-2-3.png" alt="transp" /></div>
-                            <div className="col-lg-6">
-                                <div className="box-info-aabout-2">
-                                    <span className="btn btn-tag wow animate__animated animate__fadeIn">Values</span>
-                                    <h2 className="color-brand-2 mt-15 mb-25 wow animate__animated animate__fadeIn">
-                                        Values That Drive Our Commitment
-                                    </h2>
-                                    <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-                                        Our values define who we are and guide every decision we make. They are the foundation of our long-standing client relationships and operational integrity.
-                                    </p>
-                                    <div className="box-button mt-40">
-                                        <div className="row">
-                                            <div className="col-lg-6 mb-30">
-                                                <h6 className="chart-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Integrity & Transparency
-                                                </h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
-                                                    We conduct business ethically, ensuring honesty and fairness in all our dealings.
-                                                </p>
-                                            </div>
-                                            <div className="col-lg-6 mb-30">
-                                                <h6 className="feature-title font-md-bold color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Reliability & Trust
-                                                </h6>
-                                                <p className="font-xs color-grey-900 wow animate__animated animate__fadeIn">
-                                                    Consistent performance and accountability have helped us retain clients for decades.
-                                                </p>
-                                            </div>
+                            {/* Core Values */}
+                            <div className="col-12 mb-30">
+                                <div className="card d-flex flex-column p-4 h-100 shadow-sm border-0 w-100" style={{ boxShadow: "0 4px 24px rgba(30,34,40,0.12)", minHeight: "160px" }}>
+                                    <div className="d-flex align-items-center mb-2">
+                                        <span style={{ fontSize: "2.5rem", color: "#2B6CB0", marginRight: "18px" }} role="img" aria-label="Values">
+                                            ❤️
+                                        </span>
+                                        <div>
+                                            <h4 className="color-brand-2 mb-10 mb-lg-2" style={{ marginBottom: 0 }}>Our Core Values</h4>
+                                        </div>
+                                    </div>
+                                    <div className="mt-3">
+                                        <div className="mb-3">
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>01. Client-Centric Approach</h6>
+                                            <p className="font-md color-grey-700 mb-0">
+                                                We build long-term partnerships based on mutual trust and transparency, prioritizing the client's needs in every process.
+                                            </p>
+                                        </div>
+                                        <div className="mb-3">
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>02. Integrity</h6>
+                                            <p className="font-md color-grey-700 mb-0">
+                                                We are committed to ethical and fair business practices, ensuring integrity and transparency are maintained across all our operations, especially in high-value cargo handling.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>03. Commitment</h6>
+                                            <p className="font-md color-grey-700 mb-0">
+                                                We are focused on uncompromising quality, safety, and fast, on-time delivery always to protect the efficacy of your sensitive pharmaceutical cargo. Our service is reliable.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -155,6 +129,7 @@ export default function About() {
                         </div>
                     </div>
                 </section>
+                <Faqs2 />
                 {/* <section className="section mt-55 bg-1 position-relative pt-90 pb-90">
                     <div className="container">
                         <div className="row">
