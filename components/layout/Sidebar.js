@@ -1,24 +1,6 @@
 import Link from "next/link";
-import { useState } from "react";
 
 export default function Sidebar({ openClass, handleMobileMenuClose }) {
-    const [isActive, setIsActive] = useState({
-        status: false,
-        key: "",
-    });
-
-    const handleToggle = (key) => {
-        if (isActive.key === key) {
-            setIsActive({
-                status: false,
-            });
-        } else {
-            setIsActive({
-                status: true,
-                key,
-            });
-        }
-    };
     return (
         <>
             <div className={`mobile-header-active mobile-header-wrapper-style perfect-scrollbar ${openClass}`}>
@@ -34,46 +16,21 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                             <div className="mobile-menu-wrap mobile-header-border">
                                 <nav className="mt-15">
                                     <ul className="mobile-menu font-heading">
-                                        <li className={isActive.key == 1 ? "has-children active" : "has-children"} onClick={() => handleToggle(1)}>
-                                            <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
-                                            <Link className="active" href="/">Home</Link>
-                                            <ul className={isActive.key == 1 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                                <li><Link href="/">Homepage - 1</Link></li>
-                                                <li><Link href="/index-2">Homepage - 2</Link></li>
-                                                <li><Link href="/index-3">Homepage - 3</Link></li>
-                                                <li><Link href="/index-4">Homepage - 4</Link></li>
-                                            </ul>
+                                        <li>
+                                            <Link href="/" onClick={handleMobileMenuClose}>Home</Link>
                                         </li>
-                                        <li><Link href="/about">About</Link></li>
-                                        <li className={isActive.key == 2 ? "has-children active" : "has-children"} onClick={() => handleToggle(2)}>
-                                            <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
-                                            <Link href="/services">Services</Link>
-                                            <ul className={isActive.key == 2 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                                <li><Link href="/service-detail">Service Details</Link></li>
-                                            </ul>
+                                        <li>
+                                            <Link href="/about" onClick={handleMobileMenuClose}>About Us</Link>
                                         </li>
-                                        <li className={isActive.key == 3 ? "has-children active" : "has-children"} onClick={() => handleToggle(3)}>
-                                            <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
-                                            <Link href="#">Pages</Link>
-                                            <ul className={isActive.key == 3 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                                <li><Link href="/workprocess">Work Process</Link></li>
-                                                <li><Link href="/request-a-quote">Request a quote</Link></li>
-                                                <li><Link href="/our-team">Our team</Link></li>
-                                                <li><Link href="/faqs">FAQ's</Link></li>
-                                                <li><Link href="/register">Register</Link></li>
-                                                <li><Link href="/login">Login</Link></li>
-                                                <li><Link href="/comingsoon">Coming soon</Link></li>
-                                                <li><Link href="/404">Error 404</Link></li>
-                                            </ul>
+                                        <li>
+                                            <Link href="/services" onClick={handleMobileMenuClose}>Our Services</Link>
                                         </li>
-                                        <li className={isActive.key == 4 ? "has-children active" : "has-children"} onClick={() => handleToggle(4)}>
-                                            <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
-                                            <Link href="/blog">Blog Pages</Link>
-                                            <ul className={isActive.key == 4 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                                <li><Link href="/blog-single">Blog Details</Link></li>
-                                            </ul>
+                                        <li>
+                                            <Link href="/awards" onClick={handleMobileMenuClose}>Awards</Link>
                                         </li>
-                                        <li><Link href="/contact">Contact</Link></li>
+                                        <li>
+                                            <Link href="/contact" onClick={handleMobileMenuClose}>Contact Us</Link>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>
