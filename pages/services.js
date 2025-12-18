@@ -34,7 +34,7 @@ export default function Service() {
                                     {/* Image Hover Zoom + Fade In */}
                                     <div className="service-img-wrapper wow animate__animated animate__zoomIn">
                                         <img
-                                            src="/assets/imgs/page/homepage1/img.png"
+                                            src="/assets/imgs/img.png"
                                             alt="Air Freight Exports"
                                             className="img-fluid rounded shadow-sm w-100 service-img-effect"
                                         />
@@ -69,7 +69,7 @@ export default function Service() {
                                 <div className="col-md-6 mb-4 mb-md-0">
                                     <div className="service-img-wrapper wow animate__animated animate__zoomIn" style={{ animationDelay: "0.15s" }}>
                                         <img
-                                            src="/assets/imgs/page/homepage1/img2.png"
+                                            src="/assets/imgs/img2.png"
                                             alt="Sea Freight Exports"
                                             className="img-fluid rounded shadow-sm w-100 service-img-effect"
                                         />
@@ -104,7 +104,7 @@ export default function Service() {
                                 <div className="col-md-6 mb-4 mb-md-0">
                                     <div className="service-img-wrapper wow animate__animated animate__zoomIn" style={{ animationDelay: "0.3s" }}>
                                         <img
-                                            src="/assets/imgs/page/homepage1/img3.png"
+                                            src="/assets/imgs/img3.png"
                                             alt="Customs Clearance"
                                             className="img-fluid rounded shadow-sm w-100 service-img-effect"
                                         />

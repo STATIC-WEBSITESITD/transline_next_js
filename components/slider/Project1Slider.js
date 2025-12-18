@@ -49,7 +49,7 @@ export default function Project1Slider() {
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
-                            <img src="/assets/imgs/page/homepage1/img.png" alt="Air Freight (Exports)" />
+                            <img src="/assets/imgs/img.png" alt="Air Freight (Exports)" />
                         </div>
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Air Freight (Exports)</h5>
@@ -70,7 +70,7 @@ export default function Project1Slider() {
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
-                            <img src="/assets/imgs/page/homepage1/img2.png" alt="Sea Freight (Exports)" />
+                            <img src="/assets/imgs/img2.png" alt="Sea Freight (Exports)" />
                         </div>
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Sea Freight (Exports)</h5>
@@ -91,7 +91,7 @@ export default function Project1Slider() {
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
-                            <img src="/assets/imgs/page/homepage1/img3.png" alt="Customs Clearance" />
+                            <img src="/assets/imgs/img3.png" alt="Customs Clearance" />
                         </div>
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Customs Clearance</h5>
@@ -111,7 +111,7 @@ export default function Project1Slider() {
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
-                            <img src="/assets/imgs/page/homepage1/img.png" alt="Air Freight (Exports)" />
+                            <img src="/assets/imgs/img.png" alt="Air Freight (Exports)" />
                         </div>
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Air Freight (Exports)</h5>
@@ -132,7 +132,7 @@ export default function Project1Slider() {
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
-                            <img src="/assets/imgs/page/homepage1/img2.png" alt="Sea Freight (Exports)" />
+                            <img src="/assets/imgs/img2.png" alt="Sea Freight (Exports)" />
                         </div>
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Sea Freight (Exports)</h5>
@@ -153,7 +153,7 @@ export default function Project1Slider() {
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
-                            <img src="/assets/imgs/page/homepage1/img3.png" alt="Customs Clearance" />
+                            <img src="/assets/imgs/img3.png" alt="Customs Clearance" />
                         </div>
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Customs Clearance</h5>
