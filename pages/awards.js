@@ -44,12 +44,12 @@ export default function About() {
         <>
             <Layout>
                 <section className="section">
-                        <div className="box-pageheader-1 text-center">
-                            <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Awards</h2>
-                            <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
-                                Honours and recognitions for our commitment to safe, compliant pharma logistics
-                            </p>
-                        </div>
+                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/awards.jpg) no-repeat center/cover" }}>
+                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Awards</h2>
+                        <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
+                            Honours and recognitions for our commitment to safe, compliant pharma logistics
+                        </p>
+                    </div>
                 </section>
                 <section className="section pt-100 pb-100">
                     <div className="container">
