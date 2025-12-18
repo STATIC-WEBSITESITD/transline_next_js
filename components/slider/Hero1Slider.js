@@ -38,7 +38,7 @@ export default function Hero1Slider() {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                                India's Trusted Integrated Logistics Solution Provider, Specializing in Cold Chain and Reliable Air &Sea Pharma Cargo Movement.
+                                                India's Trusted Integrated Logistics Solution Provider, Specializing in Cold Chain and Reliable Air & Sea Pharma Cargo Movement.
                                             </p>
                                         </div>
                                     </div>
@@ -66,7 +66,7 @@ export default function Hero1Slider() {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                                India's Trusted Integrated Logistics Solution Provider, Specializing in Cold Chain and Reliable Air &Sea Pharma Cargo Movement.
+                                                India's Trusted Integrated Logistics Solution Provider, Specializing in Cold Chain and Reliable Air & Sea Pharma Cargo Movement.
                                             </p>
                                         </div>
                                     </div>

@@ -33,7 +33,7 @@ export default function Contact() {
         },
         {
             city: "Ahmedabad",
-            address: `Office No. 31, Sunris,\nNyay Marg,\nAhmedabad, Gujarat, 380015`,
+            address: `Office No. 31, Sunrise,\nNyay Marg,\nAhmedabad, Gujarat, 380015`,
             contactPersons: [
                 { name: "Anita Sharma (Head Air Freight - India)" }
             ]
