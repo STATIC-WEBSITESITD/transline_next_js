@@ -2846,6 +2846,24 @@ iframe {
   min-width: 337px;
 }
 
+/* Center the desktop header menu (keep mobile behavior unchanged) */
+@media (min-width: 1200px) {
+  .header .main-header .header-left {
+    position: relative;
+  }
+  .header .main-header .header-left .header-right {
+    margin-left: auto;
+  }
+  .header .main-header .header-left .header-nav {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
 .header .main-header .header-left .header-right .icon-list {
   display: inline-block;
   padding: 0px 10px 0px 10px;

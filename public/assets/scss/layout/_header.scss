@@ -282,6 +282,28 @@
         }
     }
 }
+
+// Center the desktop header menu (keep mobile behavior unchanged)
+@media (min-width: 1200px) {
+    .header {
+        .main-header {
+            .header-left {
+                position: relative;
+                .header-right {
+                    margin-left: auto;
+                }
+                .header-nav {
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    width: auto;
+                    padding-left: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
 .box-notify svg {
     height: 14px;
     color: $color-brand-2;

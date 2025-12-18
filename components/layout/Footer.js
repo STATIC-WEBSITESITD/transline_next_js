@@ -9,7 +9,7 @@ export default function Footer1({ }) {
                         <div className="row">
                             <div className="col-lg-4 mb-30">
                                 <div className="mb-20">
-                                    <img src="/assets/imgs/logo.svg" alt="transp" style={{width: "120px"}} />
+                                    <img src="/assets/imgs/logo.svg" alt="transp" style={{width: "100px"}} />
                                 </div>
                                 <p className="font-xs mb-20 color-white">Transline Air Cargo is India’s trusted partner in pharmaceutical logistics, specializing in reliable air, sea, and cold chain cargo solutions. Since 1989, we have ensured safe, fast, and compliant delivery of temperature-sensitive shipments, supporting healthcare providers and life-saving products across the globe.</p>
                                 {/* <h6 className="color-brand-1">Follow Us</h6>
