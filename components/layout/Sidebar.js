@@ -34,18 +34,6 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                     </ul>
                                 </nav>
                             </div>
-                            <div className="site-copyright color-grey-400 mt-0">
-                                <div className="box-download-app">
-                                    <p className="font-xs color-grey-900 mb-25">Download our Apps and get extra 15% Discount on your
-                                        first Order…!</p>
-                                    <div className="mb-25">
-                                        <div className="d-flex"><Link className="mr-10" href="#"><img src="/assets/imgs/template/appstore-btn.png" alt="transp" /></Link><Link href="#"><img src="/assets/imgs/template/google-play-btn.png" alt="transp" /></Link>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="mb-0"><span className="font-xs color-grey-500">©Transp Official {new Date().getFullYear()}. All right
-                                    reversed.</span></div>
-                            </div>
                         </div>
                     </div>
                 </div>
