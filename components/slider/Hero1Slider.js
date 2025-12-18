@@ -24,14 +24,14 @@ export default function Hero1Slider() {
                 }}
                 effect="slide"
                 className="swiper-wrapper"
-                allowTouchMove={false} // touch disable kar diya
+                allowTouchMove={false}
             >
                 <SwiperSlide>
-                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/banner1.jpg)' }}>
+                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/banner3.jpg)' }}>
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
-                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeIn" data-wow-delay=".0s">Logistics &amp; Transportation</p>
+                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Logistics &amp; Transportation</p>
                                     <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
                                         Pioneering Pharma<br className="d-none d-lg-block" />Logistics in India
                                     </h1>
@@ -55,7 +55,7 @@ export default function Hero1Slider() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/banner2.jpg)' }}>
+                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/banner4.jpg)' }}>
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
