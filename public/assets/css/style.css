@@ -2817,9 +2817,9 @@ iframe {
 }
 
 .header .main-header .header-left .header-logo {
-  max-width: 70px;
-  width: 100%;
-  min-width: 70px;
+  max-width: unset;
+  width: auto;
+  min-width: auto;
 }
 
 .header .main-header .header-left .header-logo a {
@@ -2827,9 +2827,10 @@ iframe {
 }
 
 .header .main-header .header-left .header-logo a img {
-  width: 70px;
-  height: 70px;
+  width: 100px;
+  height: auto;
   object-fit: contain;
+  padding: 10px 0;
 }
 
 .header .main-header .header-left .header-nav {
