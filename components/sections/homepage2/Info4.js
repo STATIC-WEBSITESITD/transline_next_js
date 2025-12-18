@@ -51,19 +51,6 @@ export default function Info4() {
                                                     </span>
                                                 </div>
                                             </li>
-                                            <li className="d-flex align-items-start w-100 wow animate__animated animate__fadeIn">
-                                                <span style={{ marginRight: "16px", marginTop: "4px", flexShrink: 0 }}>
-                                                    <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                                                    </svg>
-                                                </span>
-                                                <div>
-                                                    <h6 className="color-brand-2 mb-3" style={{ fontWeight: 600, fontSize: "1.08rem", marginBottom: 2 }}>Transline Supply Chain Management Pvt. Ltd.</h6>
-                                                    <span className="color-grey-900 font-md" style={{ display: "block", lineHeight: 1.5 }}>
-                                                        Provides end-to-end logistics solutions, including cold chain and warehousing for sensitive pharmaceutical products.
-                                                    </span>
-                                                </div>
-                                            </li>
                                         </ul>
                                     </div>
                                     {/* <div className="mt-30 text-start">

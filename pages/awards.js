@@ -6,7 +6,7 @@ const box = [
     { src: "/assets/imgs/awards/aw1.svg", name: "Ethiopian Airlines" },
     { src: "/assets/imgs/awards/aw2.jpeg", name: "IAG Cargo" },
     { src: "/assets/imgs/awards/aw3.jpeg", name: "Emirates SkyCargo" },
-    { src: "/assets/imgs/awards/aw4.jpeg", name: "Gold Sponsor" },
+    { src: "/assets/imgs/awards/aw4.jpeg", name: "WCA" },
 ];
 
 const cardStyle = {

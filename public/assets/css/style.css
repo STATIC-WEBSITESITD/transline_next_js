@@ -2395,6 +2395,23 @@ iframe {
   background-size: cover;
 }
 
+/* Black overlay for Home hero slider (Homepage 1) */
+.swiper-banner-1 .banner-1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+  pointer-events: none;
+}
+.swiper-banner-1 .banner-1 .container {
+  position: relative;
+  z-index: 2;
+}
+
 .banner-3 {
   background-color: #EBF5F8;
 }
@@ -6786,7 +6803,27 @@ input:checked + .slider:before {
 .box-pageheader-1 {
   background: #000000 url(../imgs/page/about/banner.png) no-repeat top center;
   background-size: cover;
-  padding: 81px 0px;
+  padding: 100px 0px;
+}
+
+/* Black overlay for page headers (exclude the white "services" header variant) */
+.box-pageheader-1:not(.box-pageheader-services) {
+  position: relative;
+}
+.box-pageheader-1:not(.box-pageheader-services)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.55);
+  z-index: 1;
+  pointer-events: none;
+}
+.box-pageheader-1:not(.box-pageheader-services) > * {
+  position: relative;
+  z-index: 2;
 }
 
 .box-pageheader-services {
