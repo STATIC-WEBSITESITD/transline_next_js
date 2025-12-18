@@ -12,8 +12,8 @@ export default function Footer1({ }) {
                                     <img src="/assets/imgs/logo.svg" alt="transp" style={{width: "80px"}} />
                                 </div>
                                 <p className="font-xs mb-20 color-white">Transline Air Cargo is India’s trusted partner in pharmaceutical logistics, specializing in reliable air, sea, and cold chain cargo solutions. Since 1989, we have ensured safe, fast, and compliant delivery of temperature-sensitive shipments, supporting healthcare providers and life-saving products across the globe.</p>
-                                <h6 className="color-brand-1">Follow Us</h6>
-                                <div className="mt-15"><Link className="icon-socials icon-facebook" href="#" /><Link className="icon-socials icon-instagram" href="#" /><Link className="icon-socials icon-twitter" href="#" /><Link className="icon-socials icon-youtube" href="#" /><Link className="icon-socials icon-skype" href="#" /></div>
+                                {/* <h6 className="color-brand-1">Follow Us</h6>
+                                <div className="mt-15"><Link className="icon-socials icon-facebook" href="#" /><Link className="icon-socials icon-instagram" href="#" /><Link className="icon-socials icon-twitter" href="#" /><Link className="icon-socials icon-youtube" href="#" /><Link className="icon-socials icon-skype" href="#" /></div> */}
                             </div>
                             <div className="col-lg-2 mb-30">
                                 <h5 className="mb-10 color-brand-1">Company</h5>
