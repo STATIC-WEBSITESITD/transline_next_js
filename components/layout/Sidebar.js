@@ -56,7 +56,6 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
                                             <Link href="#">Pages</Link>
                                             <ul className={isActive.key == 3 ? "sub-menu d-block" : "sub-menu d-none"}>
-                                                <li><Link href="/trackyourparcel">Track Your Parcel</Link></li>
                                                 <li><Link href="/workprocess">Work Process</Link></li>
                                                 <li><Link href="/request-a-quote">Request a quote</Link></li>
                                                 <li><Link href="/our-team">Our team</Link></li>

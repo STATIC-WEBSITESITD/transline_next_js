@@ -12,7 +12,7 @@ export default function About() {
                 canonicalUrl="https://transline-logistics.com/about"
             >
                 <section className="section">
-                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/AboutBanner.jpg) no-repeat center/cover" }}>
+                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/AboutBanner.jpg) no-repeat top/cover" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">About Us</h2>
                         <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
                             Trusted Pharma Logistics Partner Since 1989

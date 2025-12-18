@@ -19,7 +19,6 @@ export default function Menu() {
                     </ul>
                 </li> */}
                 <li><Link href="/awards">Awards</Link></li>
-                <li><Link href="/tracking">Tracking</Link></li>
                 <li><Link href="/contact">Contact Us</Link></li>
             </ul>
         </>

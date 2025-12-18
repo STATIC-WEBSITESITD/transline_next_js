@@ -12,7 +12,7 @@ export default function Service() {
                 canonicalUrl="https://transline-logistics.com/services"
             >
                 <section className="section">
-                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/ServiceBanner.jpg) no-repeat center/cover" }}>
+                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/ServiceBanner.jpg) no-repeat top/cover" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Our Services</h2>
                         <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
                             Comprehensive air, sea and customs solutions for temperature‑sensitive pharmaceutical cargo
