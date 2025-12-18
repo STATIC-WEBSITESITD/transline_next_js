@@ -97,10 +97,10 @@ export default function Footer1({ }) {
                                         </span>
                                         <span className="font-xs color-white">
                                             <strong>Branch Offices:</strong><br/>
-                                            <a href="https://maps.app.goo.gl/Dc8tUXv8bAmhHYuN9" target="_blank" className="color-white">Bengaluru</a><br/>
-                                            <a href="https://maps.app.goo.gl/ECu3FJWvhqXA2i7e6" target="_blank" className="color-white">Chennai</a><br/>
-                                            <a href="https://maps.app.goo.gl/gy6V4PrJUe1NgTia9" target="_blank" className="color-white">Delhi</a><br/>
-                                            <a href="https://maps.app.goo.gl/BJwVwthXZLPUuqA59" target="_blank" className="color-white">Ahmedabad</a>
+                                            <a href="#" className="color-white">Bengaluru</a><br/>
+                                            <a href="#" className="color-white">Chennai</a><br/>
+                                            <a href="#" className="color-white">Delhi</a><br/>
+                                            <a href="#" className="color-white">Ahmedabad</a>
                                         </span>
                                     </li>
                                 </ul>
