@@ -9193,4 +9193,41 @@ html {
   scroll-behavior: smooth;
 }
 
+/* --- Responsive guardrails & spacing tweaks (site-wide) --- */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+/* Make embedded media behave on small screens */
+iframe,
+video {
+  max-width: 100%;
+}
+
+@media (max-width: 991.98px) {
+  /* Reduce overly-large spacing utilities on tablet/mobile */
+  .pt-100 { padding-top: 70px !important; }
+  .pb-100 { padding-bottom: 70px !important; }
+  .mt-100 { margin-top: 70px !important; }
+  .mb-100 { margin-bottom: 70px !important; }
+
+  .pt-80 { padding-top: 55px !important; }
+  .pb-80 { padding-bottom: 55px !important; }
+}
+
+@media (max-width: 575.98px) {
+  /* Further tighten spacing on small phones */
+  .pt-100 { padding-top: 48px !important; }
+  .pb-100 { padding-bottom: 48px !important; }
+  .mt-100 { margin-top: 48px !important; }
+  .mb-100 { margin-bottom: 48px !important; }
+
+  .pt-80 { padding-top: 36px !important; }
+  .pb-80 { padding-bottom: 36px !important; }
+}
+
 /*# sourceMappingURL=style.css.map */

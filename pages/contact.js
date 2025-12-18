@@ -4,38 +4,69 @@ export default function Contact() {
     const branches = [
         {
             city: "Mumbai (Head Office)",
-            address: `116/117, Sahar Cargo Estate,\nJ B Nagar, Andheri East,\nMumbai 400099`,
+            address: `116/117, Sahar Cargo Estate,
+J. B. Nagar, Andheri East,
+Mumbai – 400099`,
             contactPersons: [
-                { name: "Mr. Cedric Vaz", email: "cedric@translinelogistics.com", phone: "+919819669926" },
-                { name: "Deepak Patel", email: null, phone: "9920615329" }
+                {
+                    name: "Mr. Cedric Vaz",
+                    email: "cedric@translinelogistics.com",
+                    phone: "+91 98196 69926"
+                },
+                {
+                    name: "Deepak Patel",
+                    phone: "9920615329"
+                }
             ],
         },
         {
             city: "Bengaluru",
-            address: `No. 209 Prestige Terminus – 1,\n2nd Floor, Airport Exit Road,\nBengaluru – 580017`,
+            address: `No. 209, Prestige Terminus – 1,
+2nd Floor, Airport Exit Road,
+Bengaluru – 580017`,
             contactPersons: [
-                { name: "Mrs. Rani. G (Branch Head - Rani Ravichandran)", phone: "9845794536" }
+                {
+                    name: "Rani Ravichandran",
+                    designation: "Branch Head",
+                    phone: "9845794536"
+                }
             ],
         },
         {
             city: "Chennai",
-            address: `No. 5, u - Vi - ka Street,\nMeenambakkam,\nChennai - 600027`,
+            address: `No. 5, Thiru-Vi-Ka Street,
+Meenambakkam,
+Chennai – 600027`,
             contactPersons: [
-                { name: "Mr. Sanjeev. C. P. (Branch Head - CP Sanjeev)", phone: "9444443007" }
+                {
+                    name: "C. P. Sanjeev",
+                    designation: "Branch Head",
+                    phone: "9444443007"
+                }
             ],
         },
         {
-            city: "Delhi",
-            address: `1416, 14th Floor Galleria Tower, DLF phase 4,\nGurgaon, Haryana 122009`,
+            city: "Delhi (Gurgaon)",
+            address: `1416, 14th Floor, Galleria Tower,
+DLF Phase 4,
+Gurgaon, Haryana – 122009`,
             contactPersons: [
-                { name: "Satish Kirodian (Branch Head)", }
+                {
+                    name: "Satish Kirodian",
+                    designation: "Branch Head"
+                }
             ]
         },
         {
             city: "Ahmedabad",
-            address: `Office No. 31, Sunrise,\nNyay Marg,\nAhmedabad, Gujarat, 380015`,
+            address: `Office No. 317, Sunrise Mall,
+Nyay Marg,
+Ahmedabad, Gujarat – 380015`,
             contactPersons: [
-                { name: "Anita Sharma (Head Air Freight - India)" }
+                {
+                    name: "Anita Sharma",
+                    designation: "Head – Air Freight (India)"
+                }
             ]
         },
     ];
@@ -49,7 +80,7 @@ export default function Contact() {
                 canonicalUrl="https://transline-logistics.com/contact"
             >
                 <section className="section">
-                <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/contact.jpg) no-repeat top/cover" }}>
+                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/contact.jpg) no-repeat top/cover" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Contact Us</h2>
                         <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
                             Speak with our pharmaceutical logistics experts for enquiries, quotes and support
@@ -116,7 +147,7 @@ export default function Contact() {
                                 Our Branch Offices
                             </h2>
                         </div>
-                        <div className="row">
+                        <div className="row justify-content-center">
                             {branches.map((branch, idx) => (
                                 <div
                                     key={idx}
@@ -124,9 +155,7 @@ export default function Contact() {
                                 >
                                     <div className="card branch-card w-100 h-100 border-0 d-flex flex-column">
                                         <div className="card-body d-flex flex-column p-0">
-                                            {idx === 0 && (
-                                                <span className="branch-tag mb-2">Head Office</span>
-                                            )}
+                                            
                                             <h5 className="color-brand-2 mb-2">{branch.city}</h5>
                                             <p
                                                 className="font-sm color-grey-700 mb-3"
