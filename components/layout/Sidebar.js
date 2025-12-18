@@ -1,6 +1,19 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 export default function Sidebar({ openClass, handleMobileMenuClose }) {
+    const { pathname } = useRouter();
+
+    const isActive = (href) => {
+        if (href === "/") {
+            return pathname === "/" || /^\/index-\d+$/.test(pathname);
+        }
+        if (href === "/services") {
+            return pathname === "/services" || pathname === "/service-detail";
+        }
+        return pathname === href;
+    };
+
     return (
         <>
             <div className={`mobile-header-active mobile-header-wrapper-style perfect-scrollbar ${openClass}`}>
@@ -17,19 +30,19 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                 <nav className="mt-15">
                                     <ul className="mobile-menu font-heading">
                                         <li>
-                                            <Link href="/" onClick={handleMobileMenuClose}>Home</Link>
+                                            <Link className={isActive("/") ? "active" : ""} href="/" onClick={handleMobileMenuClose}>Home</Link>
                                         </li>
                                         <li>
-                                            <Link href="/about" onClick={handleMobileMenuClose}>About Us</Link>
+                                            <Link className={isActive("/about") ? "active" : ""} href="/about" onClick={handleMobileMenuClose}>About Us</Link>
                                         </li>
                                         <li>
-                                            <Link href="/services" onClick={handleMobileMenuClose}>Our Services</Link>
+                                            <Link className={isActive("/services") ? "active" : ""} href="/services" onClick={handleMobileMenuClose}>Our Services</Link>
                                         </li>
                                         <li>
-                                            <Link href="/awards" onClick={handleMobileMenuClose}>Awards</Link>
+                                            <Link className={isActive("/awards") ? "active" : ""} href="/awards" onClick={handleMobileMenuClose}>Awards</Link>
                                         </li>
                                         <li>
-                                            <Link href="/contact" onClick={handleMobileMenuClose}>Contact Us</Link>
+                                            <Link className={isActive("/contact") ? "active" : ""} href="/contact" onClick={handleMobileMenuClose}>Contact Us</Link>
                                         </li>
                                     </ul>
                                 </nav>

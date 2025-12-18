@@ -2966,6 +2966,10 @@ header.header.sticky-bar.stick .main-header .header-left .header-logo a img {
   position: relative;
 }
 
+.header .main-menu li a.active {
+  color: #ffe799;
+}
+
 .header .main-menu li a:hover {
   color: #000000;
 }
