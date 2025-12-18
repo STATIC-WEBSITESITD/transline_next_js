@@ -38,10 +38,10 @@ export default function Info5() {
                             </div>
                             <div className="row">
                                 <div className="col-md-6 wow animate__animated animate__fadeIn">
-                                    <img className="mt-90" src="/assets/imgs/page/homepage3/img-info-5.png" alt="transp" />
+                                    <img className="mt-90" src="/assets/imgs/about1.jpg" alt="transp" />
                                 </div>
                                 <div className="col-md-6 wow animate__animated animate__fadeIn">
-                                    <img src="/assets/imgs/page/homepage3/img-info-5-2.png" alt="transp" />
+                                    <img src="/assets/imgs/about2.jpg" alt="transp" />
                                 </div>
                             </div>
                         </div>

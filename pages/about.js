@@ -12,7 +12,7 @@ export default function About() {
                 canonicalUrl="https://transline-logistics.com/about"
             >
                 <section className="section">
-                    <div className="box-pageheader-1 text-center">
+                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/AboutBanner.jpg) no-repeat center/cover" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">About Us</h2>
                         <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
                             Trusted Pharma Logistics Partner Since 1989
@@ -37,10 +37,10 @@ export default function About() {
                                 </div>
                                 <div className="row">
                                     <div className="col-md-6 wow animate__animated animate__fadeIn">
-                                        <img className="mt-90" src="/assets/imgs/page/homepage3/img-info-5.png" alt="transp" />
+                                        <img className="mt-90" src="/assets/imgs/about1.jpg" alt="transp" />
                                     </div>
                                     <div className="col-md-6 wow animate__animated animate__fadeIn">
-                                        <img src="/assets/imgs/page/homepage3/img-info-5-2.png" alt="transp" />
+                                        <img src="/assets/imgs/about2.jpg" alt="transp" />
                                     </div>
                                 </div>
                             </div>

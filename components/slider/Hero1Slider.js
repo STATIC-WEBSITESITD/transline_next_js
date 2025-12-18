@@ -27,7 +27,7 @@ export default function Hero1Slider() {
                 allowTouchMove={false} // touch disable kar diya
             >
                 <SwiperSlide>
-                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/page/homepage1/banner.png)' }}>
+                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/banner1.jpg)' }}>
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
@@ -55,7 +55,7 @@ export default function Hero1Slider() {
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/page/homepage1/banner-2.png)' }}>
+                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/banner2.jpg)' }}>
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
