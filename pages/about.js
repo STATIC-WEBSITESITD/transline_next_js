@@ -6,9 +6,9 @@ export default function About() {
     return (
         <>
             <Layout
-                headTitle="About Transline Logistics"
-                metaDescription="Learn about Transline Logistics, founded in 1989 and now one of India’s most trusted pharmaceutical logistics and freight forwarding partners, dedicated to compliant, safe and on‑time delivery of life‑saving medicines."
-                metaKeywords="About Transline Logistics, pharma logistics company India, pharmaceutical freight forwarder, cold chain specialist, logistics partner for medicines"
+                headTitle="About Transline Group | Pharma Logistics Experts"
+                metaDescription="Founded in 1989, the Transline Group is a reliable pharma logistics partner for compliant air, sea and cold chain solutions across integrated supply chains."
+                metaKeywords="About Transline Group, pharmaceutical logistics experts, pharma cargo company India, reliable logistics partner, cold chain specialists"
                 canonicalUrl="https://transline-logistics.com/about"
             >
                 <section className="section">

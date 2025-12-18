@@ -42,7 +42,11 @@ function Card({ children }) {
 export default function About() {
     return (
         <>
-            <Layout>
+            <Layout
+                headTitle="Awards & Certifications | Trusted Pharma Logistics Company"
+                metaDescription="Transline Air Cargo is recognized for excellence in pharma logistics, backed by industry certifications, compliance standards and trusted global partnerships."
+                metaKeywords="Pharma logistics awards, logistics certifications India, trusted cargo company, compliant pharma logistics, Transline recognitions"
+            >
                 <section className="section">
                     <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/awards.jpg) no-repeat top/cover" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Awards</h2>

@@ -6,9 +6,9 @@ export default function Service() {
     return (
         <>
             <Layout
-                headTitle="Pharmaceutical Logistics Services"
-                metaDescription="Explore Transline Logistics’ specialised pharmaceutical logistics services, including export air freight, export sea freight and compliant customs clearance for time‑sensitive pharma cargo."
-                metaKeywords="pharma logistics services, air freight exports pharma, sea freight exports pharma, customs clearance pharma cargo, Transline Logistics services"
+                headTitle="Pharmaceutical Logistics Services | Transline Air Cargo"
+                metaDescription="Transline Air Cargo offers end-to-end pharma logistics including air freight, sea freight, customs clearance and cold chain solutions with proven reliability."
+                metaKeywords="Pharma logistics services, air freight services India, sea freight forwarding, customs clearance pharma, cold chain logistics, integrated logistics India"
                 canonicalUrl="https://transline-logistics.com/services"
             >
                 <section className="section">

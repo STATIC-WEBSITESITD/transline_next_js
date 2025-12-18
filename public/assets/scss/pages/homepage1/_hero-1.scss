@@ -12,6 +12,13 @@
     }
 }
 
+// Hide pagination for Home hero slider (Homepage 1)
+.swiper-banner-1 {
+    .swiper-pagination-banner {
+        display: none !important;
+    }
+}
+
 // Black overlay for Home hero slider images (Homepage 1)
 .swiper-banner-1 {
     .banner-1 {

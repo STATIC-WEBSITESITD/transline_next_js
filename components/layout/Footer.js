@@ -16,7 +16,7 @@ export default function Footer1({ }) {
                                 <div className="mt-15"><Link className="icon-socials icon-facebook" href="#" /><Link className="icon-socials icon-instagram" href="#" /><Link className="icon-socials icon-twitter" href="#" /><Link className="icon-socials icon-youtube" href="#" /><Link className="icon-socials icon-skype" href="#" /></div> */}
                             </div>
                             <div className="col-lg-2 mb-30">
-                                <h5 className="mb-10 color-brand-1">Company</h5>
+                                <h5 className="mb-10 color-brand-1">Quick Links</h5>
                                 <ul className="menu-footer">
                                     <li><Link href="/">Home</Link></li>
                                     <li><Link href="/about">About Us</Link></li>
@@ -25,7 +25,7 @@ export default function Footer1({ }) {
                                 </ul>
                             </div>
                             <div className="col-lg-2 mb-30">
-                                <h5 className="mb-10 color-brand-1">Services</h5>
+                                <h5 className="mb-10 color-brand-1">Our Services</h5>
                                 <ul className="menu-footer">
                                     <li><Link href="/services">Air Freight</Link></li>
                                     <li><Link href="/services">Sea Freight</Link></li>
@@ -73,8 +73,7 @@ export default function Footer1({ }) {
                                             </svg>
                                         </span>
                                         <span className="font-xs color-white">
-                                            <a href="tel:+912223511318" className="color-white">+91-22-2351 1318</a><br/>
-                                            <a href="tel:+912223511398" className="color-white">+91-22-2351 1398</a>
+                                            <a href="tel:+912223511318" className="color-white">+91 98196 69926</a>
                                         </span>
                                     </li>
                                     <li className="d-flex align-items-start mb-2">

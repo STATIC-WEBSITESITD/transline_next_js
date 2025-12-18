@@ -6164,6 +6164,11 @@ footer a {
   width: 100%;
 }
 
+/* Hide pagination for Home hero slider (Homepage 1) */
+.swiper-banner-1 .swiper-pagination-banner {
+  display: none !important;
+}
+
 .box-swiper .swiper-banner-1 {
   padding-bottom: 0px;
 }
