@@ -20,14 +20,16 @@ const imgStyle = {
 };
 
 const slides = [
-    { src: "/assets/imgs/certifications/accai.png", alt: "ACCAI Certification Logo" },
-    { src: "/assets/imgs/certifications/aeo.png", alt: "AEO Certification Logo" },
-    { src: "/assets/imgs/certifications/fiata.svg", alt: "FIATA Certification Logo" },
     { src: "/assets/imgs/certifications/iata.svg", alt: "IATA Certification Logo" },
+    { src: "/assets/imgs/certifications/fiata.svg", alt: "FIATA Certification Logo" },
+    { src: "/assets/imgs/certifications/accai.jpg", alt: "ACCAI Certification Logo" },
+    { src: "/assets/imgs/certifications/aeo.jpg", alt: "AEO Certification Logo" },
     { src: "/assets/imgs/certifications/iso.png", alt: "ISO Certification Logo" },
-    { src: "/assets/imgs/certifications/jc trans.png", alt: "JC Trans Certification Logo" },
-    { src: "/assets/imgs/certifications/sgs.jpg", alt: "SGS Certification Logo" },
-    { src: "/assets/imgs/certifications/wca.png", alt: "WCA Certification Logo" },
+    { src: "/assets/imgs/certifications/mto.jpg", alt: "MTO Certification Logo" },
+    { src: "/assets/imgs/certifications/gdp.png", alt: "GDP Certification Logo" },
+    // { src: "/assets/imgs/certifications/jc trans.png", alt: "JC Trans Certification Logo" },
+    // { src: "/assets/imgs/certifications/sgs.jpg", alt: "SGS Certification Logo" },
+    // { src: "/assets/imgs/certifications/wca.png", alt: "WCA Certification Logo" },
 ];
 
 export default function Brand2Slider() {

@@ -22,15 +22,14 @@ export default function Menu() {
             <ul className="main-menu">
                 <li><Link className={isActive("/") ? "active" : ""} href="/">Home</Link></li>
                 <li><Link className={isActive("/about") ? "active" : ""} href="/about">About Us</Link></li>
-                <li><Link className={isActive("/services") ? "active" : ""} href="/services">Our Services</Link></li>
-                {/* <li className="has-children">
-                    <Link href="#">Services</Link>
+                <li className="has-children">
+                    <Link className={isActive("/services") ? "active" : ""} href="/services">Our Services</Link>
                     <ul className="sub-menu">
                         <li><Link href="/air-freight">Air Freight</Link></li>
                         <li><Link href="/sea-freight">Sea Freight</Link></li>
                         <li><Link href="/customs-clearance">Customs Clearance</Link></li>
                     </ul>
-                </li> */}
+                </li>
                 <li><Link className={isActive("/awards") ? "active" : ""} href="/awards">Awards</Link></li>
                 <li><Link className={isActive("/contact") ? "active" : ""} href="/contact">Contact Us</Link></li>
             </ul>

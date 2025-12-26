@@ -1,11 +1,48 @@
 import Link from "next/link";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ModalVideo from 'react-modal-video';
 import { Autoplay, Navigation, Pagination } from "swiper";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Hero1Slider() {
     const [isOpen, setOpen] = useState(false)
+    const [displayedText, setDisplayedText] = useState("")
+    const fullText = "Pioneering Pharma Logistics in India"
+    
+    useEffect(() => {
+        let currentIndex = 0
+        let timeoutId = null
+        const typingSpeed = 100 // milliseconds per character
+        const pauseAfterComplete = 2000 // pause for 2 seconds after typing is complete
+        
+        const typeWriter = () => {
+            if (currentIndex < fullText.length) {
+                setDisplayedText(fullText.substring(0, currentIndex + 1))
+                currentIndex++
+                timeoutId = setTimeout(typeWriter, typingSpeed)
+            } else {
+                // After typing is complete, wait and then restart
+                timeoutId = setTimeout(() => {
+                    currentIndex = 0
+                    setDisplayedText("")
+                    // Start typing again after a brief pause
+                    setTimeout(() => {
+                        typeWriter()
+                    }, 300)
+                }, pauseAfterComplete)
+            }
+        }
+        
+        // Start typing after a small delay to ensure page is loaded
+        const initialTimer = setTimeout(() => {
+            typeWriter()
+        }, 500)
+        
+        return () => {
+            clearTimeout(initialTimer)
+            if (timeoutId) clearTimeout(timeoutId)
+        }
+    }, [])
     return (
         <>
             <Swiper
@@ -27,13 +64,57 @@ export default function Hero1Slider() {
                 allowTouchMove={false}
             >
                 <SwiperSlide>
-                    <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/banner3.jpg)' }}>
-                        <div className="container">
+                    <div className="banner-1 video-banner-wrapper" style={{ position: 'relative', overflow: 'hidden' }}>
+                        {/* Video Banner Replace Image */}
+                        <video
+                            autoPlay
+                            loop
+                            muted
+                            playsInline
+                            style={{
+                                width: "100%",
+                                height: "100%",
+                                objectFit: "cover",
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                zIndex: 1,
+                                minHeight: "100%",
+                                minWidth: "100%"
+                            }}
+                        >
+                            <source src="/assets/videos/banner.mp4" type="video/mp4" />
+                            {/* fallback text */}
+                            Your browser does not support the video tag.
+                        </video>
+                        <div className="container" style={{ position: "relative", zIndex: 3 }}>
                             <div className="row align-items-center">
                                 <div className="col-lg-12">
                                     <p className="font-md color-white mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Logistics &amp; Transportation</p>
                                     <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                        Pioneering Pharma<br className="d-none d-lg-block" />Logistics in India
+                                        {displayedText ? (
+                                            <>
+                                                {displayedText.includes("Pharma ") ? (
+                                                    <>
+                                                        {displayedText.substring(0, displayedText.indexOf("Pharma ") + 6)}
+                                                        {displayedText.length > displayedText.indexOf("Pharma ") + 6 ? (
+                                                            <>
+                                                                <br className="d-none d-lg-block" />
+                                                                {displayedText.substring(displayedText.indexOf("Pharma ") + 6)}
+                                                            </>
+                                                        ) : null}
+                                                        <span className="typewriter-cursor" style={{ animation: "blink 1s infinite" }}>|</span>
+                                                    </>
+                                                ) : (
+                                                    <>
+                                                        {displayedText}
+                                                        <span className="typewriter-cursor" style={{ animation: "blink 1s infinite" }}>|</span>
+                                                    </>
+                                                )}
+                                            </>
+                                        ) : (
+                                            <span className="typewriter-cursor" style={{ animation: "blink 1s infinite" }}>|</span>
+                                        )}
                                     </h1>
                                     <div className="row">
                                         <div className="col-lg-6">
@@ -52,9 +133,21 @@ export default function Hero1Slider() {
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                             </div>
                         </div>
+                        {/* Overlay for darken video so text is readable */}
+                        <div 
+                            style={{
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                width: "100%",
+                                height: "100%",
+                                background: "rgba(0,0,0,0.45)",
+                                zIndex: 2
+                            }}
+                        />
                     </div>
                 </SwiperSlide>
-                <SwiperSlide>
+                {/* <SwiperSlide>
                     <div className="banner-1" style={{ backgroundImage: 'url(assets/imgs/banner4.jpg)' }}>
                         <div className="container">
                             <div className="row align-items-center">
@@ -72,16 +165,16 @@ export default function Hero1Slider() {
                                     </div>
                                     <div className="box-button mt-30">
                                         <Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="/about">Explore More</Link>
-                                        {/* <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}>
+                                        {<a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}>
                                             <img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" />How it work?
-                                        </a> */}
+                                        </a>}
                                     </div>
                                 </div>
                                 <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
                             </div>
                         </div>
                     </div>
-                </SwiperSlide>
+                </SwiperSlide> */}
             </Swiper>
             <div className="swiper-pagination swiper-pagination-banner" />
         </>

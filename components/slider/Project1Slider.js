@@ -45,7 +45,6 @@ export default function Project1Slider() {
                 }}
                 className="swiper-wrapper"
             >
-
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
@@ -54,7 +53,7 @@ export default function Project1Slider() {
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Air Freight (Exports)</h5>
                             <p className="font-xs color-grey-500">
-                                Fast, predictable, and dedicated pharma-handling expertise with strong partnerships with global carriers. We deliver reliable pharmaceutical logistics solutions via air.
+                                Fast and secure air transportation for pharmaceuticals. Our team ensures your cargo arrives on time with maximum care and efficiency.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -66,7 +65,6 @@ export default function Project1Slider() {
                         </div>
                     </div>
                 </SwiperSlide>
-
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
@@ -75,7 +73,7 @@ export default function Project1Slider() {
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Sea Freight (Exports)</h5>
                             <p className="font-xs color-grey-500">
-                                Reliable ocean freight forwarding and global shipping support for LCL, FCL, and non-containerized cargo.
+                                Cost-effective ocean shipping for global pharma supply. Offering consolidated, full-container, and specialized handling for all cargo types.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -87,7 +85,6 @@ export default function Project1Slider() {
                         </div>
                     </div>
                 </SwiperSlide>
-                
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
@@ -96,7 +93,7 @@ export default function Project1Slider() {
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Customs Clearance</h5>
                             <p className="font-xs color-grey-500">
-                                Efficient and fast customs management for time-sensitive pharma cargo for both air and sea shipments. We are known for our reliable regulatory compliance.
+                                Hassle-free customs clearances for every shipment. Get quick and compliant processing for both import and export pharmaceutical cargo.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -116,7 +113,7 @@ export default function Project1Slider() {
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Air Freight (Exports)</h5>
                             <p className="font-xs color-grey-500">
-                                Fast, predictable, and dedicated pharma-handling expertise with strong partnerships with global carriers. We deliver reliable pharmaceutical logistics solutions via air.
+                                Fast and secure air transportation for pharmaceuticals. Our team ensures your cargo arrives on time with maximum care and efficiency.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -128,7 +125,6 @@ export default function Project1Slider() {
                         </div>
                     </div>
                 </SwiperSlide>
-
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
@@ -137,7 +133,7 @@ export default function Project1Slider() {
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Sea Freight (Exports)</h5>
                             <p className="font-xs color-grey-500">
-                                Reliable ocean freight forwarding and global shipping support for LCL, FCL, and non-containerized cargo.
+                                Cost-effective ocean shipping for global pharma supply. Offering consolidated, full-container, and specialized handling for all cargo types.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -149,7 +145,6 @@ export default function Project1Slider() {
                         </div>
                     </div>
                 </SwiperSlide>
-                
                 <SwiperSlide className="wow animate__animated animate__fadeIn">
                     <div className="cardGrid">
                         <div className="cardImage">
@@ -158,7 +153,7 @@ export default function Project1Slider() {
                         <div className="cardInfo">
                             <h5 className="color-brand-2 mb-10">Customs Clearance</h5>
                             <p className="font-xs color-grey-500">
-                                Efficient and fast customs management for time-sensitive pharma cargo for both air and sea shipments. We are known for our reliable regulatory compliance.
+                                Hassle-free customs clearances for every shipment. Get quick and compliant processing for both import and export pharmaceutical cargo.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/services" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -170,7 +165,6 @@ export default function Project1Slider() {
                         </div>
                     </div>
                 </SwiperSlide>
-                
             </Swiper>
             <div className="box-pagination-customers text-center wow animate__animated animate__fadeIn">
                 <div className="swiper-button-prev swiper-button-prev-style-1 swiper-button-prev-group-4">

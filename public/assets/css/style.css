@@ -1003,6 +1003,15 @@ h4 {
   }
 }
 
+@keyframes blink {
+  0%, 50% {
+    opacity: 1;
+  }
+  51%, 100% {
+    opacity: 0;
+  }
+}
+
 .jump {
   transform-origin: 0;
   animation: jump 0.5s linear alternate infinite;
@@ -2801,6 +2810,7 @@ iframe {
   width: 100%;
   position: relative;
   border-bottom: 0px solid #F2F3F4;
+  z-index: 9;
 }
 
 .header .main-header {
@@ -2961,7 +2971,7 @@ header.header.sticky-bar.stick .main-header .header-left .header-logo a img {
   color: #000000;
   line-height: 28px;
   display: block;
-  padding: 28px 18px 28px 15px;
+  padding: 15px 15px !important;
   text-decoration: none;
   position: relative;
 }

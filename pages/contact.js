@@ -171,15 +171,17 @@ Ahmedabad, Gujarat – 380015`,
                                                     <ul className="list-unstyled mb-0">
                                                         {branch.contactPersons.map((person, pidx) => (
                                                             <li key={pidx} className="mb-2 branch-person">
+                                                                {/* Only insert a space between name and phone if both exist and are not email */}
                                                                 <span className="fw-semibold color-brand-2">
                                                                     {person.name}
+                                                                    {person.phone && !person.email ? <>&nbsp;</> : null}
                                                                 </span>
                                                                 {person.phone && (
                                                                     <span>
                                                                         <a
                                                                             href={`tel:${person.phone.replace(/\s/g, '')}`}
                                                                             className="color-grey-900 d-inline-block"
-                                                                        >
+                                                                        ><>&nbsp;</>
                                                                             {person.phone}
                                                                         </a>
                                                                     </span>
