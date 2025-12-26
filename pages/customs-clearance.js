@@ -26,7 +26,7 @@ export default function CustomsClearance() {
                 {/* Hero Banner Section */}
                 <section className="section">
                     <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/s3.jpg) no-repeat center/cover" }}>
-                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Custom Clearance</h2>
+                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Customs Clearance</h2>
                         <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
                             We make customs clearance easy for your pharma shipments—fast, compliant, and hassle-free for Air and Sea Freight.
                         </p>
@@ -127,29 +127,6 @@ export default function CustomsClearance() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 mb-30">
-                                <div className="cardGrid wow animate__animated animate__fadeIn" style={{ animationDelay: "0.6s" }}>
-                                    <div className="cardImage">
-                                        <div style={{ 
-                                            height: "200px", 
-                                            background: "linear-gradient(135deg, #2C7DA1 0%, #1C6180 100%)",
-                                            display: "flex",
-                                            alignItems: "center",
-                                            justifyContent: "center"
-                                        }}>
-                                            <svg width="64" height="64" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <div className="cardInfo">
-                                        <h6 className="color-brand-2 mb-15">Optimized Duties & Compliance</h6>
-                                        <p className="font-md color-grey-700">
-                                            We help you pay the correct amount of duties and tariffs with careful Customs classification. Your pharma supply chain stays compliant and avoids unnecessary costs at every step.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -232,6 +209,33 @@ export default function CustomsClearance() {
                                         <h5 className="color-brand-2 mb-15">Proactive Global Port-Level Liaison</h5>
                                         <p className="font-md color-grey-700">
                                             We prevent problems before they arise. Our Logistics experts maintain direct contact with Customs officials to ensure your Sea Export moves through the "Green Channel" without inspection delays.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Inserted col: Dedicated Documentation Accuracy Control */}
+                            <div className="col-lg-6 col-md-6 mb-40">
+                                <div className="d-flex align-items-start wow animate__animated animate__fadeIn" style={{gap: "20px", animationDelay: "0.6s"}}>
+                                    <div className="flex-shrink-0">
+                                        <div className="cardLeadingCompany" style={{
+                                            width: "80px",
+                                            height: "80px",
+                                            padding: "20px",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            justifyContent: "center"
+                                        }}>
+                                            {/* You may add an appropriate icon here */}
+                                            <svg width="40" height="40" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <rect x="4" y="4" width="16" height="16" rx="2" strokeWidth={2} />
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 8h8M8 12h8M8 16h4" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div className="flex-grow-1">
+                                        <h5 className="color-brand-2 mb-15">Dedicated Documentation Accuracy Control</h5>
+                                        <p className="font-md color-grey-700">
+                                            We follow strict checks across all customs documentations to reduce errors and rework. This ensures your global sea exports remain compliant and move forward without avoidable customs queries or holds.
                                         </p>
                                     </div>
                                 </div>

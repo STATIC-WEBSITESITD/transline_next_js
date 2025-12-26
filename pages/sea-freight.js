@@ -127,29 +127,6 @@ export default function SeaFreight() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 mb-30">
-                                <div className="cardGrid wow animate__animated animate__fadeIn" style={{ animationDelay: "0.6s" }}>
-                                    <div className="cardImage">
-                                        <div style={{ 
-                                            height: "200px", 
-                                            background: "linear-gradient(135deg, #2C7DA1 0%, #1C6180 100%)",
-                                            display: "flex",
-                                            alignItems: "center",
-                                            justifyContent: "center"
-                                        }}>
-                                            <svg width="64" height="64" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <div className="cardInfo">
-                                        <h6 className="color-brand-2 mb-15">Worldwide Reach</h6>
-                                        <p className="font-md color-grey-700">
-                                            Tap into an extensive global port network. We connect India’s pharma industry seamlessly to international destinations for every export need.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </section>
@@ -232,6 +209,32 @@ export default function SeaFreight() {
                                         <h5 className="color-brand-2 mb-15">Ethical Export Transparency</h5>
                                         <p className="font-md color-grey-700">
                                             We provide a clear audit trail for every Sea Logistics operation. Our commitment to integrity ensures your pharmaceutical Export trade is conducted with the highest level of regulatory compliance.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Consistent Export Planning and Control */}
+                            <div className="col-lg-6 col-md-6 mb-40">
+                                <div className="d-flex align-items-start wow animate__animated animate__fadeIn" style={{gap: "20px", animationDelay: "0.6s"}}>
+                                    <div className="flex-shrink-0">
+                                        <div className="cardLeadingCompany" style={{
+                                            width: "80px",
+                                            height: "80px",
+                                            padding: "20px",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            justifyContent: "center"
+                                        }}>                                        
+                                            <svg width="40" height="40" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                                <circle cx="12" cy="12" r="10" strokeWidth={2} />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div className="flex-grow-1">
+                                        <h5 className="color-brand-2 mb-15">Consistent Export Planning and Control</h5>
+                                        <p className="font-md color-grey-700">
+                                            We apply structured planning and close monitoring across sea logistics movements. This helps reduce disruptions, maintain schedule reliability and support smooth pharmaceutical exports across global routes.
                                         </p>
                                     </div>
                                 </div>
