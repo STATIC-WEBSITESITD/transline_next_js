@@ -22,13 +22,6 @@ export default function SeaFreightShippingFCLvsLCL() {
 
                 <section className="section pt-100 pb-100">
                     <div className="container">
-                        <strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn">
-                            Sea freight remains one of the most widely used and economical methods of international transportation. For businesses involved in global trade, understanding sea freight, FCL vs LCL, ocean freight cargo, and full container load shipping is essential for planning shipments, managing costs, and ensuring smooth delivery.
-                        </strong>
-                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            Whether you are an exporter shipping goods overseas or an importer sourcing products from global suppliers, choosing between FCL and LCL can impact price, transit time, cargo safety, and supply chain efficiency. This guide explains both options in detail and helps you decide which method is best for your business needs.
-                        </p>
-
                         <h3 className="color-brand-2 mt-50 mb-20 wow animate__animated animate__fadeIn">What is Sea Freight Shipping?</h3>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Sea freight, also known as ocean freight cargo, refers to the movement of goods via large cargo vessels across international waters. It is one of the oldest and most reliable modes of transportation and is ideal for bulky, heavy, and high-volume shipments.
@@ -49,14 +42,23 @@ export default function SeaFreightShippingFCLvsLCL() {
                         </p>
 
                         <h4 className="color-brand-2 mt-40 mb-20 wow animate__animated animate__fadeIn">Key Benefits of Full Container Load Shipping</h4>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Higher Cargo Security:</strong> Since no other shipments are stored inside the container, the chances of tampering, contamination, or damage are minimal. This makes FCL ideal for high-value products, fragile cargo, or sensitive goods.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Faster Transit Time:</strong> FCL shipments do not require consolidation or deconsolidation, meaning the cargo does not need to wait for other shipments to be added or sorted. This helps avoid delays at ports or warehouses.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Cost-Effective for Larger Volumes:</strong> When cargo volume is high, the cost per unit becomes low compared to LCL, making full container load shipping financially beneficial.
                             </li>
                         </ul>
@@ -70,14 +72,23 @@ export default function SeaFreightShippingFCLvsLCL() {
                         </p>
 
                         <h4 className="color-brand-2 mt-40 mb-20 wow animate__animated animate__fadeIn">Key Advantages of LCL Shipping</h4>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Lower Shipping Cost for Small Volumes:</strong> The pricing is calculated based on weight and cubic meters rather than an entire container fee.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Greater Flexibility:</strong> Businesses do not need to wait until they have enough cargo to fill a container. Instead, they can ship smaller consignments more frequently, which helps manage inventory better and maintain consistent supply.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Ideal for Various Business Types:</strong> This option is commonly preferred by start-ups, e-commerce businesses, seasonal traders, and companies with irregular shipment volumes.
                             </li>
                         </ul>
@@ -100,17 +111,29 @@ export default function SeaFreightShippingFCLvsLCL() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Choosing between FCL vs LCL depends on several key business factors including shipment size, delivery urgency, cargo value, and cost expectations.
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Cargo Volume:</strong> If your cargo volume is large or close to filling a container, FCL shipping is usually the better option. It ensures faster delivery, better cargo safety, and lower overall cost per unit.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Small Shipments:</strong> If your shipment is small or you ship smaller quantities regularly, LCL becomes more practical because it helps reduce costs while still enabling international transport.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Cargo Sensitivity:</strong> Fragile, delicate, or high-value cargo is safer under full container load shipping due to reduced handling. Whereas durable general merchandise is more suited for LCL.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Supply Chain Planning:</strong> Companies that plan inventory in bulk generally prefer FCL, while businesses operating on frequent small orders rely more on LCL.
                             </li>
                         </ul>

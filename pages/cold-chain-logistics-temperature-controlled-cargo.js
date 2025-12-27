@@ -22,13 +22,6 @@ export default function ColdChainLogistics() {
 
                 <section className="section pt-100 pb-100">
                     <div className="container">
-                        <strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn">
-                            In today's fast-moving global supply chain, cold chain logistics has become a cornerstone for transporting perishable and temperature-sensitive products. Whether it's pharmaceuticals, fresh food, vaccines, or specialty chemicals, maintaining controlled temperatures throughout the supply chain is critical to preserving product quality and safety. Without robust systems in place, even short temperature deviations can lead to spoilage, waste, financial loss, and compliance issues.
-                        </strong>
-                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            This in-depth guide explains what cold chain logistics is, why it matters, how temperature-controlled transport works, the challenges involved, and best practices to protect the integrity of your cargo from origin to destination.
-                        </p>
-
                         <h3 className="color-brand-2 mt-50 mb-20 wow animate__animated animate__fadeIn">What Is Cold Chain Logistics?</h3>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Cold chain logistics refers to the specialized process of storing, handling, and transporting goods in a controlled temperature environment so that perishable or sensitive products remain safe and effective throughout the supply chain. This temperature control can range from chilled (2–8°C) to frozen (below −18°C), depending on the specific requirements of the cargo.
@@ -39,11 +32,31 @@ export default function ColdChainLogistics() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Common industries that rely on cold chain logistics include:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Pharmaceuticals and healthcare (vaccines, medicines, biologics)</li>
-                            <li className="font-md color-grey-900">Food and beverage (fresh produce, dairy, meat, seafood)</li>
-                            <li className="font-md color-grey-900">Chemicals and specialty materials (certain industrial and chemical compounds)</li>
-                            <li className="font-md color-grey-900">Biotech products and lab samples</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Pharmaceuticals and healthcare (vaccines, medicines, biologics)
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Food and beverage (fresh produce, dairy, meat, seafood)
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Chemicals and specialty materials (certain industrial and chemical compounds)
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Biotech products and lab samples
+                            </li>
                         </ul>
 
                         <h3 className="color-brand-2 mt-50 mb-20 wow animate__animated animate__fadeIn">Why Temperature Controlled Cargo Integrity Matters</h3>
@@ -108,20 +121,35 @@ export default function ColdChainLogistics() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             A well-functioning cold chain system integrates the following:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Temperature-Controlled Storage Facilities:</strong> Warehouses equipped with refrigeration systems tailored to the product's needs ranging from chilled storage to deep-freeze capacities are essential for preserving cargo quality until dispatch.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Insulated Packaging and Equipment:</strong> Proper packing solutions like insulated boxes, gel packs, dry ice, and thermal containers protect goods during handling and transportation.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Refrigerated Transport Modes:</strong> Cold chain logistics uses vehicles designed to maintain controlled temperatures, including reefer trucks, refrigerated shipping containers, and temperature-regulated cargo holds in ships and aircraft.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Monitoring and Data Systems:</strong> Real-time data loggers and tracking systems enable visibility into temperature and location throughout the supply chain, minimizing risks and ensuring compliance.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Standard Operating Procedures:</strong> Strict SOPs for handling, transitions, and emergency responses help prevent temperature excursions and product loss.
                             </li>
                         </ul>
@@ -130,17 +158,29 @@ export default function ColdChainLogistics() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Cold chain logistics is resource-intensive and presents several challenges:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Infrastructure Limitations:</strong> In some regions, insufficient cold storage facilities or refrigerated transport options can disrupt consistent temperature maintenance.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>High Operational Costs:</strong> Maintaining precise temperatures across storage and transit requires significant investment in equipment, energy, and technology.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Risk of Temperature Fluctuations:</strong> Breaks in the cold chain, even brief ones, can compromise cargo quality. Monitoring systems must be consistently reliable to avoid costly spoilage.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Regulatory and Compliance Complexity:</strong> Temperature-sensitive products are subject to strict rules, varying by region and product type, adding complexity to logistics planning.
                             </li>
                         </ul>
@@ -149,20 +189,35 @@ export default function ColdChainLogistics() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             To ensure the integrity of temperature-controlled cargo and maximize supply chain performance, businesses should adopt the following strategies:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Plan Temperature Requirements Early:</strong> Understand specific temperature ranges for your products and communicate them upfront with logistics partners.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Use Advanced Monitoring Tools:</strong> IoT sensors and telematics help continuously track temperature and issue automatic alerts if conditions deviate from set parameters.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Choose Reliable Logistics Partners:</strong> Work with freight forwarders and logistics providers experienced in cold chain management who can handle complex routing, storage, and compliance needs.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Train Handling Personnel:</strong> Proper training in cold chain handling and emergency procedures reduces risks of temperature excursions during loading and transfer.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Maintain Compliance Documentation:</strong> Ensure that all regulatory requirements including certifications and records are complete and easily accessible.
                             </li>
                         </ul>

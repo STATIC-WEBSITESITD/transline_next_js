@@ -22,21 +22,6 @@ export default function ColdChainTechnologyInnovations() {
 
                 <section className="section pt-100 pb-100">
                     <div className="container">
-                        <strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn">
-                            The logistics industry is evolving rapidly, and cold chain technology is at the forefront of innovation. For businesses transporting perishable goods, pharmaceuticals, vaccines, and specialty chemicals, maintaining a stable temperature during transit is not optional, it's critical. Advances in cold chain solutions and the use of refrigerated reefer trucks are transforming the way businesses preserve cargo integrity, reduce spoilage, and optimize global supply chains.
-                        </strong>
-                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            In this blog, we'll explore the latest technological innovations driving temperature-controlled logistics, their impact on operational efficiency, and how businesses can leverage these solutions for better results.
-                        </p>
-
-                        <h3 className="color-brand-2 mt-50 mb-20 wow animate__animated animate__fadeIn">The Importance of Cold Chain Logistics</h3>
-                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            Cold chain logistics involves managing the storage and transportation of temperature-sensitive goods to maintain quality and safety. Products like vaccines, biologics, dairy, seafood, and frozen foods are highly sensitive to temperature fluctuations. Even brief deviations from the required temperature can compromise product integrity, resulting in financial loss, reputational damage, and compliance issues.
-                        </p>
-                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            Effective cold chain logistics requires a combination of innovative technology, monitoring systems, and specialized vehicles, including refrigerated reefer trucks, to ensure cargo remains within the designated temperature range throughout the supply chain.
-                        </p>
-
                         <h3 className="color-brand-2 mt-50 mb-20 wow animate__animated animate__fadeIn">Innovations Transforming Cold Chain Solutions</h3>
 
                         <h4 className="color-brand-2 mt-40 mb-20 wow animate__animated animate__fadeIn">IoT and Real-Time Monitoring</h4>
@@ -46,11 +31,31 @@ export default function ColdChainTechnologyInnovations() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Benefits include:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Early detection of temperature excursions</li>
-                            <li className="font-md color-grey-900">Automated alerts for immediate corrective action</li>
-                            <li className="font-md color-grey-900">Detailed data logging for compliance and audits</li>
-                            <li className="font-md color-grey-900">Enhanced visibility and trust in supply chain operations</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Early detection of temperature excursions
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Automated alerts for immediate corrective action
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Detailed data logging for compliance and audits
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Enhanced visibility and trust in supply chain operations
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             IoT-powered monitoring ensures products remain safe during transport and allows companies to proactively address issues before they escalate.
@@ -63,11 +68,31 @@ export default function ColdChainTechnologyInnovations() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Key features of smart reefer trucks include:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Real-time temperature control</li>
-                            <li className="font-md color-grey-900">Remote monitoring and data logging</li>
-                            <li className="font-md color-grey-900">Energy-efficient refrigeration units</li>
-                            <li className="font-md color-grey-900">Adjustable temperature zones for multi-product transport</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Real-time temperature control
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Remote monitoring and data logging
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Energy-efficient refrigeration units
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Adjustable temperature zones for multi-product transport
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             These innovations improve operational efficiency and reduce the risk of cargo spoilage while providing a high level of control over temperature-sensitive shipments.
@@ -80,10 +105,25 @@ export default function ColdChainTechnologyInnovations() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Benefits of advanced packaging include:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Prolonged shelf life of perishable goods</li>
-                            <li className="font-md color-grey-900">Protection against temperature fluctuations during loading/unloading</li>
-                            <li className="font-md color-grey-900">Reduced dependency on continuous refrigeration in short transit segments</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Prolonged shelf life of perishable goods
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Protection against temperature fluctuations during loading/unloading
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Reduced dependency on continuous refrigeration in short transit segments
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             When combined with refrigerated vehicles, advanced packaging ensures that products maintain integrity from origin to destination.
@@ -96,11 +136,31 @@ export default function ColdChainTechnologyInnovations() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Advantages of automated cold storage include:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Consistent temperature maintenance</li>
-                            <li className="font-md color-grey-900">Faster order fulfillment</li>
-                            <li className="font-md color-grey-900">Reduced labor costs</li>
-                            <li className="font-md color-grey-900">Better traceability and compliance</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Consistent temperature maintenance
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Faster order fulfillment
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Reduced labor costs
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Better traceability and compliance
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             By leveraging automated warehouses, companies can store sensitive products safely and streamline distribution.
@@ -113,11 +173,31 @@ export default function ColdChainTechnologyInnovations() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Benefits include:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Improved routing for refrigerated reefer trucks</li>
-                            <li className="font-md color-grey-900">Lower energy and transportation costs</li>
-                            <li className="font-md color-grey-900">Reduced risk of product spoilage due to delays</li>
-                            <li className="font-md color-grey-900">Enhanced supply chain responsiveness</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Improved routing for refrigerated reefer trucks
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Lower energy and transportation costs
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Reduced risk of product spoilage due to delays
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Enhanced supply chain responsiveness
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Predictive analytics allows companies to anticipate challenges and maintain optimal temperature control for sensitive cargo.
@@ -127,20 +207,35 @@ export default function ColdChainTechnologyInnovations() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             The integration of advanced technology in cold chain logistics offers several advantages:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Reduced Spoilage and Waste:</strong> Smart monitoring and temperature-controlled vehicles prevent losses due to spoilage.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Compliance with Regulatory Standards:</strong> Advanced documentation and monitoring ensure adherence to international regulations.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Enhanced Customer Satisfaction:</strong> Reliable delivery of fresh and safe products increases trust and repeat business.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Operational Efficiency:</strong> Automated storage and predictive analytics reduce costs and improve supply chain management.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Global Supply Chain Expansion:</strong> Businesses can safely transport temperature-sensitive goods across borders.
                             </li>
                         </ul>
@@ -149,12 +244,37 @@ export default function ColdChainTechnologyInnovations() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             When adopting advanced cold chain solutions, selecting the right logistics partner is critical. A capable provider should offer:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Modern refrigerated reefer trucks with IoT monitoring</li>
-                            <li className="font-md color-grey-900">End-to-end cold chain logistics services</li>
-                            <li className="font-md color-grey-900">Expertise in handling pharmaceuticals, perishable foods, and industrial chemicals</li>
-                            <li className="font-md color-grey-900">Compliance with international cold chain standards</li>
-                            <li className="font-md color-grey-900">Real-time tracking and reporting systems</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Modern refrigerated reefer trucks with IoT monitoring
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                End-to-end cold chain logistics services
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Expertise in handling pharmaceuticals, perishable foods, and industrial chemicals
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Compliance with international cold chain standards
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Real-time tracking and reporting systems
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Working with a trusted partner ensures that your temperature-sensitive cargo reaches its destination safely, efficiently, and in full compliance with regulatory standards.

@@ -22,23 +22,41 @@ export default function InternationalFreightForwardingGuide2026() {
 
                 <section className="section pt-100 pb-100">
                     <div className="container">
-                        <strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn">
-                            In the ever-evolving world of trade, international freight forwarding is crucial for businesses seeking to expand globally. With global commerce growing rapidly in 2026, understanding the intricacies of international freight, logistics, and global shipping has never been more important. Freight forwarding not only ensures that goods reach their destination on time, but also helps businesses navigate complex customs regulations, optimize costs, and maintain supply chain efficiency.
-                        </strong>
-                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            This blog explores everything businesses need to know about international freight forwarding in 2026, including emerging trends, best practices, and how to select the right logistics partners for seamless global operations.
-                        </p>
-
                         <h3 className="color-brand-2 mt-50 mb-20 wow animate__animated animate__fadeIn">What is International Freight Forwarding?</h3>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             International freight forwarding is the process of coordinating the shipment of goods across international borders. Freight forwarders act as intermediaries between shippers and transportation services, whether by air, sea, rail, or road. They handle key aspects of global logistics, including:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Booking cargo space on carriers</li>
-                            <li className="font-md color-grey-900">Preparing and verifying documentation for customs clearance</li>
-                            <li className="font-md color-grey-900">Organizing packaging, storage, and transport</li>
-                            <li className="font-md color-grey-900">Monitoring shipment status and delivery timelines</li>
-                            <li className="font-md color-grey-900">Offering insurance and risk management solutions</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Booking cargo space on carriers
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Preparing and verifying documentation for customs clearance
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Organizing packaging, storage, and transport
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Monitoring shipment status and delivery timelines
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Offering insurance and risk management solutions
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             By leveraging freight forwarders, businesses can reduce operational complexity and ensure timely delivery while maintaining compliance with international trade laws.
@@ -81,10 +99,25 @@ export default function InternationalFreightForwardingGuide2026() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Benefits include:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Reduced transit delays</li>
-                            <li className="font-md color-grey-900">Instant visibility into cargo status</li>
-                            <li className="font-md color-grey-900">Data-driven decision-making for logistics optimization</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Reduced transit delays
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Instant visibility into cargo status
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Data-driven decision-making for logistics optimization
+                            </li>
                         </ul>
 
                         <h4 className="color-brand-2 mt-40 mb-20 wow animate__animated animate__fadeIn">Sustainable Freight and Green Logistics</h4>
@@ -111,39 +144,69 @@ export default function InternationalFreightForwardingGuide2026() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Selecting the right logistics partner is critical for successful international freight operations. Businesses should consider the following factors:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Experience and Expertise:</strong> Choose a freight forwarder with proven experience in handling your industry's cargo type, whether perishables, industrial goods, or high-value products.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Global Network:</strong> A strong international network ensures reliable carriers, better pricing, and faster transit times for global shipping.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Technology and Tracking Capabilities:</strong> Forwarders with advanced tracking systems and digital tools provide transparency and real-time shipment updates.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Compliance and Documentation Support:</strong> Ensure your freight forwarder is proficient in international trade compliance, customs regulations, and documentation management.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Customer Support and Reliability:</strong> Effective communication, responsive support, and proactive problem-solving are crucial for smooth international freight operations.
                             </li>
                         </ul>
 
                         <h3 className="color-brand-2 mt-50 mb-20 wow animate__animated animate__fadeIn">Best Practices for Businesses Using International Freight Forwarding</h3>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Plan Ahead for Shipping:</strong> Early planning reduces last-minute delays and allows freight forwarders to secure optimal transport options.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Understand Customs Requirements:</strong> Knowledge of tariffs, import/export regulations, and prohibited items prevents compliance issues.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Leverage Technology:</strong> Use digital platforms for real-time shipment visibility, automated documentation, and inventory management.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Consolidate Shipments:</strong> Combining shipments when possible reduces shipping costs and simplifies supply chain management.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Regularly Review Freight Costs:</strong> Evaluate shipping options, route efficiency, and carrier performance to optimize cost-effectiveness.
                             </li>
                         </ul>
@@ -152,11 +215,31 @@ export default function InternationalFreightForwardingGuide2026() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Freight forwarders are more than transport coordinators, they are strategic partners. With the right provider, businesses can:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Expand into new markets with confidence</li>
-                            <li className="font-md color-grey-900">Optimize their supply chain and reduce costs</li>
-                            <li className="font-md color-grey-900">Navigate complex international trade regulations</li>
-                            <li className="font-md color-grey-900">Ensure reliable, timely delivery of goods</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Expand into new markets with confidence
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Optimize their supply chain and reduce costs
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Navigate complex international trade regulations
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Ensure reliable, timely delivery of goods
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             By leveraging expertise in international freight, logistics, and global shipping, businesses gain operational efficiency and scalability in a competitive global environment.

@@ -22,13 +22,6 @@ export default function CustomsClearanceGuide() {
 
                 <section className="section pt-100 pb-100">
                     <div className="container">
-                        <strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn">
-                            In the world of international trade, customs clearance plays a critical role in ensuring smooth movement of goods across borders. Whether you're managing import export operations or expanding into new global markets, delays at customs can disrupt supply chains, increase costs, and impact customer commitments. Understanding customs procedures, documentation requirements, and customs compliance is essential for every business involved in global logistics.
-                        </strong>
-                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            This guide breaks down the customs clearance process in simple terms and explains how exporters and importers can avoid delays, penalties, and compliance issues while shipping goods internationally.
-                        </p>
-
                         <h3 className="color-brand-2 mt-50 mb-20 wow animate__animated animate__fadeIn">What is Customs Clearance and Why is It Important?</h3>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Customs clearance is the process through which goods are legally approved to enter or leave a country. Every shipment involved in import export trade must pass through customs authorities, who verify documentation, assess duties and taxes, and ensure cargo follows regulatory guidelines.
@@ -47,26 +40,47 @@ export default function CustomsClearanceGuide() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Some of the most important documents in customs clearance include:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Commercial Invoice:</strong> Contains product details, value, and buyer-seller information.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Packing List:</strong> Specifies cargo quantity, dimensions, and packaging formats.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Air Waybill or Bill of Lading:</strong> Proof of shipment and transport contract.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Import Export License (if applicable):</strong> Required for certain regulated goods.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>HS Code Declaration:</strong> Used to classify products for duties and taxation.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Certificate of Origin:</strong> Indicates the country where goods were manufactured.
                             </li>
                             <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
                                 <strong>Insurance Certificate:</strong> Provides cargo coverage proof where necessary.
                             </li>
                         </ul>
@@ -81,14 +95,49 @@ export default function CustomsClearanceGuide() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Some common causes include:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Incorrect or mismatched shipment documentation</li>
-                            <li className="font-md color-grey-900">Wrong HS code classification or product description</li>
-                            <li className="font-md color-grey-900">Under-valuation or incorrect invoice values</li>
-                            <li className="font-md color-grey-900">Missing permits or regulatory approvals</li>
-                            <li className="font-md color-grey-900">Random inspections due to risk-based screening</li>
-                            <li className="font-md color-grey-900">Lack of compliance with import export policies</li>
-                            <li className="font-md color-grey-900">Incomplete payment of duties and taxes</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Incorrect or mismatched shipment documentation
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Wrong HS code classification or product description
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Under-valuation or incorrect invoice values
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Missing permits or regulatory approvals
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Random inspections due to risk-based screening
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Lack of compliance with import export policies
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Incomplete payment of duties and taxes
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Businesses can significantly reduce these risks by partnering with professional logistics or freight forwarding experts who understand customs compliance and country-specific trade laws.
@@ -101,12 +150,37 @@ export default function CustomsClearanceGuide() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Compliance is not only a legal requirement, it also helps businesses:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Build trust with customs authorities</li>
-                            <li className="font-md color-grey-900">Avoid fines, penalties, or cargo seizures</li>
-                            <li className="font-md color-grey-900">Reduce inspection frequency</li>
-                            <li className="font-md color-grey-900">Speed up clearance processes</li>
-                            <li className="font-md color-grey-900">Strengthen supply chain reputation</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Build trust with customs authorities
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Avoid fines, penalties, or cargo seizures
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Reduce inspection frequency
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Speed up clearance processes
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Strengthen supply chain reputation
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             A proactive compliance culture ensures that customs becomes a smooth checkpoint instead of a barrier in trade operations.
@@ -131,11 +205,31 @@ export default function CustomsClearanceGuide() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Each country has unique customs rules, restricted goods lists, and licensing requirements. Before shipping, verify:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Import restrictions</li>
-                            <li className="font-md color-grey-900">Tax structures and duty rates</li>
-                            <li className="font-md color-grey-900">Documentation requirements</li>
-                            <li className="font-md color-grey-900">Special permits or certifications</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Import restrictions
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Tax structures and duty rates
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Documentation requirements
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Special permits or certifications
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Understanding trade regulations in advance ensures seamless customs clearance.
@@ -155,12 +249,37 @@ export default function CustomsClearanceGuide() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Modern logistics relies heavily on technology to enhance visibility, accuracy, and compliance. Digital platforms allow businesses to:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Track real-time shipment status</li>
-                            <li className="font-md color-grey-900">Digitize and verify documents</li>
-                            <li className="font-md color-grey-900">Automate HS code classification</li>
-                            <li className="font-md color-grey-900">Maintain customs records</li>
-                            <li className="font-md color-grey-900">Reduce human error</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Track real-time shipment status
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Digitize and verify documents
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Automate HS code classification
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Maintain customs records
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Reduce human error
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Integrated logistics systems help businesses optimize shipping workflows and strengthen import export compliance across global routes.
@@ -173,11 +292,31 @@ export default function CustomsClearanceGuide() {
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Businesses that prioritize customs compliance experience:
                         </p>
-                        <ul className="list-ticks list-ticks-2 mb-30 wow animate__animated animate__fadeIn">
-                            <li className="font-md color-grey-900">Faster cross-border movement</li>
-                            <li className="font-md color-grey-900">Reduced risk of shipment holds</li>
-                            <li className="font-md color-grey-900">Lower logistics costs</li>
-                            <li className="font-md color-grey-900">Better operational predictability</li>
+                        <ul className="list-ticks list-ticks-2 mt-15 mb-30 wow animate__animated animate__fadeIn">
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Faster cross-border movement
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Reduced risk of shipment holds
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Lower logistics costs
+                            </li>
+                            <li className="font-md color-grey-900">
+                                <svg className="icon-16" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path clipRule="evenodd" fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"></path>
+                                </svg>
+                                Better operational predictability
+                            </li>
                         </ul>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             Strong customs strategies directly contribute to supply chain performance and international trade expansion.
