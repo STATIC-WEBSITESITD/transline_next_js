@@ -31,6 +31,7 @@ export default function Menu() {
                     </ul>
                 </li>
                 <li><Link className={isActive("/awards") ? "active" : ""} href="/awards">Awards</Link></li>
+                <li><Link className={isActive("/blog") ? "active" : ""} href="/blog">Blogs</Link></li>
                 <li><Link className={isActive("/contact") ? "active" : ""} href="/contact">Contact Us</Link></li>
             </ul>
         </>

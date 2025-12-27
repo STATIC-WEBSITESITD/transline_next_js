@@ -345,8 +345,9 @@
 
     &.burger-close {
         position: fixed;
-        top     : 16px;
+        top     : 20px;
         right   : 30px;
+        bottom  : auto;
 
         &>span {
             &.burger-icon-top {

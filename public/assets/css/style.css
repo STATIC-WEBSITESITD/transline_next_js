@@ -3874,8 +3874,9 @@ cubic-bezier(0.645, 0.045, 0.355, 1);
 
 .burger-icon.burger-close {
   position: fixed;
-  top: 16px;
+  top: 20px;
   right: 30px;
+  bottom: auto;
 }
 
 .burger-icon.burger-close>span.burger-icon-top {
