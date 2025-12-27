@@ -30,7 +30,7 @@ export default function Service() {
                         <div className="mt-35">
                             {/* Service 1 */}
                             <div className="row align-items-center service-row flex-column flex-md-row mb-50">
-                                <div className="col-md-6 mb-4 mb-md-0">
+                                <div className="col-xl-6 mb-4 mb-xl-0">
                                     {/* Image Hover Zoom + Fade In */}
                                     <div className="service-img-wrapper wow animate__animated animate__zoomIn">
                                         <img
@@ -40,7 +40,7 @@ export default function Service() {
                                         />
                                     </div>
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-xl-6">
                                     <div className="wow animate__animated animate__fadeInRight">
                                         <h5 className="color-brand-2 mb-3">Air Freight (Exports)</h5>
                                         <p className="color-grey-900 mb-3 animate__animated animate__fadeIn" style={{ animationDelay: "0.3s" }}>
@@ -66,7 +66,7 @@ export default function Service() {
                             </div>
                             {/* Service 2 */}
                             <div className="row align-items-center service-row flex-column flex-md-row mb-50 flex-md-row-reverse">
-                                <div className="col-md-6 mb-4 mb-md-0">
+                                <div className="col-xl-6 mb-4 mb-xl-0">
                                     <div className="service-img-wrapper wow animate__animated animate__zoomIn" style={{ animationDelay: "0.15s" }}>
                                         <img
                                             src="/assets/imgs/img2.png"
@@ -75,7 +75,7 @@ export default function Service() {
                                         />
                                     </div>
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-xl-6">
                                     <div className="wow animate__animated animate__fadeInLeft" style={{ animationDelay: "0.3s" }}>
                                         <h5 className="color-brand-2 mb-3">Sea Freight (Exports)</h5>
                                         <p className="color-grey-900 mb-3 animate__animated animate__fadeIn" style={{ animationDelay: "0.45s" }}>
@@ -101,7 +101,7 @@ export default function Service() {
                             </div>
                             {/* Service 3 */}
                             <div className="row align-items-center service-row flex-column flex-md-row">
-                                <div className="col-md-6 mb-4 mb-md-0">
+                                <div className="col-xl-6 mb-4 mb-xl-0">
                                     <div className="service-img-wrapper wow animate__animated animate__zoomIn" style={{ animationDelay: "0.3s" }}>
                                         <img
                                             src="/assets/imgs/img3.png"
@@ -110,7 +110,7 @@ export default function Service() {
                                         />
                                     </div>
                                 </div>
-                                <div className="col-md-6">
+                                <div className="col-xl-6">
                                     <div className="wow animate__animated animate__fadeInRight" style={{ animationDelay: "0.5s" }}>
                                         <h5 className="color-brand-2 mb-3">Customs Clearance (Air &amp; Sea)</h5>
                                         <p className="color-grey-900 mb-3 animate__animated animate__fadeIn" style={{ animationDelay: "0.65s" }}>

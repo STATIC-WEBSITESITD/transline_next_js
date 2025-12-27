@@ -15,7 +15,7 @@ export default function Header({ topBarStyle, handleMobileMenuOpen }) {
     return (
         <>
             <div className={topBarStyle ? topBarStyle : ""}>
-                <div className="box-bar bg-grey-900 ">
+                <div className="box-bar bg-grey-900 d-none d-lg-block   ">
                     <div className="container position-relative">
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-md-8 col-sm-5 col-4"> <Link className="phone-icon mr-45" href="tel:+91 98196 69926">

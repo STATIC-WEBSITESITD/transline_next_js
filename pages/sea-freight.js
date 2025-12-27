@@ -58,7 +58,7 @@ export default function SeaFreight() {
                             </h2>
                         </div>
                         <div className="row mt-35">
-                            <div className="col-lg-4 col-md-6 mb-30">
+                            <div className="col-xl-4 col-lg-6 mb-30">
                                 <div className="cardGrid wow animate__animated animate__fadeIn">
                                     <div className="cardImage">
                                         <div style={{ 
@@ -81,7 +81,7 @@ export default function SeaFreight() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 mb-30">
+                            <div className="col-xl-4 col-lg-6 mb-30">
                                 <div className="cardGrid wow animate__animated animate__fadeIn" style={{ animationDelay: "0.2s" }}>
                                     <div className="cardImage">
                                         <div style={{ 
@@ -104,7 +104,7 @@ export default function SeaFreight() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 mb-30">
+                            <div className="col-xl-4 col-lg-6 mb-30">
                                 <div className="cardGrid wow animate__animated animate__fadeIn" style={{ animationDelay: "0.4s" }}>
                                     <div className="cardImage">
                                         <div style={{ 

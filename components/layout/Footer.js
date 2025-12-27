@@ -21,15 +21,16 @@ export default function Footer1({ }) {
                                     <li><Link href="/">Home</Link></li>
                                     <li><Link href="/about">About Us</Link></li>
                                     <li><Link href="/awards">Awards</Link></li>
+                                    <li><Link href="/blogs">Blogs</Link></li>
                                     <li><Link href="/contact">Contact Us</Link></li>
                                 </ul>
                             </div>
                             <div className="col-lg-2 mb-30">
                                 <h5 className="mb-10 color-brand-1">Our Services</h5>
                                 <ul className="menu-footer">
-                                    <li><Link href="/services">Air Freight</Link></li>
-                                    <li><Link href="/services">Sea Freight</Link></li>
-                                    <li><Link href="/services">Customs Clearance</Link></li>
+                                    <li><Link href="/air-freight">Air Freight</Link></li>
+                                    <li><Link href="/sea-freight">Sea Freight</Link></li>
+                                    <li><Link href="/customs-clearance">Customs Clearance</Link></li>
                                 </ul>
                             </div>
                             <div className="col-lg-4 mb-30">

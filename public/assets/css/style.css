@@ -1004,10 +1004,14 @@ h4 {
 }
 
 @keyframes blink {
-  0%, 50% {
+
+  0%,
+  50% {
     opacity: 1;
   }
-  51%, 100% {
+
+  51%,
+  100% {
     opacity: 0;
   }
 }
@@ -3839,8 +3843,7 @@ header.header.sticky-bar.stick .main-header .header-left .header-logo a img {
   width: 24px;
   height: 20px;
   cursor: pointer;
-  transition: all 0.25s 
-cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   top: 0;
   right: 0px;
   bottom: 0;
@@ -9225,25 +9228,71 @@ video {
 }
 
 @media (max-width: 991.98px) {
-  /* Reduce overly-large spacing utilities on tablet/mobile */
-  .pt-100 { padding-top: 70px !important; }
-  .pb-100 { padding-bottom: 70px !important; }
-  .mt-100 { margin-top: 70px !important; }
-  .mb-100 { margin-bottom: 70px !important; }
 
-  .pt-80 { padding-top: 55px !important; }
-  .pb-80 { padding-bottom: 55px !important; }
+  /* Reduce overly-large spacing utilities on tablet/mobile */
+  .pt-100 {
+    padding-top: 70px !important;
+  }
+
+  .pb-100 {
+    padding-bottom: 70px !important;
+  }
+
+  .mt-100 {
+    margin-top: 70px !important;
+  }
+
+  .mb-100 {
+    margin-bottom: 70px !important;
+  }
+
+  .pt-80 {
+    padding-top: 55px !important;
+  }
+
+  .pb-80 {
+    padding-bottom: 55px !important;
+  }
 }
 
 @media (max-width: 575.98px) {
-  /* Further tighten spacing on small phones */
-  .pt-100 { padding-top: 48px !important; }
-  .pb-100 { padding-bottom: 48px !important; }
-  .mt-100 { margin-top: 48px !important; }
-  .mb-100 { margin-bottom: 48px !important; }
 
-  .pt-80 { padding-top: 36px !important; }
-  .pb-80 { padding-bottom: 36px !important; }
+  /* Further tighten spacing on small phones */
+  .pt-100 {
+    padding-top: 48px !important;
+  }
+
+  .pb-100 {
+    padding-bottom: 48px !important;
+  }
+
+  .mt-100 {
+    margin-top: 48px !important;
+  }
+
+  .mb-100 {
+    margin-bottom: 48px !important;
+  }
+
+  .pt-80 {
+    padding-top: 36px !important;
+  }
+
+  .pb-80 {
+    padding-bottom: 36px !important;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
+
+@media screen and (max-width: 767px) {
+  .cardGrid {
+    padding-bottom: unset;
+  }
+
+  .cardGrid .cardInfo {
+    position: relative;
+    width: 100%;
+  }
+
+}
