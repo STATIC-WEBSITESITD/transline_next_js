@@ -1,16 +1,21 @@
 import Layout from "@/components/layout/Layout"
-import Brand1Slider from "@/components/slider/Brand1Slider"
 import Link from "next/link"
+
 export default function Blog() {
 
     return (
         <>
-            <Layout>
+            <Layout
+                headTitle="Blogs | Pharma Logistics Insights & News | Transline Group"
+                metaDescription="Explore the latest blogs and insights on pharma logistics, air & sea freight, cold chain solutions, customs clearance, global shipment, cost optimization, and more from Transline Group."
+                metaKeywords="Pharma logistics blog, air freight blog, sea freight blog, cold chain logistics, customs clearance, international shipping, logistics partner, cost optimization, SME logistics"
+                canonicalUrl="https://transline-logistics.com/blog"
+            >
                 <section className="section">
                     <div className="box-pageheader-1 text-center" style={{ background: "url('assets/imgs/blog.webp') no-repeat top/cover" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Blogs</h2>
                         <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
-                            blogs related to pharma logistics
+                            Latest articles & insights related to pharma logistics, compliance, and global shipping.
                         </p>
                     </div>
                 </section>
