@@ -7,8 +7,8 @@ export default function Blog() {
         <>
             <Layout>
                 <section className="section">
-                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/AboutBanner.jpg) no-repeat top/cover" }}>
-                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Blog</h2>
+                    <div className="box-pageheader-1 text-center" style={{ background: "url('assets/imgs/blog.webp') no-repeat top/cover" }}>
+                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Blogs</h2>
                         <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
                             blogs related to pharma logistics
                         </p>
@@ -17,129 +17,269 @@ export default function Blog() {
                 <section className="section pt-100 pb-100">
                     <div className="container">
                         <div className="row">
+                            {/* Air Freight */}
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news1.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
-                                    <div className="card-info"><Link href="/blog-sing">
-                                        <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
+                                    <div className="card-image">
+                                        <Link href="/air-freight-services-in-india-exporters-importers">
+                                            <img src="assets/imgs/b1.jpg" alt="Air Freight" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/air-freight-services-in-india-exporters-importers">Air Freight</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/air-freight-services-in-india-exporters-importers">
+                                            <h5 className="color-brand-2">Air Freight Services in India: A Complete Guide for Exporters & Importers</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Discover top air freight services in India for exporters & importers, benefits, documentation, and how to choose reliable cargo freight international solutions for global trade.</p>
                                         <div className="line-border" />
-                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></Link><span className="date-post font-sm color-grey-700">29 May 2022</span></div>
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/air-freight-services-in-india-exporters-importers">View Details<span>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                </svg>
+                                            </span>
+                                            </Link>
+                                            <span className="date-post font-sm color-grey-700">15 Jan 2024</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {/* Sea Freight */}
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news2.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
-                                    <div className="card-info"><Link href="/blog-sing">
-                                        <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
+                                    <div className="card-image">
+                                        <Link href="/sea-freight-shipping-fcl-vs-lcl-guide">
+                                            <img src="assets/imgs/b2.jpg" alt="Sea Freight" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/sea-freight-shipping-fcl-vs-lcl-guide">Sea Freight</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/sea-freight-shipping-fcl-vs-lcl-guide">
+                                            <h5 className="color-brand-2">Sea Freight Shipping Explained: FCL vs LCL & How to Choose the Best Option</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Understand sea freight, FCL vs LCL, ocean freight cargo options, and full container load shipping to choose the best solution for global trade and logistics.</p>
                                         <div className="line-border" />
-                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></Link><span className="date-post font-sm color-grey-700">29 May 2022</span></div>
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/sea-freight-shipping-fcl-vs-lcl-guide">View Details<span>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                </svg>
+                                            </span></Link>
+                                            <span className="date-post font-sm color-grey-700">22 Jan 2024</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {/* Customs Clearance */}
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news3.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
-                                    <div className="card-info"><Link href="/blog-sing">
-                                        <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
+                                    <div className="card-image">
+                                        <Link href="/customs-clearance-guide-avoid-delays-compliance">
+                                            <img src="assets/imgs/b3.jpg" alt="Customs Clearance" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/customs-clearance-guide-avoid-delays-compliance">Customs</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/customs-clearance-guide-avoid-delays-compliance">
+                                            <h5 className="color-brand-2">Customs Clearance Demystified: How to Avoid Delays & Compliance Issues</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Learn how customs clearance works, avoid delays, and improve import export efficiency with proper documentation and strong customs compliance practices.</p>
                                         <div className="line-border" />
-                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></Link><span className="date-post font-sm color-grey-700">29 May 2022</span></div>
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/customs-clearance-guide-avoid-delays-compliance">View Details<span>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                </svg>
+                                            </span></Link>
+                                            <span className="date-post font-sm color-grey-700">28 Jan 2024</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {/* Cold Chain Logistics */}
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news4.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
-                                    <div className="card-info"><Link href="/blog-sing">
-                                        <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
+                                    <div className="card-image">
+                                        <Link href="/cold-chain-logistics-temperature-controlled-cargo">
+                                            <img src="assets/imgs/b4.jpg" alt="Cold Chain Logistics" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/cold-chain-logistics-temperature-controlled-cargo">Cold Chain</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/cold-chain-logistics-temperature-controlled-cargo">
+                                            <h5 className="color-brand-2">Cold Chain Logistics: Ensuring Temperature-Controlled Cargo Integrity</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Learn cold chain logistics essentials, how temperature controlled transport preserves sensitive cargo integrity, reduces spoilage, and enhances global supply chain quality.</p>
                                         <div className="line-border" />
-                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></Link><span className="date-post font-sm color-grey-700">29 May 2022</span></div>
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/cold-chain-logistics-temperature-controlled-cargo">View Details<span>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                </svg>
+                                            </span></Link>
+                                            <span className="date-post font-sm color-grey-700">5 Feb 2024</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {/* Logistics Partner */}
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news5.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
-                                    <div className="card-info"><Link href="/blog-sing">
-                                        <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
+                                    <div className="card-image">
+                                        <Link href="/choosing-right-logistics-partner-global-shipments">
+                                            <img src="assets/imgs/b5.jpg" alt="Logistics Partner" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/choosing-right-logistics-partner-global-shipments">Logistics</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/choosing-right-logistics-partner-global-shipments">
+                                            <h5 className="color-brand-2">Choosing the Right Logistics Partner for Global Shipment Success</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Find the best logistic solution provider for global shipment and supply chain management. Learn key factors to choose a reliable partner for international trade success.</p>
                                         <div className="line-border" />
-                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></Link><span className="date-post font-sm color-grey-700">29 May 2022</span></div>
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/choosing-right-logistics-partner-global-shipments">View Details<span>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                </svg>
+                                            </span></Link>
+                                            <span className="date-post font-sm color-grey-700">12 Feb 2024</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {/* Shipping Routes */}
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news6.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
-                                    <div className="card-info"><Link href="/blog-sing">
-                                        <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
+                                    <div className="card-image">
+                                        <Link href="/top-air-sea-freight-routes-from-india">
+                                            <img src="assets/imgs/b6.jpg" alt="Shipping Routes" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/top-air-sea-freight-routes-from-india">Shipping</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/top-air-sea-freight-routes-from-india">
+                                            <h5 className="color-brand-2">Top Air & Sea Freight Routes from India: Trends, Times & Tips for Shippers</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Explore top air freight & sea freight routes from India, transit times, trends & expert tips for efficient global shipping success for shippers and exporters.</p>
                                         <div className="line-border" />
-                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></Link><span className="date-post font-sm color-grey-700">29 May 2022</span></div>
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/top-air-sea-freight-routes-from-india">View Details<span>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                </svg>
+                                            </span></Link>
+                                            <span className="date-post font-sm color-grey-700">18 Feb 2024</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {/* Cold Chain Technology */}
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news7.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
-                                    <div className="card-info"><Link href="/blog-sing">
-                                        <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
+                                    <div className="card-image">
+                                        <Link href="/cold-chain-technology-innovations-temperature-controlled-logistics">
+                                            <img src="assets/imgs/b7.jpg" alt="Cold Chain Technology" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/cold-chain-technology-innovations-temperature-controlled-logistics">Technology</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/cold-chain-technology-innovations-temperature-controlled-logistics">
+                                            <h5 className="color-brand-2">Cold Chain Tech: Innovations Driving Temperature-Controlled Logistics</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Explore cold chain solutions and refrigerated reefer truck innovations enhancing temperature-controlled logistics, ensuring cargo safety and efficiency globally.</p>
                                         <div className="line-border" />
-                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></Link><span className="date-post font-sm color-grey-700">29 May 2022</span></div>
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/cold-chain-technology-innovations-temperature-controlled-logistics">View Details<span>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                </svg>
+                                            </span></Link>
+                                            <span className="date-post font-sm color-grey-700">25 Feb 2024</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {/* Cost Optimization */}
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news8.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
-                                    <div className="card-info"><Link href="/blog-sing">
-                                        <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
+                                    <div className="card-image">
+                                        <Link href="/logistics-cost-optimization-tips-for-smes">
+                                            <img src="assets/imgs/b8.jpg" alt="Cost Optimization" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/logistics-cost-optimization-tips-for-smes">SME Tips</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/logistics-cost-optimization-tips-for-smes">
+                                            <h5 className="color-brand-2">Logistics Cost Optimization: Tips for SMEs to Optimize Supply Chain</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Discover actionable strategies for SMEs to reduce logistics costs and optimize supply chain efficiency. Boost profitability with smart freight management.</p>
                                         <div className="line-border" />
-                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></Link><span className="date-post font-sm color-grey-700">29 May 2022</span></div>
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/logistics-cost-optimization-tips-for-smes">View Details<span>
+                                                <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                </svg>
+                                            </span></Link>
+                                            <span className="date-post font-sm color-grey-700">3 Mar 2024</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            {/* Freight Forwarding */}
                             <div className="col-lg-4 wow animate__animated animate__fadeIn">
                                 <div className="card-blog-grid hover-up">
-                                    <div className="card-image"><Link href="/blog-sing"><img src="/assets/imgs/page/blog/news9.png" alt="transp" /></Link><Link className="btn btn-border-brand-1 mr-15" href="/blog">Shipping</Link></div>
-                                    <div className="card-info"><Link href="/blog-sing">
-                                        <h5 className="color-brand-2">How to find reliable logistics company in China and Asia</h5></Link>
-                                        <p className="font-sm color-grey-500 mt-20">Fusce dictum ullamcorper dui, id dignissim arcu volutpat vitae. Aenean mattis vestibulum odio eu facilisis. Aenean quam arcu, blandit at aliquet sit amet, convallis nec risus.</p>
+                                    <div className="card-image">
+                                        <Link href="/international-freight-forwarding-business-guide-2026">
+                                            <img src="assets/imgs/b9.jpg" alt="Freight Forwarding" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/international-freight-forwarding-business-guide-2026">Freight</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/international-freight-forwarding-business-guide-2026">
+                                            <h5 className="color-brand-2">International Freight Forwarding: What Businesses Should Know in 2026</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Discover key trends in international freight, logistics, and global shipping for 2026. Learn how businesses can optimize supply chains and reduce shipment risks.</p>
                                         <div className="line-border" />
-                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0"><Link className="btn btn-link font-sm color-brand-2" href="#">View Details<span>
-                                            <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
-                                            </svg></span></Link><span className="date-post font-sm color-grey-700">29 May 2022</span></div>
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/international-freight-forwarding-business-guide-2026">View Details
+                                                <span>
+                                                    <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                    </svg>
+                                                </span>
+                                            </Link>
+                                            <span className="date-post font-sm color-grey-700">10 Mar 2024</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {/* Import Guide */}
+                            <div className="col-lg-4 wow animate__animated animate__fadeIn">
+                                <div className="card-blog-grid hover-up">
+                                    <div className="card-image">
+                                        <Link href="/step-by-step-guide-importing-into-india">
+                                            <img src="assets/imgs/b10.jpg" alt="Import Guide" />
+                                        </Link>
+                                        <Link className="btn btn-border-brand-1 mr-15" href="/step-by-step-guide-importing-into-india">Import</Link>
+                                    </div>
+                                    <div className="card-info">
+                                        <Link href="/step-by-step-guide-importing-into-india">
+                                            <h5 className="color-brand-2">Step-by-Step Guide to Importing Into India: From Shipment to Delivery</h5>
+                                        </Link>
+                                        <p className="font-sm color-grey-500 mt-20">Learn how to manage import logistics efficiently from overseas shipment to final delivery in India. Simplify cargo shipping with expert tips for smooth imports.</p>
+                                        <div className="line-border" />
+                                        <div className="mt-5 d-flex align-items-center justify-content-between pt-0">
+                                            <Link className="btn btn-link font-sm color-brand-2" href="/step-by-step-guide-importing-into-india">
+                                                View Details
+                                                <span>
+                                                    <svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                                                    </svg>
+                                                </span>
+                                            </Link>
+                                            <span className="date-post font-sm color-grey-700">17 Mar 2024</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
