@@ -42,7 +42,7 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                         <li><Link href="/about">About Us</Link></li>
                                         <li className={isActive.key == 2 ? "has-children active" : "has-children"} onClick={() => handleToggle(2)}>
                                             <span className="menu-expand"><svg className="w-6 h-6 icon-16" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path></svg></span>
-                                            <Link href="/services">Our Services</Link>
+                                            <Link href="/services">Services</Link>
                                             <ul className={isActive.key == 2 ? "sub-menu d-block" : "sub-menu d-none"}>
                                                 <li><Link href="/air-freight">Air Freight</Link></li>
                                                 <li><Link href="/sea-freight">Sea Freight</Link></li>
@@ -50,7 +50,7 @@ export default function Sidebar({ openClass, handleMobileMenuClose }) {
                                             </ul>
                                         </li>
                                         <li><Link href="/awards">Awards</Link></li>
-                                        <li><Link href="/blog">Blogs</Link></li>
+                                        <li><Link href="/blogs">Blogs</Link></li>
                                         <li><Link href="/contact">Contact Us</Link></li>
                                     </ul>
                                 </nav>

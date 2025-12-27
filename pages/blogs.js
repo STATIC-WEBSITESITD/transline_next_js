@@ -1,7 +1,7 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 
-export default function Blog() {
+export default function Blogs() {
 
     return (
         <>
@@ -9,11 +9,11 @@ export default function Blog() {
                 headTitle="Blogs | Pharma Logistics Insights & News | Transline Group"
                 metaDescription="Explore the latest blogs and insights on pharma logistics, air & sea freight, cold chain solutions, customs clearance, global shipment, cost optimization, and more from Transline Group."
                 metaKeywords="Pharma logistics blog, air freight blog, sea freight blog, cold chain logistics, customs clearance, international shipping, logistics partner, cost optimization, SME logistics"
-                canonicalUrl="https://transline-logistics.com/blog"
+                canonicalUrl="https://transline-logistics.com/blogs"
             >
                 <section className="section">
-                    <div className="box-pageheader-1 text-center" style={{ background: "url('assets/imgs/blog.webp') no-repeat top/cover" }}>
-                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Blogs</h2>
+                    <div className="box-pageheader-1 text-center" style={{ background: "url('assets/imgs/blog.webp') no-repeat top/cover fixed" }}>
+                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Our Blogs</h2>
                         <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
                             Latest articles & insights related to pharma logistics, compliance, and global shipping.
                         </p>
@@ -138,7 +138,7 @@ export default function Blog() {
                                     </div>
                                     <div className="card-info">
                                         <Link href="/choosing-right-logistics-partner-global-shipments">
-                                            <h5 className="color-brand-2">Choosing the Right Logistics Partner for Global Shipment Success</h5>
+                                            <h5 className="color-brand-2">How to Choose the Right Logistics Partner for International Trade</h5>
                                         </Link>
                                         <p className="font-sm color-grey-500 mt-20">Find the best logistic solution provider for global shipment and supply chain management. Learn key factors to choose a reliable partner for international trade success.</p>
                                         <div className="line-border" />
@@ -164,7 +164,7 @@ export default function Blog() {
                                     </div>
                                     <div className="card-info">
                                         <Link href="/top-air-sea-freight-routes-from-india">
-                                            <h5 className="color-brand-2">Top Air & Sea Freight Routes from India: Trends, Times & Tips for Shippers</h5>
+                                            <h5 className="color-brand-2">Top Air & Sea Freight Routes from India</h5>
                                         </Link>
                                         <p className="font-sm color-grey-500 mt-20">Explore top air freight & sea freight routes from India, transit times, trends & expert tips for efficient global shipping success for shippers and exporters.</p>
                                         <div className="line-border" />
@@ -216,7 +216,7 @@ export default function Blog() {
                                     </div>
                                     <div className="card-info">
                                         <Link href="/logistics-cost-optimization-tips-for-smes">
-                                            <h5 className="color-brand-2">Logistics Cost Optimization: Tips for SMEs to Optimize Supply Chain</h5>
+                                            <h5 className="color-brand-2">Logistics Cost Optimization: Tips for SMEs</h5>
                                         </Link>
                                         <p className="font-sm color-grey-500 mt-20">Discover actionable strategies for SMEs to reduce logistics costs and optimize supply chain efficiency. Boost profitability with smart freight management.</p>
                                         <div className="line-border" />
@@ -295,3 +295,4 @@ export default function Blog() {
         </>
     )
 }
+

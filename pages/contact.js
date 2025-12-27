@@ -80,7 +80,7 @@ Ahmedabad, Gujarat – 380015`,
                 canonicalUrl="https://transline-logistics.com/contact"
             >
                 <section className="section">
-                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/contact.jpg) no-repeat top/cover" }}>
+                    <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/contact.jpg) no-repeat top/cover fixed" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Contact Us</h2>
                         <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
                             Speak with our pharmaceutical logistics experts for enquiries, quotes and support
