@@ -4198,29 +4198,29 @@ header.header.sticky-bar.stick .main-header .header-left .header-logo a img {
 }
 
 #scrollUp {
-  width: 56px;
-  height: 56px;
+  width: 48px;
+  height: 48px;
   color: #fff;
   right: 20px;
   bottom: 20px;
-  border-radius: 0px;
+  border-radius: 50%;
   text-align: center;
   text-decoration: none;
   overflow: hidden;
   z-index: 999 !important;
-  border: 0;
+  border: 2px solid #fff;
   transition-duration: 0.2s;
   background-color: #000000;
-  line-height: 56px;
+  line-height: 48px;
 }
 
 #scrollUp svg {
-  height: 28px;
+  height: 24px;
 }
 
 #scrollUp i {
   display: block;
-  line-height: 56px !important;
+  line-height: 48px !important;
   font-size: 20px;
   color: #fff;
 }

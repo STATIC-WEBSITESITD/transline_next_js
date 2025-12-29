@@ -11,7 +11,7 @@ export default function ServiceDetail() {
                     <div className="container">
                         <div className="box-pageheader-1 box-pageheader-services text-center"><span className="btn btn-tag wow animate__animated animate__fadeIn">Our Services</span>
                             <h2 className="color-brand-2 mt-15 mb-10 wow animate__animated animate__fadeIn">Sea Freight Forwarding</h2>
-                            <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">Transp’s roots are in Sea Freight! Whether it’s full containers, consolidations, roll-on/roll-<br className="d-none d-lg-block" />off equipment or entire projects, moving shipments by sea is our “flagship” service.</p>
+                            <p className="font-lg color-grey-900 wow animate__animated animate__fadeIn">Transp's roots are in Sea Freight! Whether it's full containers, consolidations, roll-on/roll-<br className="d-none d-lg-block" />off equipment or entire projects, moving shipments by sea is our "flagship" service.</p>
                         </div>
                     </div>
                 </section>

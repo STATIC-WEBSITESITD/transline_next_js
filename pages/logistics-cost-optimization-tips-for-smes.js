@@ -14,7 +14,7 @@ export default function LogisticsCostOptimizationSMEs() {
                 <section className="section">
                     <div className="box-pageheader-1 text-center" style={{ background: "url('assets/imgs/b8.jpg') no-repeat center/cover fixed" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Cost Optimization</h2>
-                        <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
+                        <p className="color-grey-700 text-white font-lg wow animate__animated animate__fadeIn">
                             Logistics Cost Optimization: Tips for SMEs
                         </p>
                     </div>

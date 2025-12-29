@@ -50,7 +50,7 @@ export default function About() {
                 <section className="section">
                     <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/awards.jpg) no-repeat center/cover fixed" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Awards</h2>
-                        <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
+                        <p className="color-grey-700 text-white font-lg wow animate__animated animate__fadeIn">
                             Honours and recognitions for our commitment to safe, compliant pharma logistics
                         </p>
                     </div>

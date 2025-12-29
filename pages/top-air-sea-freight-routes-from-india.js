@@ -14,7 +14,7 @@ export default function TopAirSeaFreightRoutesFromIndia() {
                 <section className="section">
                     <div className="box-pageheader-1 text-center" style={{ background: "url('assets/imgs/b6.jpg') no-repeat center/cover fixed" }}>
                         <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Freight Routes</h2>
-                        <p className="color-grey-700 text-white font-md wow animate__animated animate__fadeIn">
+                        <p className="color-grey-700 text-white font-lg wow animate__animated animate__fadeIn">
                             Top Air & Sea Freight Routes from India
                         </p>
                     </div>
@@ -22,13 +22,6 @@ export default function TopAirSeaFreightRoutesFromIndia() {
 
                 <section className="section pt-100 pb-100">
                     <div className="container">
-                        <strong className="font-md-bold color-grey-900 mb-25 d-block wow animate__animated animate__fadeIn">
-                            International trade plays a crucial role in expanding business reach, increasing competitiveness, and opening access to global markets. But as opportunities grow, so do logistics challenges, customs regulations, cross-border compliance, multimodal transportation, cargo safety, documentation, and delivery timelines. This is where choosing the right logistic solution provider becomes essential to ensure seamless global shipment and efficient supply chain management.
-                        </strong>
-                        <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                            For businesses dealing with air freight, sea freight, customs clearance, project cargo, or cold chain logistics, the right partner is not just a vendor, but a strategic growth enabler. In this blog, we'll explore how to choose the best logistics partner for international trade and what qualities to look for to strengthen your global operations.
-                        </p>
-
                         <h3 className="color-brand-2 mt-50 mb-20 wow animate__animated animate__fadeIn">Why the Right Logistics Partner Matters in International Trade</h3>
                         <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
                             A reliable logistics partner ensures that your cargo moves smoothly across borders while maintaining speed, safety, and compliance. The right partner helps businesses:
