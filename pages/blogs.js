@@ -44,7 +44,7 @@ export default function Blogs() {
                                                 </svg>
                                             </span>
                                             </Link>
-                                            <span className="date-post font-sm color-grey-700">15 Jan 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -70,7 +70,7 @@ export default function Blogs() {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                                 </svg>
                                             </span></Link>
-                                            <span className="date-post font-sm color-grey-700">22 Jan 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -96,7 +96,7 @@ export default function Blogs() {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                                 </svg>
                                             </span></Link>
-                                            <span className="date-post font-sm color-grey-700">28 Jan 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -122,7 +122,7 @@ export default function Blogs() {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                                 </svg>
                                             </span></Link>
-                                            <span className="date-post font-sm color-grey-700">5 Feb 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -148,7 +148,7 @@ export default function Blogs() {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                                 </svg>
                                             </span></Link>
-                                            <span className="date-post font-sm color-grey-700">12 Feb 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -174,7 +174,7 @@ export default function Blogs() {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                                 </svg>
                                             </span></Link>
-                                            <span className="date-post font-sm color-grey-700">18 Feb 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -200,7 +200,7 @@ export default function Blogs() {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                                 </svg>
                                             </span></Link>
-                                            <span className="date-post font-sm color-grey-700">25 Feb 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -226,7 +226,7 @@ export default function Blogs() {
                                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
                                                 </svg>
                                             </span></Link>
-                                            <span className="date-post font-sm color-grey-700">3 Mar 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -254,7 +254,7 @@ export default function Blogs() {
                                                     </svg>
                                                 </span>
                                             </Link>
-                                            <span className="date-post font-sm color-grey-700">10 Mar 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
@@ -283,7 +283,7 @@ export default function Blogs() {
                                                     </svg>
                                                 </span>
                                             </Link>
-                                            <span className="date-post font-sm color-grey-700">17 Mar 2024</span>
+                                            <span className="date-post font-sm color-grey-700">26 Dec 2025</span>
                                         </div>
                                     </div>
                                 </div>
