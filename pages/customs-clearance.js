@@ -99,7 +99,7 @@ export default function CustomsClearance() {
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2 mb-15">Accurate Documentation Control</h6>
                                         <p className="font-md color-grey-700">
-                                            We handle all required paperwork with care and accuracy. All pharma cargo is checked to conform with the latest Air and Sea documentation protocols, helping you avoid unwanted surprises at Customs.
+                                            We handle all required paperwork with care and accuracy. All pharma cargo is checked to comply with the latest Air and Sea documentation protocols, helping you avoid unwanted surprises at Customs.
                                         </p>
                                     </div>
                                 </div>

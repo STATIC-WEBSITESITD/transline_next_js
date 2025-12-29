@@ -27,7 +27,7 @@ const Countdown = (endDateTime) => {
         };
     }, [time]);
 
-    const now = Date.now(); // Number of milliseconds from begining of time
+    const now = Date.now(); // Number of milliseconds from beginning of time
 
     const future = new Date(endDateTime.endDateTime); // The day we leave for Japan
 
