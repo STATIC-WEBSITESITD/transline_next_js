@@ -31,13 +31,15 @@ export default function Home() {
             <div className="mt-35">
             <div className="row justify-content-center">
               <div className="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 d-flex align-items-center justify-content-center">
-                <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: 110, padding: "20px", border: "1px solid #eee", borderRadius: 8, boxShadow: "0 2px 8px rgba(0,0,0,0.08)", background: "#fff", width: "100%"}}>
+                <div style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: 140, padding: "20px", border: "1px solid #eee", borderRadius: 8, boxShadow: "0 2px 8px rgba(0,0,0,0.08)", background: "#fff", width: "100%"}}>
                   <img src="/assets/imgs/certifications/jc trans.png" alt="JC Trans Certification Logo" style={{maxHeight: 80, maxWidth: 140, objectFit: "contain"}} />
+                  <span style={{marginTop: "10px", fontSize: "14px", color: "#666"}}>ID: 14422</span>
                 </div>
               </div>
               <div className="col-6 col-sm-4 col-md-3 col-lg-2 mb-4 d-flex align-items-center justify-content-center">
-                <div style={{display: "flex", justifyContent: "center", alignItems: "center", height: 110, padding: "20px", border: "1px solid #eee", borderRadius: 8, boxShadow: "0 2px 8px rgba(0,0,0,0.08)", background: "#fff", width: "100%"}}>
+                <div style={{display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", height: 140, padding: "20px", border: "1px solid #eee", borderRadius: 8, boxShadow: "0 2px 8px rgba(0,0,0,0.08)", background: "#fff", width: "100%"}}>
                   <img src="/assets/imgs/certifications/wca.png" alt="WCA Certification Logo" style={{maxHeight: 80, maxWidth: 140, objectFit: "contain"}} />
+                  <span style={{marginTop: "10px", fontSize: "14px", color: "#666"}}>ID: 159356</span>
                 </div>
               </div>
             </div>
