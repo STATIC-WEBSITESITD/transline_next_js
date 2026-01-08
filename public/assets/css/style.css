@@ -2972,6 +2972,9 @@ iframe {
 .sticky-bar.stick .btn {
   color: #fff;
 }
+.sticky-bar.stick .btn svg {
+  color: #fff;
+}
 .sticky-bar.stick.sticky-white-bg .main-menu li a {
   color: #000000 !important;
 }
