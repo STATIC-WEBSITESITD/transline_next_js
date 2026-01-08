@@ -52,9 +52,9 @@ export default function CustomsClearance() {
                 <section className="section pt-50 pb-100 bg-1">
                     <div className="container">
                         <div className="text-center mb-65">
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Benefits</p>
+                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our Benefits</p>
                             <h2 className="color-brand-2 text-capitalize mb-15 mt-15 wow animate__animated animate__fadeInUp">
-                                Benefits
+                            Why Choose Our Customs Clearance Services
                             </h2>
                         </div>
                         <div className="row mt-35">
@@ -127,7 +127,7 @@ export default function CustomsClearance() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-xl-4 col-lg-6 mb-30">
+                            {/* <div className="col-xl-4 col-lg-6 mb-30">
                                 <div className="cardGrid wow animate__animated animate__fadeIn" style={{ animationDelay: "0.6s" }}>
                                     <div className="cardImage">
                                         <div style={{ 
@@ -149,7 +149,7 @@ export default function CustomsClearance() {
                                         </p>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </section>

@@ -52,9 +52,9 @@ export default function AirFreight() {
                 <section className="section pt-50 pb-100 bg-1">
                     <div className="container">
                         <div className="text-center mb-65">
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our Service Benefits</p>
+                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our Benefits</p>
                             <h2 className="color-brand-2 text-capitalize mb-15 mt-15 wow animate__animated animate__fadeInUp">
-                                Our Service Benefits
+                            Why Choose Our Air Freight Services
                             </h2>
                         </div>
                         <div className="row mt-35">
