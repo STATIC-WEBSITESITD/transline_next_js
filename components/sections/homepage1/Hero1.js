@@ -3,9 +3,9 @@ import Hero1Slider from "@/components/slider/Hero1Slider";
 export default function Hero1() {
     return (
         <>
-            <section className="section d-block">
-                <div className="box-swiper">
-                    <div className="swiper-container swiper-group-1 swiper-banner-1 ">
+            <section className="section d-block" style={{ padding: 0, margin: 0 }}>
+                <div className="box-swiper" style={{ height: '100vh', minHeight: '100vh' }}>
+                    <div className="swiper-container swiper-group-1 swiper-banner-1" style={{ height: '100%' }}>
                         <Hero1Slider/>
                     </div>
                 </div>

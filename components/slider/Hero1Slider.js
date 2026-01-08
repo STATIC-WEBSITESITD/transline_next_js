@@ -62,9 +62,19 @@ export default function Hero1Slider() {
                 effect="slide"
                 className="swiper-wrapper"
                 allowTouchMove={false}
+                style={{ height: '100%', width: '100%' }}
             >
-                <SwiperSlide>
-                    <div className="banner-1 video-banner-wrapper" style={{ position: 'relative', overflow: 'hidden' }}>
+                <SwiperSlide style={{ height: '100%' }}>
+                    <div className="banner-1 video-banner-wrapper" style={{ 
+                        position: 'relative', 
+                        overflow: 'hidden',
+                        height: '100vh',
+                        minHeight: '100vh',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        padding: 0
+                    }}>
                         {/* Video Banner Replace Image */}
                         <video
                             autoPlay
@@ -87,44 +97,36 @@ export default function Hero1Slider() {
                             {/* fallback text */}
                             Your browser does not support the video tag.
                         </video>
-                        <div className="container" style={{ position: "relative", zIndex: 3 }}>
-                            <div className="row align-items-center">
-                                <div className="col-lg-12">
+                        <div className="container" style={{ 
+                            position: "relative", 
+                            zIndex: 3,
+                            height: '100%',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center'
+                        }}>
+                            <div className="row align-items-center justify-content-center" style={{ width: '100%' }}>
+                                <div className="col-lg-12 text-center">
                                     <p className="font-md color-white mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Logistics &amp; Transportation</p>
-                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
+                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s" style={{ textTransform: 'uppercase', whiteSpace: 'nowrap' }}>
                                         {displayedText ? (
                                             <>
-                                                {displayedText.includes("Pharma ") ? (
-                                                    <>
-                                                        {displayedText.substring(0, displayedText.indexOf("Pharma ") + 6)}
-                                                        {displayedText.length > displayedText.indexOf("Pharma ") + 6 ? (
-                                                            <>
-                                                                <br className="d-none d-lg-block" />
-                                                                {displayedText.substring(displayedText.indexOf("Pharma ") + 6)}
-                                                            </>
-                                                        ) : null}
-                                                        <span className="typewriter-cursor" style={{ animation: "blink 1s infinite" }}>|</span>
-                                                    </>
-                                                ) : (
-                                                    <>
-                                                        {displayedText}
-                                                        <span className="typewriter-cursor" style={{ animation: "blink 1s infinite" }}>|</span>
-                                                    </>
-                                                )}
+                                                {displayedText.toUpperCase()}
+                                                <span className="typewriter-cursor" style={{ animation: "blink 1s infinite" }}>|</span>
                                             </>
                                         ) : (
                                             <span className="typewriter-cursor" style={{ animation: "blink 1s infinite" }}>|</span>
                                         )}
                                     </h1>
-                                    <div className="row">
-                                        <div className="col-lg-6">
+                                    <div className="row justify-content-center">
+                                        <div className="col-lg-8 col-md-10">
                                             <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
                                             India trusted partner for high precision supply chains. We specialize in Pharma Logistics with Cold Chain strength delivering reliable Cargo solutions across Textiles Machinery and General Cargo.
                                             </p>
                                         </div>
                                     </div>
                                     <div className="box-button mt-30">
-                                        <Link className="btn btn-brand-1-big hover-up mr-40 wow animate__animated animate__fadeInUp" href="/about">Explore More</Link>
+                                        <Link className="btn btn-brand-1-big hover-up wow animate__animated animate__fadeInUp" href="/about">Explore More</Link>
                                         {/* <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}>
                                             <img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" />How it work?
                                         </a> */}

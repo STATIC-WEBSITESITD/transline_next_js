@@ -7,7 +7,7 @@
     padding: 10px 0px;
 }
 .header {
-    padding: 0px 0;
+    padding: 15px 0;
     float: left;
     width: 100%;
     position: relative;
@@ -309,23 +309,75 @@
     color: $color-brand-2;
 }
 .sticky-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    left: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    
+    &.header-transparent {
+        background-color: transparent;
+        border-bottom: none;
+        
+        .main-menu li a {
+            color: $color-white !important;
+        }
+        
+        .main-menu li.has-children > a::after {
+            filter: brightness(0) invert(1);
+        }
+        
+        .main-menu li ul li a,
+        .main-menu li ul.sub-menu li a,
+        .main-menu li div.sub-menu li a {
+            color: $color-gray-900 !important;
+        }
+        
+        .btn {
+            color: $color-white;
+        }
+    }
+    
     &.stick {
         -webkit-animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
         animation: 700ms ease-in-out 0s normal none 1 running fadeInDown;
         -webkit-box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05);
         box-shadow: 0 8px 20px 0 rgba(0, 0, 0, 0.05);
-        position: fixed;
-        top: 0;
-        width: 100%;
-        z-index: 1000;
-        left: 0;
-        -webkit-transition: all 0.3s ease 0s;
-        transition: all 0.3s ease 0s;
-        border-bottom: 1px solid $color-gray-100;
-        background: #fff;
+        background-color: rgba(18, 18, 18, 0.6);
+        border-bottom: 1px solid rgba(44, 44, 44, 0.6);
+        
+        .main-menu li a {
+            color: $color-white !important;
+        }
+        
+        .main-menu li.has-children > a::after {
+            filter: brightness(0) invert(1);
+        }
+        
+        .main-menu li ul li a,
+        .main-menu li ul.sub-menu li a,
+        .main-menu li div.sub-menu li a {
+            color: $color-gray-900 !important;
+        }
+        
+        .btn {
+            color: $color-white;
+        }
+        
         &.sticky-white-bg {
             background-color: #fff;
+            
+            .main-menu li a {
+                color: $color-gray-900 !important;
+            }
+            
+            .main-menu li.has-children > a::after {
+                filter: none;
+            }
         }
+        
         &.sticky-blue-bg {
             background-color: #3286e0;
         }
