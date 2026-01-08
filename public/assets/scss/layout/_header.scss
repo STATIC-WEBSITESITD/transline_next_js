@@ -122,11 +122,21 @@
                 text-decoration: none;
                 position: relative;
                 text-transform: uppercase;
+                transition: color 0.3s ease;
                 &:hover {
                     color: $color-brand-2;
                     i {
                         opacity: 1;
                         transition: 0.2s;
+                    }
+                }
+                &.active {
+                    color: $color-brand-2;
+                    i {
+                        opacity: 1;
+                    }
+                    &:hover {
+                        color: $color-brand-2;
                     }
                 }
                 i {
@@ -149,15 +159,15 @@
                 min-width: 220px;
                 border-radius: 0px;
                 padding: 25px 30px 10px 30px;
-                background-color: $color-white;
-                border-top: 8px solid $color-brand-1;
+                background-color: rgba(18, 18, 18, 0.6);
+                backdrop-filter: blur(10px);
                 box-shadow: $box-shadow-1;
                 display: none;
                 &.five-col {
                     display: none;
                     padding: 30px 19px;
                     margin: 0px -15px;
-                    .menu-col {
+                        .menu-col {
                         width: 20%;
                         padding: 0px 15px;
                         .megamenu {
@@ -172,19 +182,19 @@
                             box-shadow: none;
                             li {
                                 a {
-                                    color: $color-gray-900;
+                                    color: $color-white;
                                     font-size: 12px;
                                     line-height: 18px;
                                     padding: 5px 0px;
                                     &:hover {
-                                        color: $color-brand-1;
+                                        color: #ffe799;
                                     }
                                 }
                             }
                         }
                     }
                 }
-                .menu-inner {
+                        .menu-inner {
                     display: flex;
                     flex-wrap: wrap;
                     position: relative;
@@ -201,15 +211,15 @@
                         a {
                             padding-left: 0px;
                             padding-right: 0px;
-                            color: $color-brand-1;
+                            color: $color-white;
                             svg {
-                                color: $color-gray-200;
+                                color: $color-white;
                                 margin-right: 5px;
                             }
                             &:hover {
-                                color: $color-gray-900;
+                                color: #ffe799;
                                 * {
-                                    color: $color-gray-900;
+                                    color: #ffe799;
                                 }
                             }
                         }
@@ -229,21 +239,21 @@
                 max-width: 280px;
                 border-radius: 0px;
                 padding: 8px 0px 8px 0;
-                background-color: $color-white;
-                border-top: 8px solid $color-brand-1;
+                background-color: rgba(18, 18, 18, 0.6);
+                backdrop-filter: blur(10px);
                 box-shadow: $box-shadow-1;
                 li {
                     width: 100%;
                     a {
                         font-size: 14px;
-                        color: $color-gray-900;
+                        color: $color-white;
                         position: relative;
                         padding: 6px 22px 6px 22px;
                         transition: 0.2s;
                         &:hover {
                             padding-left: 25px;
                             transition: 0.2s;
-                            color: $color-brand-1;
+                            color: #ffe799;
                         }
                         &.closer {
                             padding: 8px 22px 8px 22px;
@@ -324,6 +334,15 @@
         
         .main-menu li a {
             color: $color-white !important;
+            &:hover {
+                color: #ffe799 !important;
+            }
+            &.active {
+                color: #ffe799 !important;
+                &:hover {
+                    color: #ffe799 !important;
+                }
+            }
         }
         
         .main-menu li.has-children > a::after {
@@ -333,7 +352,13 @@
         .main-menu li ul li a,
         .main-menu li ul.sub-menu li a,
         .main-menu li div.sub-menu li a {
-            color: $color-gray-900 !important;
+            color: $color-white !important;
+        }
+        
+        .main-menu li ul li a:hover,
+        .main-menu li ul.sub-menu li a:hover,
+        .main-menu li div.sub-menu li a:hover {
+            color: #ffe799 !important;
         }
         
         .btn {
@@ -351,6 +376,15 @@
         
         .main-menu li a {
             color: $color-white !important;
+            &:hover {
+                color: #ffe799 !important;
+            }
+            &.active {
+                color: #ffe799 !important;
+                &:hover {
+                    color: #ffe799 !important;
+                }
+            }
         }
         
         .main-menu li.has-children > a::after {
@@ -360,7 +394,13 @@
         .main-menu li ul li a,
         .main-menu li ul.sub-menu li a,
         .main-menu li div.sub-menu li a {
-            color: $color-gray-900 !important;
+            color: $color-white !important;
+        }
+        
+        .main-menu li ul li a:hover,
+        .main-menu li ul.sub-menu li a:hover,
+        .main-menu li div.sub-menu li a:hover {
+            color: #ffe799 !important;
         }
         
         .btn {
@@ -368,11 +408,19 @@
         }
         
         &.sticky-white-bg {
-            background-color: #fff;
-            
             .main-menu li a {
                 color: $color-gray-900 !important;
+                &:hover {
+                    color: $color-brand-2 !important;
+                }
+                &.active {
+                    color: $color-brand-2 !important;
+                    &:hover {
+                        color: $color-brand-2 !important;
+                    }
+                }
             }
+            background-color: #fff;
             
             .main-menu li.has-children > a::after {
                 filter: none;

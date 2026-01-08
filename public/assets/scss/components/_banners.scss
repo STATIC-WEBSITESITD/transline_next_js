@@ -150,4 +150,17 @@
     animation        : hero-thumb-sm-2-animation 4s linear infinite alternate;
 }
 
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    51%, 100% {
+        opacity: 0;
+    }
+}
+
+.typewriter-cursor {
+    animation: blink 1s infinite;
+}
+
 // End New Agon

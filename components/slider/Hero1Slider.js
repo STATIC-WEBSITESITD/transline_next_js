@@ -97,44 +97,6 @@ export default function Hero1Slider() {
                             {/* fallback text */}
                             Your browser does not support the video tag.
                         </video>
-                        <div className="container" style={{ 
-                            position: "relative", 
-                            zIndex: 3,
-                            height: '100%',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center'
-                        }}>
-                            <div className="row align-items-center justify-content-center" style={{ width: '100%' }}>
-                                <div className="col-lg-12 text-center">
-                                    <p className="font-md color-white mb-15 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">Logistics &amp; Transportation</p>
-                                    <h1 className="color-white mb-25 wow animate__animated animate__fadeInUp" data-wow-delay=".0s" style={{ textTransform: 'uppercase', whiteSpace: 'nowrap' }}>
-                                        {displayedText ? (
-                                            <>
-                                                {displayedText.toUpperCase()}
-                                                <span className="typewriter-cursor" style={{ animation: "blink 1s infinite" }}>|</span>
-                                            </>
-                                        ) : (
-                                            <span className="typewriter-cursor" style={{ animation: "blink 1s infinite" }}>|</span>
-                                        )}
-                                    </h1>
-                                    <div className="row justify-content-center">
-                                        <div className="col-lg-8 col-md-10">
-                                            <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                            India trusted partner for high precision supply chains. We specialize in Pharma Logistics with Cold Chain strength delivering reliable Cargo solutions across Textiles Machinery and General Cargo.
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div className="box-button mt-30">
-                                        <Link className="btn btn-brand-1-big hover-up wow animate__animated animate__fadeInUp" href="/about">Explore More</Link>
-                                        {/* <a className="btn btn-play popup-youtube hover-up wow animate__animated animate__fadeInUp" onClick={() => setOpen(true)}>
-                                            <img className="wow animate__animated animate__fadeInUp" src="/assets/imgs/template/icons/play.svg" alt="" />How it work?
-                                        </a> */}
-                                    </div>
-                                </div>
-                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
-                            </div>
-                        </div>
                         {/* Overlay for darken video so text is readable */}
                         <div 
                             style={{
@@ -143,10 +105,90 @@ export default function Hero1Slider() {
                                 left: 0,
                                 width: "100%",
                                 height: "100%",
-                                background: "rgba(0,0,0,0.45)",
+                                background: "linear-gradient(180deg, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0.6) 100%)",
                                 zIndex: 2
                             }}
                         />
+                        <div className="container" style={{ 
+                            position: "relative", 
+                            zIndex: 3,
+                            height: '100%',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            paddingTop: '80px',
+                            paddingBottom: '80px'
+                        }}>
+                            <div className="row align-items-center justify-content-center" style={{ width: '100%' }}>
+                                <div className="col-lg-10 col-xl-9 text-center">
+                                    <p className="font-lg color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".1s" style={{ 
+                                        fontSize: '18px',
+                                        fontWeight: '400',
+                                        letterSpacing: '2px',
+                                        textTransform: 'uppercase',
+                                        opacity: 0.9
+                                    }}>
+                                        Logistics &amp; Transportation
+                                    </p>
+                                    <h1 className="color-white mb-30 wow animate__animated animate__fadeInUp" data-wow-delay=".2s" style={{ 
+                                        textTransform: 'uppercase',
+                                        fontSize: 'clamp(32px, 5vw, 64px)',
+                                        fontWeight: '700',
+                                        lineHeight: '1.2',
+                                        letterSpacing: '1px',
+                                        marginBottom: '30px',
+                                        textShadow: '2px 2px 8px rgba(0,0,0,0.5)'
+                                    }}>
+                                        {displayedText ? (
+                                            <>
+                                                {displayedText.toUpperCase()}
+                                                <span className="typewriter-cursor" style={{ 
+                                                    animation: "blink 1s infinite",
+                                                    marginLeft: '5px',
+                                                    color: '#ffe799'
+                                                }}>|</span>
+                                            </>
+                                        ) : (
+                                            <span className="typewriter-cursor" style={{ 
+                                                animation: "blink 1s infinite",
+                                                color: '#ffe799'
+                                            }}>|</span>
+                                        )}
+                                    </h1>
+                                    <div className="row justify-content-center mb-40">
+                                        <div className="col-lg-9 col-md-10">
+                                            <p className="font-lg color-white wow animate__animated animate__fadeInUp" data-wow-delay=".3s" style={{
+                                                fontSize: '18px',
+                                                lineHeight: '1.8',
+                                                fontWeight: '300',
+                                                opacity: 0.95,
+                                                textShadow: '1px 1px 4px rgba(0,0,0,0.3)'
+                                            }}>
+                                                India's trusted partner for high precision supply chains. We specialize in Pharma Logistics with Cold Chain strength delivering reliable Cargo solutions across Textiles, Machinery and General Cargo.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className="box-button mt-40 wow animate__animated animate__fadeInUp" data-wow-delay=".4s">
+                                        <Link 
+                                            className="btn btn-brand-1-big hover-up" 
+                                            href="/about"
+                                            style={{
+                                                padding: '16px 40px',
+                                                fontSize: '16px',
+                                                fontWeight: '600',
+                                                letterSpacing: '0.5px',
+                                                textTransform: 'uppercase',
+                                                boxShadow: '0px 8px 24px rgba(255, 231, 153, 0.3)',
+                                                transition: 'all 0.3s ease'
+                                            }}
+                                        >
+                                            Explore More
+                                        </Link>
+                                    </div>
+                                </div>
+                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="vfhzo499OeA" onClose={() => setOpen(false)} />
+                            </div>
+                        </div>
                     </div>
                 </SwiperSlide>
                 {/* <SwiperSlide>
