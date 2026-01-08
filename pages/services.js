@@ -22,7 +22,7 @@ export default function Service() {
                 <section className="section pt-100">
                     <div className="container">
                         <div className="mt-35">
-                            {/* Service 1 */}
+                            {/* Service 1: Air Freight */}
                             <div className="row align-items-center service-row flex-column flex-md-row mb-50">
                                 <div className="col-xl-6 mb-4 mb-xl-0">
                                     {/* Image Hover Zoom + Fade In */}
@@ -38,7 +38,7 @@ export default function Service() {
                                     <div className="wow animate__animated animate__fadeInRight">
                                         <h5 className="color-brand-2 mb-3">Air Freight (Exports)</h5>
                                         <p className="color-grey-900 mb-3 animate__animated animate__fadeIn" style={{ animationDelay: "0.3s" }}>
-                                            As the flagship service of Transline Air Cargo Services Pvt. Ltd., we are the specialist in time-sensitive pharmaceutical air freight. Our service guarantees the speed, security, and precision required to transport critical healthcare products globally. We provide a reliable logistics bridge between Indian manufacturers and the world.
+                                            As the flagship service of Transline Air Cargo Services Pvt. Ltd., we specialize in time-sensitive pharmaceutical air freight—guaranteeing the speed, security, and precision required to move critical healthcare products globally. We provide a reliable logistics bridge between Indian manufacturers and the world.
                                         </p>
                                         <h6 className="fw-bold mt-4 mb-2 color-brand-2">Key Features and Benefits</h6>
                                         <ul className="color-grey-900 ps-3 font-md mb-0 animate__animated animate__fadeIn" style={{ animationDelay: "0.4s", listStyle: "disc" }}>
@@ -58,7 +58,7 @@ export default function Service() {
                                     </div>
                                 </div>
                             </div>
-                            {/* Service 2 */}
+                            {/* Service 2: Sea Freight */}
                             <div className="row align-items-center service-row flex-column flex-md-row mb-50 flex-md-row-reverse">
                                 <div className="col-xl-6 mb-4 mb-xl-0">
                                     <div className="service-img-wrapper wow animate__animated animate__zoomIn" style={{ animationDelay: "0.15s" }}>
@@ -73,27 +73,27 @@ export default function Service() {
                                     <div className="wow animate__animated animate__fadeInLeft" style={{ animationDelay: "0.3s" }}>
                                         <h5 className="color-brand-2 mb-3">Sea Freight (Exports)</h5>
                                         <p className="color-grey-900 mb-3 animate__animated animate__fadeIn" style={{ animationDelay: "0.45s" }}>
-                                            Transline Cargo Services manages your overseas pharmaceutical shipments, providing cost-effective and robust solutions for global ocean freight forwarding. We deliver highly organized and reliable logistics support for your large-volume exports via sea.
+                                            Transline Cargo Services manages your overseas shipments with cost-effective, robust Global solutions. We deliver organized logistics for pharmaceutical exports, large-scale Textiles, and Heavy Machinery. Our expertise in Sea Freight ensures that your large-volume shipments move across international waters with maximum security and efficiency, providing a truly Global reach for every cargo type.
                                         </p>
                                         <h6 className="fw-bold mt-4 mb-2 color-brand-2">Key Offerings</h6>
                                         <ul className="color-grey-900 ps-3 font-md mb-0 animate__animated animate__fadeIn" style={{ animationDelay: "0.5s", listStyle: "disc" }}>
                                             <li className="mb-2">
-                                                <strong>Flexible Capacity Options:</strong> We handle all types of cargo, including FCL (Full Container Load), LCL (Less than Container Load), and specialized non-containerized cargo.
+                                                <strong>Flexible Capacity:</strong> Expert handling of FCL, LCL, and non-containerized industrial Freight across all major shipping lanes.
                                             </li>
                                             <li className="mb-2">
-                                                <strong>Extensive Global Network:</strong> Leveraging a wide network of global partners to provide comprehensive sea freight support and seamless connectivity to ports worldwide.
+                                                <strong>Global Network:</strong> Seamless connectivity to every major Global port for General Goods, Textiles, and Pharmaceutical shipments.
                                             </li>
                                             <li className="mb-2">
-                                                <strong>Pharma Specialization:</strong> Our expertise ensures the proper handling and documentation for all pharmaceutical goods, whether they require standard or temperature-controlled ocean containers leaving the port.
+                                                <strong>Specialized Equipment:</strong> From reefer containers for temperature-sensitive goods to flat-racks for Global Machinery transport and heavy-lift Freight.
                                             </li>
                                             <li>
-                                                <strong>Reliable Scheduling &amp; Routing:</strong> We focus on optimizing routes and sea freight schedules to make your supply chain as predictable and reliable as possible, coordinating efficiently with every departure port.
+                                                <strong>Cost-Efficient Routing:</strong> Strategic Sea Freight planning to optimize transit times and reduce landed costs for your international exports.
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-                            {/* Service 3 */}
+                            {/* Service 3: Customs Clearance */}
                             <div className="row align-items-center service-row flex-column flex-md-row">
                                 <div className="col-xl-6 mb-4 mb-xl-0">
                                     <div className="service-img-wrapper wow animate__animated animate__zoomIn" style={{ animationDelay: "0.3s" }}>
@@ -108,22 +108,18 @@ export default function Service() {
                                     <div className="wow animate__animated animate__fadeInRight" style={{ animationDelay: "0.5s" }}>
                                         <h5 className="color-brand-2 mb-3">Customs Clearance (Air &amp; Sea)</h5>
                                         <p className="color-grey-900 mb-3 animate__animated animate__fadeIn" style={{ animationDelay: "0.65s" }}>
-                                            Navigating international Customs procedures can be complex, but with Transline, it is a fast and reliable process.
-                                            Our team is highly skilled in managing the documentation and regulatory compliance required for both Air and Sea Freight shipments of pharmaceutical goods, ensuring rapid turnaround for both Import and Export cargo.
+                                            Navigating international Customs is a critical stage in the Global supply chain. At Transline, we provide rapid coordination for time-sensitive Pharma, complex Dangerous Goods (DG), and Industrial Machinery moving via Air or Sea Freight. Our Global expertise ensures your cargo clears hurdles quickly and efficiently.
                                         </p>
                                         <h6 className="fw-bold mt-4 mb-2 color-brand-2">Service Highlights</h6>
                                         <ul className="color-grey-900 ps-3 font-md mb-0 animate__animated animate__fadeIn" style={{ animationDelay: "0.7s", listStyle: "disc" }}>
                                             <li className="mb-2">
-                                                <strong>Fast Coordination:</strong> We provide rapid coordination to ensure your time-sensitive pharma cargo faces minimal delays at the port or airport, accelerating both Import and Export processes.
+                                                <strong>Expert Documentation:</strong> Managing regulatory compliance for Global Import/Export across all Freight sectors.
                                             </li>
                                             <li className="mb-2">
-                                                <strong>Expert Documentation Management:</strong> Our skilled professionals efficiently manage all necessary documentation and regulatory compliance for Import and Export shipments, minimizing Customs queries.
+                                                <strong>Rapid Coordination:</strong> Minimal delays at Global ports and airports for General Merchandise and Medicine.
                                             </li>
                                             <li className="mb-2">
-                                                <strong>Comprehensive Support:</strong> We offer full support for Air and Sea Customs clearance, including breakbulk and consolidation services for efficient Imports.
-                                            </li>
-                                            <li>
-                                                <strong>Integrity and Ethics:</strong> Our core value of Integrity ensures ethical and fair business practices in every Customs process, making us a highly reliable logistics partner for global trade.
+                                                <strong>Integrity-Led:</strong> Ethical practices ensuring your Global Industrial and Pharma trade remains compliant with every Air and Sea Freight regulation.
                                             </li>
                                         </ul>
                                     </div>
