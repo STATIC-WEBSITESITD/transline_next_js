@@ -85,8 +85,7 @@ export default function Footer1({ }) {
                                             </svg>
                                         </span>
                                         <span className="font-xs color-white">
-                                            <a href="mailto:info@translineindia.com" className="color-white">info@translineindia.com</a><br/>
-                                            <a href="mailto:sales@translineindia.com" className="color-white">sales@translineindia.com</a>
+                                            <a href="mailto:pricing@translinelogistics.com" className="color-white">pricing@translinelogistics.com</a>
                                         </span>
                                     </li>
                                 </ul>
