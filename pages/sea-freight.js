@@ -18,17 +18,17 @@ export default function SeaFreight() {
     return (
         <>
             <Layout
-                headTitle="Sea Freight Exports | Transline Sea Cargo - Pharma Logistics"
-                metaDescription="Transline Cargo Services delivers dependable export logistics sea solutions for pharmaceutical companies moving cargo across international markets with careful planning and strong coordination."
+                headTitle="Sea Freight Exports India | Specialized Pharma & Cargo Logistics"
+                metaDescription="Transline offers reliable Sea Freight exports for Pharma, Machinery, and Textiles from India with robust export logistics sea solutions."
                 metaKeywords="Sea freight exports, pharma sea cargo, export logistics sea, FCL LCL shipping, pharmaceutical sea exports, temperature controlled containers"
                 canonicalUrl="https://transline-logistics.com/sea-freight"
             >
                 {/* Hero Banner Section */}
                 <section className="section">
                     <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/s2.jpg) no-repeat center/cover fixed" }}>
-                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Sea Freight (Exports)</h2>
+                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Sea Freight ( Exports)</h2>
                         <p className="color-grey-700 text-white font-lg wow animate__animated animate__fadeIn">
-                            Dependable sea export logistics for pharma – planned, coordinated, and delivered worldwide by Transline Cargo Services.
+                            Dependable export logistics sea solutions for pharma, dangerous goods, textiles, and machinery.
                         </p>
                     </div>
                 </section>
@@ -40,7 +40,7 @@ export default function SeaFreight() {
                             <div className="col-lg-12">
                                 <div className="content-detail wow animate__animated animate__fadeIn">
                                     <p className="font-md color-grey-900 mb-30" style={{ fontSize: "16px", lineHeight: "1.8" }}>
-                                        With a clear understanding of pharmaceutical shipping requirements, Transline Cargo Services manages sea exports with precision and accountability. From container selection to port handling, we ensure export logistics sea processes remain structured, reliable and aligned with global trade standards.
+                                        Transline Cargo Services delivers dependable export logistics sea solutions for companies moving cargo across international markets. While we are recognized specialists in pharmaceutical shipping, our robust infrastructure is fully equipped to manage Dangerous Goods, Textiles, and Heavy Machinery. Our approach focuses on careful planning and consistent execution to support smooth sea freight operations from origin ports to global destinations.
                                     </p>
                                 </div>
                             </div>
@@ -52,9 +52,9 @@ export default function SeaFreight() {
                 <section className="section pt-50 pb-100 bg-1">
                     <div className="container">
                         <div className="text-center mb-65">
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our Benefits</p>
+                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Benefits</p>
                             <h2 className="color-brand-2 text-capitalize mb-15 mt-15 wow animate__animated animate__fadeInUp">
-                                Why Choose Our Sea Freight Services
+                                Benefits
                             </h2>
                         </div>
                         <div className="row mt-35">
@@ -74,9 +74,9 @@ export default function SeaFreight() {
                                         </div>
                                     </div>
                                     <div className="cardInfo">
-                                        <h6 className="color-brand-2 mb-15">Cost-Optimized Shipping</h6>
+                                        <h6 className="color-brand-2 mb-15">Cost-Efficiency at Scale</h6>
                                         <p className="font-md color-grey-700">
-                                            Ship bulk pharmaceuticals by sea and lower your cost per unit. Transline's logistics team enables cost savings while still maintaining industry-approved pharma standards.
+                                            Achieve lower costs for large Export volumes via Sea. Our Logistics expertise reduces costs for Pharma, Machinery, and Textile shipments.
                                         </p>
                                     </div>
                                 </div>
@@ -97,9 +97,9 @@ export default function SeaFreight() {
                                         </div>
                                     </div>
                                     <div className="cardInfo">
-                                        <h6 className="color-brand-2 mb-15">FCL & LCL Options</h6>
+                                        <h6 className="color-brand-2 mb-15">Multi-Modal Sea Flexibility</h6>
                                         <p className="font-md color-grey-700">
-                                            Choose between Full Container Load and Less than Container Load solutions. Whether big or small, our sea logistics are tailored to fit any pharmaceutical export.
+                                            Gain total versatility for your Sea freight with FCL/LCL. Our Logistics framework adapts to your Export volume for all specialized cargo types.
                                         </p>
                                     </div>
                                 </div>
@@ -120,9 +120,32 @@ export default function SeaFreight() {
                                         </div>
                                     </div>
                                     <div className="cardInfo">
-                                        <h6 className="color-brand-2 mb-15">Stable Supply Lines</h6>
+                                        <h6 className="color-brand-2 mb-15">Predictable Sea Supply Chain</h6>
                                         <p className="font-md color-grey-700">
-                                            Experience timely and predictable deliveries thanks to established sea routes. Our planning enables you to manage inventories with confidence and avoid shortages.
+                                            Experience a reliable Sea Logistics chain via optimized routing. Our Export schedules allow for precise planning for Industrial and Pharma goods.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-lg-6 mb-30">
+                                <div className="cardGrid wow animate__animated animate__fadeIn" style={{ animationDelay: "0.6s" }}>
+                                    <div className="cardImage">
+                                        <div style={{ 
+                                            height: "200px", 
+                                            background: "linear-gradient(135deg, #2C7DA1 0%, #1C6180 100%)",
+                                            display: "flex",
+                                            alignItems: "center",
+                                            justifyContent: "center"
+                                        }}>
+                                            <svg width="64" height="64" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div className="cardInfo">
+                                        <h6 className="color-brand-2 mb-15">Global Sea Connectivity</h6>
+                                        <p className="font-md color-grey-700">
+                                            Benefit from seamless Sea access to every major port. We bridge continents with a reliable Logistics network for your Global Export pathways.
                                         </p>
                                     </div>
                                 </div>
@@ -135,9 +158,9 @@ export default function SeaFreight() {
                 <section className="section pt-100 pb-0">
                     <div className="container">
                         <div className="text-center mb-65">
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Why Choose Us</p>
+                            <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Why Choose us</p>
                             <h2 className="color-brand-2 text-capitalize mb-15 mt-15 wow animate__animated animate__fadeInUp">
-                                Our Competitive Advantages
+                                Why Choose us
                             </h2>
                         </div>
                         <div className="row mt-35">
@@ -158,9 +181,9 @@ export default function SeaFreight() {
                                         </div>
                                     </div>
                                     <div className="flex-grow-1">
-                                        <h5 className="color-brand-2 mb-15">Specialized Pharma Logistics</h5>
+                                        <h5 className="color-brand-2 mb-15">Specialized Pharma & DG Cargo</h5>
                                         <p className="font-md color-grey-700">
-                                            Unlike general forwarders, we use validated temperature-controlled containers for every Sea Export. Our Logistics protocols maintain chemical stability and strict GDP compliance throughout the journey.
+                                            We use validated reefer and specialized containers for Sea Export. Our Logistics protocols maintain safety for Pharma and Dangerous Goods.
                                         </p>
                                     </div>
                                 </div>
@@ -184,7 +207,7 @@ export default function SeaFreight() {
                                     <div className="flex-grow-1">
                                         <h5 className="color-brand-2 mb-15">Sea Port-Level Advocacy</h5>
                                         <p className="font-md color-grey-700">
-                                            Our Logistics teams coordinate with port authorities to ensure your Export shipments receive priority discharging. We fast-track pharmaceutical movement from the Sea vessel through the terminal gates.
+                                            Our Logistics teams coordinate with port authorities for priority discharge. We fast-track the Export movement for Machinery and Healthcare goods.
                                         </p>
                                     </div>
                                 </div>
@@ -208,7 +231,7 @@ export default function SeaFreight() {
                                     <div className="flex-grow-1">
                                         <h5 className="color-brand-2 mb-15">Ethical Export Transparency</h5>
                                         <p className="font-md color-grey-700">
-                                            We provide a clear audit trail for every Sea Logistics operation. Our commitment to integrity ensures your pharmaceutical Export trade is conducted with the highest level of regulatory compliance.
+                                            We provide a clear audit trail for every Sea operation. Our integrity ensures your Pharma and Industrial Export trade meets all global standards.
                                         </p>
                                     </div>
                                 </div>
@@ -232,9 +255,9 @@ export default function SeaFreight() {
                                         </div>
                                     </div>
                                     <div className="flex-grow-1">
-                                        <h5 className="color-brand-2 mb-15">Consistent Export Planning and Control</h5>
+                                        <h5 className="color-brand-2 mb-15">Planned Sea Logistics Control</h5>
                                         <p className="font-md color-grey-700">
-                                            We apply structured planning and close monitoring across sea logistics movements. This helps reduce disruptions, maintain schedule reliability and support smooth pharmaceutical exports across global routes.
+                                            We apply structured planning to Sea movements. This ensures Export reliability and reduces disruptions for Garments, Machinery, and Medicine.
                                         </p>
                                     </div>
                                 </div>
@@ -258,12 +281,12 @@ export default function SeaFreight() {
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(1)}>
                                             <button className={isActive.key === 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                What is Export Logistics Sea for pharmaceutical shipments?
+                                                What is Export Logistics Sea?
                                             </button>
                                         </h5>
                                         <div className={isActive.key === 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Export logistics refers to the planning, handling and movement of pharmaceutical cargo through sea freight while ensuring compliance, safety and reliability across global routes.
+                                                Export Logistics Sea refers to the movement of Pharma, Dangerous Goods, Textiles, and Machinery via Sea while ensuring safety and reliability.
                                             </div>
                                         </div>
                                     </div>
@@ -271,12 +294,12 @@ export default function SeaFreight() {
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(2)}>
                                             <button className={isActive.key === 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                How does Transline Cargo Services manage sea freight exports?
+                                                How do you manage Sea exports?
                                             </button>
                                         </h5>
                                         <div className={isActive.key === 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Transline Cargo Services manages sea freight exports through structured export logistics sea processes including container planning, port coordination and documentation accuracy.
+                                                We manage Sea freight via structured Logistics processes including container planning, port coordination, and accurate Export documentation.
                                             </div>
                                         </div>
                                     </div>
@@ -284,12 +307,12 @@ export default function SeaFreight() {
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(3)}>
                                             <button className={isActive.key === 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                Do you handle temperature sensitive pharma cargo by sea?
+                                                Do you handle all types of cargo?
                                             </button>
                                         </h5>
                                         <div className={isActive.key === 3 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Yes, export logistics sea services include temperature controlled containers and careful monitoring to protect sensitive pharmaceutical cargo during long sea journeys.
+                                                Yes. While we are Pharma specialists, our Export Logistics Sea services cover Machinery, Textiles, and Dangerous Goods with full compliance.
                                             </div>
                                         </div>
                                     </div>
@@ -297,25 +320,12 @@ export default function SeaFreight() {
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(4)}>
                                             <button className={isActive.key === 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                What sea freight options are available for exports?
+                                                Why choose Transline for Sea?
                                             </button>
                                         </h5>
                                         <div className={isActive.key === 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                We offer flexible export logistics sea options including FCL and LCL shipments to suit different pharmaceutical export volumes and requirements.
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="accordion-item wow animate__animated animate__fadeIn">
-                                        <h5 className="accordion-header" onClick={() => handleToggle(5)}>
-                                            <button className={isActive.key === 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                Why choose Transline Cargo Services for Export Logistics Sea?
-                                            </button>
-                                        </h5>
-                                        <div className={isActive.key === 5 ? "accordion-collapse" : "accordion-collapse collapse"}>
-                                            <div className="accordion-body">
-                                                Transline Cargo Services combines pharma expertise, global sea connectivity and transparent export logistics sea operations to ensure smooth and compliant international shipping.
+                                                We combine Logistics expertise, global Sea connectivity, and transparent operations to ensure smooth Export for both specialized and general cargo.
                                             </div>
                                         </div>
                                     </div>

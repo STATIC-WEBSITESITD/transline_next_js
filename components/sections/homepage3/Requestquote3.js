@@ -57,15 +57,15 @@ export default function Requestquote3() {
                                 <h3 className="color-brand-2 pt-100 mb-30">WHY CHOOSE TRANSLINE</h3>
                                 <ul className="list-why-choose">
                                     <li className="wow animate__animated animate__fadeIn mb-25">
-                                        <h5 className="color-brand-2">Pharma Specialization</h5>
+                                        <h5 className="color-brand-2">Pharma-Grade Precision</h5>
                                         <p className="font-md color-grey-700">
-                                            Dedicated expertise in pharmaceutical cargo movement, recognized by top global carriers.
+                                            We apply the world’s strictest handling standards to all shipments, from medicine to textiles.
                                         </p>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn mb-25">
-                                        <h5 className="color-brand-2">Comprehensive Coverage</h5>
+                                        <h5 className="color-brand-2">Coverage</h5>
                                         <p className="font-md color-grey-700">
-                                            Full-spectrum services including Air, Sea, Customs Clearance, and Cold Chain &amp; Warehousing.
+                                            Full-spectrum services including Air, Sea, Customs Clearance, and Cold Chain.
                                         </p>
                                     </li>
                                     <li className="wow animate__animated animate__fadeIn mb-25">

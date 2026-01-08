@@ -6,9 +6,9 @@ export default function About() {
     return (
         <>
             <Layout
-                headTitle="About Transline Group | Pharma Logistics Experts"
-                metaDescription="Founded in 1989, the Transline Group is a reliable pharma logistics partner for compliant air, sea and cold chain solutions across integrated supply chains."
-                metaKeywords="About Transline Group, pharmaceutical logistics experts, pharma cargo company India, reliable logistics partner, cold chain specialists"
+                headTitle="About Transline | Fast & Reliable Pharma Logistics and Cargo"
+                metaDescription="Transline is a trusted logistics partner since 1989, offering fast and reliable Cargo solutions across Pharma Logistics, Dangerous Goods, Textiles, Machinery, and General Cargo."
+                metaKeywords="About Transline, fast pharma logistics, reliable cargo, dangerous goods, textiles logistics, machinery shipping, general cargo solutions, trusted logistics partner"
                 canonicalUrl="https://transline-logistics.com/about"
             >
                 <section className="section">
@@ -25,10 +25,13 @@ export default function About() {
                             <div className="col-lg-6">
                                 <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">About Us</p>
                                 <h2 className="color-brand-2 text-capitalize mb-65 mt-15 wow animate__animated animate__fadeIn">
-                                    Your Dedicated Partner in Pharmaceutical Logistics
+                                    Your Dedicated Logistics Partner
                                 </h2>
                                 <p className="font-md color-grey-900 mb-0 wow animate__animated animate__fadeIn">
-                                    The Transline Group was founded in 1989 by Mr. Dinesh Kirodian. From a single operation, we have grown into one of India's most trusted logistics and freight forwarding partners, specializing exclusively in pharmaceutical cargo movement. Our journey is defined by a consistent focus on compliance, quality, and the safe, fast, and timely delivery of life-saving medicines. We ensure your supply chain remains robust and reliable.
+                                    The Transline Group was founded in 1989 by Mr Dinesh Kirodian. Over the years we have grown into a trusted name in Pharma Logistics by delivering fast and reliable Cargo solutions across multiple industries. Our expertise covers pharmaceuticals, Dangerous Goods, Textiles, Machinery, and General Cargo with consistent care and precision.
+                                </p>
+                                <p className="font-md color-grey-900 mb-0 wow animate__animated animate__fadeIn">
+                                    We believe reliable logistics means moving Cargo fast while maintaining compliance, quality, and timely delivery. From temperature sensitive medicines to large industrial equipment, we apply the same high standards to every Cargo movement.
                                 </p>
                             </div>
                             <div className="col-lg-6 position-relative">

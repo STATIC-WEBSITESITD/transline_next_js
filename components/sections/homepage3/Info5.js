@@ -11,20 +11,13 @@ export default function Info5() {
                                 About Transline Logistics
                             </p>
                             <h2 className="color-brand-2 text-capitalize mb-30 mt-15 wow animate__animated animate__fadeIn">
-                                Pharma-Focused, Cold Chain Ready
+                                Where Precision Drives Every Cargo
                             </h2>
                             <p className="font-md color-grey-900 mb-20 wow animate__animated animate__fadeIn">
-                                For more than three decades, Transline has focused exclusively on moving
-                                pharmaceutical cargo safely and compliantly from India to global destinations.
-                                Our teams understand the criticality of temperature-sensitive products and
-                                work closely with manufacturers, airlines and shipping lines to protect every
-                                shipment end-to-end.
+                                For more than three decades, Transline has built a strong reputation in Pharma Logistics by handling sensitive and high-value Cargo with care and consistency. We move pharmaceutical shipments safely from India to global destinations using reliable processes and proven expertise.
                             </p>
                             <p className="font-md color-grey-900 mb-40 wow animate__animated animate__fadeIn">
-                                From validated cold chain solutions to time-definite air freight and
-                                cost-efficient sea freight, we combine specialist expertise, robust processes
-                                and transparent communication so your medicines arrive on time, in-spec and
-                                audit-ready.
+                                Our capabilities extend far beyond Pharma. We manage Dangerous Goods, Textiles, Machinery and General Cargo with the same discipline, compliance and reliability. Every Cargo movement is planned and executed to deliver safe, timely and reliable logistics solutions.
                             </p>
                             <div className="mt-10">
                                 <Link className="btn btn-brand-2 wow animate__animated animate__fadeIn" href="/about">

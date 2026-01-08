@@ -61,7 +61,7 @@ export default function Project1Slider() {
                                 <a href="/air-freight" style={{color: "inherit", textDecoration: "none"}}>Air Freight (Exports)</a>
                             </h5>
                             <p className="font-xs color-grey-500">
-                                Fast and secure air transportation for pharmaceuticals. Our team ensures your cargo arrives on time with maximum care and efficiency.
+                                We provide fast and reliable air freight services with a strong focus on Pharma Logistics. Our team also handles urgent Cargo such as Textiles, Electronics and critical Machinery parts with the same level of precision.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/air-freight" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -85,7 +85,7 @@ export default function Project1Slider() {
                                 <a href="/sea-freight" style={{color: "inherit", textDecoration: "none"}}>Sea Freight (Exports)</a>
                             </h5>
                             <p className="font-xs color-grey-500">
-                                Cost-effective ocean shipping for global pharma supply. Offering consolidated, full-container, and specialized handling for all cargo types.
+                                Reliable ocean freight forwarding and global shipping support for LCL, FCL, and non-containerized cargo.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/sea-freight" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -109,7 +109,7 @@ export default function Project1Slider() {
                                 <a href="/customs-clearance" style={{color: "inherit", textDecoration: "none"}}>Customs Clearance</a>
                             </h5>
                             <p className="font-xs color-grey-500">
-                                Hassle-free customs clearances for every shipment. Get quick and compliant processing for both import and export pharmaceutical cargo.
+                                Complete customs clearance support for Pharma, Dangerous Goods and Machinery imports. Our documentation and compliance processes ensure smooth and reliable Cargo movement.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/customs-clearance" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -134,7 +134,7 @@ export default function Project1Slider() {
                                 <a href="/air-freight" style={{color: "inherit", textDecoration: "none"}}>Air Freight (Exports)</a>
                             </h5>
                             <p className="font-xs color-grey-500">
-                                Fast and secure air transportation for pharmaceuticals. Our team ensures your cargo arrives on time with maximum care and efficiency.
+                                We provide fast and reliable air freight services with a strong focus on Pharma Logistics. Our team also handles urgent Cargo such as Textiles, Electronics and critical Machinery parts with the same level of precision.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/air-freight" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -158,7 +158,7 @@ export default function Project1Slider() {
                                 <a href="/sea-freight" style={{color: "inherit", textDecoration: "none"}}>Sea Freight (Exports)</a>
                             </h5>
                             <p className="font-xs color-grey-500">
-                                Cost-effective ocean shipping for global pharma supply. Offering consolidated, full-container, and specialized handling for all cargo types.
+                                Reliable ocean freight forwarding and global shipping support for LCL, FCL, and non-containerized cargo.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/sea-freight" className="btn btn-link font-sm color-brand-2">View Details<span>
@@ -182,7 +182,7 @@ export default function Project1Slider() {
                                 <a href="/customs-clearance" style={{color: "inherit", textDecoration: "none"}}>Customs Clearance</a>
                             </h5>
                             <p className="font-xs color-grey-500">
-                                Hassle-free customs clearances for every shipment. Get quick and compliant processing for both import and export pharmaceutical cargo.
+                                Complete customs clearance support for Pharma, Dangerous Goods and Machinery imports. Our documentation and compliance processes ensure smooth and reliable Cargo movement.
                             </p>
                             <div className="box-button mt-30">
                                 <a href="/customs-clearance" className="btn btn-link font-sm color-brand-2">View Details<span>

@@ -10,8 +10,8 @@ export default function Home() {
   return (
     <>
       <Layout
-        headTitle="Transline Air Cargo | Pharma Logistics & Cold Chain India"
-        metaDescription="Transline Air Cargo delivers trusted pharmaceutical logistics with cold chain, air freight, sea freight and compliant cargo solutions for time-sensitive shipments."
+        headTitle="Integrated Logistics & Specialized Cargo Solutions | Transline"
+        metaDescription="Transline is a trusted logistics partner offering Pharma Logistics Cold Chain air and sea freight customs clearance and reliable Cargo solutions across India."
         metaKeywords="Pharmaceutical logistics India, pharma cargo services, cold chain logistics, air freight pharma, sea freight pharma, reliable logistics company, Transline Air Cargo"
         canonicalUrl="https://transline-logistics.com/"
       >

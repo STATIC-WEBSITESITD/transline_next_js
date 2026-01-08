@@ -21,12 +21,6 @@ export default function Service() {
                 </section>
                 <section className="section pt-100">
                     <div className="container">
-                        <div className="text-center">
-                            <p className="font-md color-grey-700 wow animate__animated animate__fadeInDown">Our Services</p>
-                            <h2 className="color-brand-2 text-capitalize mb-65 mt-15 wow animate__animated animate__fadeInUp">
-                                We Are Trusted For<br className="d-none d-lg-block" /> Our Services
-                            </h2>
-                        </div>
                         <div className="mt-35">
                             {/* Service 1 */}
                             <div className="row align-items-center service-row flex-column flex-md-row mb-50">

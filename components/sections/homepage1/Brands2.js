@@ -8,7 +8,7 @@ export default function Brands2() {
                     <div className="text-center">
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Certifications</p>
                         <h2 className="color-brand-2 text-capitalize mb-65 mt-15 wow animate__animated animate__fadeIn">
-                            Certified & Trusted<br className="d-none d-lg-block" /> Worldwide
+                            Certified & Trusted Worldwide
                         </h2>
                     </div>
                     <div className="mt-35">

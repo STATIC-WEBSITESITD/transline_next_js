@@ -9,7 +9,7 @@ export default function Projects3() {
                     <div className="text-center">
                         <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our Services</p>
                         <h2 className="color-brand-2 text-capitalize mb-65 mt-15 wow animate__animated animate__fadeIn">
-                            We Are Trusted For<br className="d-none d-lg-block" /> Our Services
+                            We Are Trusted For Our Services
                         </h2>
                     </div>
                     <div className="mt-35">

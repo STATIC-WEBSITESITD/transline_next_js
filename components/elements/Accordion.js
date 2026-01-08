@@ -24,60 +24,60 @@ export default function Accordion() {
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(1)}>
                         <button className={isActive.key == 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                            Do you provide reliable pharmaceutical logistics services?
+                            What type of Cargo does Transline handle?
                         </button>
                     </h5>
                     <div className={isActive.key == 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
                         <div className="accordion-body">
-                            Yes, we specialize in reliable pharmaceutical logistics with strict quality and temperature control standards.
+                            Transline manages a wide range of Cargo including Pharma Logistics, Dangerous Goods, Textiles, Machinery and General Cargo using reliable and compliant logistics processes.
                         </div>
                     </div>
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(2)}>
                         <button className={isActive.key == 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                            Do you handle cold chain pharmaceutical shipments?
+                            How do you ensure reliable Cargo movement?
                         </button>
                     </h5>
                     <div className={isActive.key == 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
                         <div className="accordion-body">
-                            Yes, we manage temperature controlled pharmaceutical cargo with proper monitoring and handling procedures.
+                            We follow strict planning, documentation and monitoring systems to ensure every Cargo shipment moves safely, on time and with complete reliability.
                         </div>
                     </div>
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(3)}>
                         <button className={isActive.key == 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                            What logistics modes do you offer for pharma exports?
+                            Do you provide Cold Chain support only for pharmaceuticals?
                         </button>
                     </h5>
                     <div className={isActive.key == 3 ? "accordion-collapse" : "accordion-collapse collapse"}>
                         <div className="accordion-body">
-                            We offer air freight and sea freight logistics along with complete customs clearance support.
+                            Our Cold Chain infrastructure supports Pharma Logistics and can also be used for any temperature sensitive Cargo that requires controlled and reliable handling.
                         </div>
                     </div>
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(4)}>
                         <button className={isActive.key == 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                            Where are your logistics operations based in India?
+                            Which logistics services do you offer?
                         </button>
                     </h5>
                     <div className={isActive.key == 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
                         <div className="accordion-body">
-                            Our head office is in Mumbai with branches in Bangalore, Chennai, Delhi, Ahmedabad, and Goa.
+                            We provide integrated logistics solutions including air freight, sea freight, customs clearance and Cold Chain support for Pharma and general Cargo.
                         </div>
                     </div>
                 </div>
                 <div className="accordion-item wow animate__animated animate__fadeIn">
                     <h5 className="accordion-header" onClick={() => handleToggle(5)}>
                         <button className={isActive.key == 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                            What type of pharmaceutical companies do you support?
+                            Why choose Transline as a logistics partner?
                         </button>
                     </h5>
                     <div className={isActive.key == 5 ? "accordion-collapse" : "accordion-collapse collapse"}>
                         <div className="accordion-body">
-                            We work with pharmaceutical manufacturers, exporters, and distributors handling regulated and time sensitive cargo.
+                            With decades of experience, a strong national network and expertise in Pharma Logistics, we deliver reliable Cargo solutions built on trust, compliance and consistency.
                         </div>
                     </div>
                 </div>

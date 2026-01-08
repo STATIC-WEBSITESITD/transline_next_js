@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 export default function Hero1Slider() {
     const [isOpen, setOpen] = useState(false)
     const [displayedText, setDisplayedText] = useState("")
-    const fullText = "Pioneering Pharma Logistics in India"
+    const fullText = "Integrated Logistics and Specialized Cargo"
     
     useEffect(() => {
         let currentIndex = 0
@@ -119,7 +119,7 @@ export default function Hero1Slider() {
                                     <div className="row">
                                         <div className="col-lg-6">
                                             <p className="font-md color-white mb-20 wow animate__animated animate__fadeInUp" data-wow-delay=".0s">
-                                                India's Trusted Integrated Logistics Solution Provider, Specializing in Cold Chain and Reliable Air & Sea Pharma Cargo Movement.
+                                            India trusted partner for high precision supply chains. We specialize in Pharma Logistics with Cold Chain strength delivering reliable Cargo solutions across Textiles Machinery and General Cargo.
                                             </p>
                                         </div>
                                     </div>
