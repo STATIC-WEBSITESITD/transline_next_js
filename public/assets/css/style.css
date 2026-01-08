@@ -2629,6 +2629,7 @@ iframe {
   padding: 28px 18px 28px 15px;
   text-decoration: none;
   position: relative;
+  text-transform: uppercase;
 }
 .header .main-menu li a:hover {
   color: #000000;

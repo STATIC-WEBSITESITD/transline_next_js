@@ -89,21 +89,6 @@ export default function Footer1({ }) {
                                             <a href="mailto:sales@translineindia.com" className="color-white">sales@translineindia.com</a>
                                         </span>
                                     </li>
-                                    <li className="d-flex align-items-start">
-                                        <span className="me-2 d-flex align-items-center" style={{width: "22px"}}>
-                                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-                                                <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 1 1 18 0z" fill="none"/>
-                                                <circle cx="12" cy="10" r="3" fill="none"/>
-                                            </svg>
-                                        </span>
-                                        <span className="font-xs color-white">
-                                            <strong>Branch Offices:</strong><br/>
-                                            <a href="#" className="color-white">Bengaluru</a><br/>
-                                            <a href="#" className="color-white">Chennai</a><br/>
-                                            <a href="#" className="color-white">Delhi</a><br/>
-                                            <a href="#" className="color-white">Ahmedabad</a>
-                                        </span>
-                                    </li>
                                 </ul>
                             </div>
                         </div>

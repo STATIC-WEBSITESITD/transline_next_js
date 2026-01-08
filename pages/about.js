@@ -69,7 +69,7 @@ export default function About() {
                                     </div>
                                     <div className="mt-3">
                                         <div className="mb-3">
-                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>01. Inspire Excellence</h6>
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>Inspire Excellence</h6>
                                             <p className="font-md color-grey-700 mb-0">
                                                 To be among India’s leading integrated logistics solution providers, delivering excellence and innovation in pharmaceutical and cold chain logistics.
                                             </p>
@@ -90,7 +90,7 @@ export default function About() {
                                     </div>
                                     <div className="mt-3">
                                         <div className="mb-3">
-                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>01. Deliver with Purpose</h6>
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>Deliver with Purpose</h6>
                                             <p className="font-md color-grey-700 mb-0">
                                                 To provide safe, efficient, and compliant logistics services tailored to the pharmaceutical industry's special cargo requirements, ensuring life-saving medicines reach those in need—on time, every time.
                                             </p>
@@ -111,19 +111,19 @@ export default function About() {
                                     </div>
                                     <div className="mt-3">
                                         <div className="mb-3">
-                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>01. Client-Centric Approach</h6>
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>Client-Centric Approach</h6>
                                             <p className="font-md color-grey-700 mb-0">
                                                 We build long-term partnerships based on mutual trust and transparency, prioritizing the client's needs in every process.
                                             </p>
                                         </div>
                                         <div className="mb-3">
-                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>02. Integrity</h6>
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>Integrity</h6>
                                             <p className="font-md color-grey-700 mb-0">
                                                 We are committed to ethical and fair business practices, ensuring integrity and transparency are maintained across all our operations, especially in high-value cargo handling.
                                             </p>
                                         </div>
                                         <div>
-                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>03. Commitment</h6>
+                                            <h6 className="color-grey-900 mb-5" style={{ fontWeight: 600 }}>Commitment</h6>
                                             <p className="font-md color-grey-700 mb-0">
                                                 We are focused on uncompromising quality, safety, and fast, on-time delivery always to protect the efficacy of your sensitive pharmaceutical cargo. Our service is reliable.
                                             </p>
