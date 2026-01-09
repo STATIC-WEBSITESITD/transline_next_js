@@ -5,6 +5,8 @@ class MyDocument extends Document {
         return (
             <Html>
             <Head>
+                    <link rel="shortcut icon" href="/assets/imgs/favicon.png" />
+                    <link rel="icon" type="image/png" href="/assets/imgs/favicon.png" />
                     <link rel="preconnect" href="https://fonts.bunny.net" />
                     <link
                         href="https://fonts.bunny.net/css?family=epilogue:400,500,600,700"

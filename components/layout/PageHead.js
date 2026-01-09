@@ -29,7 +29,8 @@ const PageHead = ({
                 <meta name="description" content={description} />
                 <meta name="keywords" content={keywords} />
                 <link rel="canonical" href={canonical} />
-                <link rel="shortcut icon" href="/favicon.svg" />
+                <link rel="shortcut icon" href="/assets/imgs/favicon.png" />
+                <link rel="icon" type="image/png" href="/assets/imgs/favicon.png" />
             </Head>
         </>
     )
