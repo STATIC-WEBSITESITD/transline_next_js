@@ -3,47 +3,84 @@ import Link from "next/link";
 export default function Requestquote3() {
     return (
         <>
-            <section id="request-a-quote" className="section mt-200 bg-2 bg-request-quote-3">
+            <section id="request-a-quote" className="section mt-100 pt-100 pb-100 bg-2 bg-request-quote-3">
                 <div className="container">
-                    <div className="row">
+                    <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="box-form-request-quote-2 box-form-request-quote-3">
                                 <div className="box-form-contact-leading">
-                                    <h2 className="title-favicon color-brand-2 mb-15 wow animate__animated animate__fadeIn">
-                                        Request a Quote
-                                    </h2>
-                                    <p className="font-md color-grey-700 mb-25 wow animate__animated animate__fadeIn">
-                                        If you have any queries, please fill out the form below to get a quote.
-                                    </p>
+                                    <div className="text-center">
+                                        <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Request a Quote</p>
+                                        <h2 className="color-brand-2 text-capitalize mb-30 mt-15 wow animate__animated animate__fadeIn">
+                                            Get a Quote
+                                        </h2>
+                                    </div>
                                     <form>
                                         <div className="row align-items-center wow animate__animated animate__fadeIn">
-                                            <div className="col-lg-6">
+                                            <div className="col-lg-12">
                                                 <div className="form-group">
-                                                    <input className="form-control" type="text" placeholder="Your name *" name="name" />
+                                                    <input className="form-control" type="text" placeholder="Company Name *" name="company_name" required />
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="form-group">
-                                                    <input className="form-control" type="email" placeholder="Your email *" name="email" />
+                                                    <input className="form-control" type="text" placeholder="Name *" name="name" required />
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="form-group">
-                                                    <input className="form-control" type="text" placeholder="Mobile *" name="mobile" />
+                                                    <input className="form-control" type="email" placeholder="Email *" name="email" required />
                                                 </div>
                                             </div>
                                             <div className="col-lg-6">
                                                 <div className="form-group">
-                                                    <input className="form-control" type="text" placeholder="Subject *" name="subject" />
+                                                    <input className="form-control" type="text" placeholder="Mobile Number *" name="mobile" required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <select className="form-control" name="commodities" required>
+                                                        <option value="">Commodities *</option>
+                                                        <option value="Documents">Documents</option>
+                                                        <option value="Electronics">Electronics</option>
+                                                        <option value="Garments / Textiles">Garments / Textiles</option>
+                                                        <option value="Machinery Parts">Machinery Parts</option>
+                                                        <option value="Household Goods">Household Goods</option>
+                                                        <option value="Food Items (Non-Perishable)">Food Items (Non-Perishable)</option>
+                                                        <option value="Medical Supplies">Medical Supplies</option>
+                                                        <option value="Auto Spare Parts">Auto Spare Parts</option>
+                                                        <option value="Chemicals (Non-Hazardous)">Chemicals (Non-Hazardous)</option>
+                                                        <option value="Others">Others</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <input className="form-control" type="text" placeholder="Weight *" name="weight" required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <input className="form-control" type="text" placeholder="Number Of Pieces *" name="pieces" required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <input className="form-control" type="text" placeholder="Dimensions *" name="dimensions" required />
+                                                </div>
+                                            </div>
+                                            <div className="col-lg-6">
+                                                <div className="form-group">
+                                                    <input className="form-control" type="text" placeholder="Destination *" name="destination" required />
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">
                                                 <div className="form-group">
-                                                    <textarea className="form-control" name="message" rows={8} placeholder="Message *" defaultValue={""} />
+                                                    <textarea className="form-control" name="additional_info" rows={1} placeholder="Additional Information *" defaultValue={""} required />
                                                 </div>
                                             </div>
                                             <div className="col-lg-12">
-                                                <button type="submit" className="btn btn-brand-1-big">
+                                                <button type="submit" className="btn btn-brand-1-big w-100">
                                                     Submit Now
                                                 </button>
                                             </div>
@@ -54,7 +91,12 @@ export default function Requestquote3() {
                         </div>
                         <div className="col-lg-6">
                             <div className="why-choose-transline">
-                                <h3 className="color-brand-2 pt-100 mb-30">WHY CHOOSE TRANSLINE</h3>
+                                <div className="text-left">
+                                    <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Why Choose Us</p>
+                                    <h2 className="color-brand-2 text-capitalize mb-30 mt-15 wow animate__animated animate__fadeIn">
+                                        Why Choose Transline
+                                    </h2>
+                                </div>
                                 <ul className="list-why-choose">
                                     <li className="wow animate__animated animate__fadeIn mb-25">
                                         <h5 className="color-brand-2">Pharma-Grade Precision</h5>

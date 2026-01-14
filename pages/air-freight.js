@@ -26,9 +26,9 @@ export default function AirFreight() {
                 {/* Hero Banner Section */}
                 <section className="section">
                     <div className="box-pageheader-1 text-center" style={{ background: "url(assets/imgs/s1.jpg) no-repeat top/cover fixed" }}>
-                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Air Freight ( Exports)</h2>
+                        <h2 className="color-brand-1 mt-15 mb-10 wow animate__animated animate__fadeIn">Air Freight</h2>
                         <p className="color-grey-700 text-white font-lg wow animate__animated animate__fadeIn">
-                            Specialized cargo solutions. Cold chain & general exports. Global supply chain from India.
+                            Import & Export Air Freight Services
                         </p>
                     </div>
                 </section>
@@ -40,7 +40,7 @@ export default function AirFreight() {
                             <div className="col-lg-12">
                                 <div className="content-detail wow animate__animated animate__fadeIn">
                                     <p className="font-md color-grey-900 mb-30" style={{ fontSize: "16px", lineHeight: "1.8" }}>
-                                        Transline Air Cargo Services Pvt. Ltd. is your strategic partner in growth. We recognize that the India export sector needs a supply chain that is both agile and secure. By choosing our cold chain and specialized expertise, you secure a promise of quality, transparency, and global compliance. While our roots are in handling sensitive medicine, we apply that same rigor to industrial goods and general cargo. Our mission remains clear: providing a high-velocity bridge that brings Indian innovations and products to the global market.
+                                    Transline Air Cargo Services Pvt. Ltd. is your partner for business growth. We know that the India import and export sector needs a Supply chain that is both fast and secure. By using our Cold chain and expert knowledge, you get a promise of quality, honesty, and global rules. While we started with sensitive medicine, we use the same high standards for industrial goods and general cargo. Our mission is clear: to provide a fast bridge that connects India to the world.
                                     </p>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ export default function AirFreight() {
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2 mb-15">Cold Chain & India Integrity</h6>
                                         <p className="font-md color-grey-700">
-                                            Protect high-value cargo with rigorous Cold chain monitoring. We ensure sensitive medicines, machinery, and textiles from India arrive in spec.
+                                        Protect high-value cargo with strict Cold chain monitoring. We make sure sensitive medicines, machinery, and textiles arrive in perfect condition.
                                         </p>
                                     </div>
                                 </div>
@@ -99,7 +99,7 @@ export default function AirFreight() {
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2 mb-15">Global Supply Chain Speed</h6>
                                         <p className="font-md color-grey-700">
-                                            Accelerate speed-to-market with priority Air Freight and expert customs for DG and general exports, ensuring predictable Global schedules.
+                                        Get your products to market faster with priority air freight. We handle customs for dangerous goods and general import and export tasks to keep your global schedules on time.
                                         </p>
                                     </div>
                                 </div>
@@ -122,7 +122,8 @@ export default function AirFreight() {
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2 mb-15">Risk Mitigation in India</h6>
                                         <p className="font-md color-grey-700">
-                                            Gain peace of mind with 24/7 monitoring. Our transparent Supply chain and Cold chain solutions safeguard your India brand's reputation.
+                                        Get peace of mind with 24/7 monitoring. Our clear Supply chain and Cold chain solutions protect your brand’s reputation in India.
+
                                         </p>
                                     </div>
                                 </div>
@@ -160,7 +161,7 @@ export default function AirFreight() {
                                     <div className="flex-grow-1">
                                         <h5 className="color-brand-2 mb-15">Market Leadership in India</h5>
                                         <p className="font-md color-grey-700">
-                                            India-focused leadership connecting labs to textile hubs with strong Global export expertise that many general Freight forwarders miss.
+                                            Our leaders focus on India, connecting labs to textile hubs with global import and export skills that many other freight companies miss.
                                         </p>
                                     </div>
                                 </div>
@@ -184,7 +185,7 @@ export default function AirFreight() {
                                     <div className="flex-grow-1">
                                         <h5 className="color-brand-2 mb-15">Validated Cold Chain & Safety</h5>
                                         <p className="font-md color-grey-700">
-                                            Proven security for Cold chain and DG with careful planning and route checks to avoid Air Freight and safety risks before they arise.
+                                            We offer proven security for the Cold chain. We plan every route carefully to stop safety risks before they happen.
                                         </p>
                                     </div>
                                 </div>
@@ -208,7 +209,7 @@ export default function AirFreight() {
                                     <div className="flex-grow-1">
                                         <h5 className="color-brand-2 mb-15">Resilient Supply Chain Hubs</h5>
                                         <p className="font-md color-grey-700">
-                                            Strong, flexible Supply chain architecture with top carriers, ensuring machinery, garments, and medicine Freight from India never gets stuck.
+                                            Our strong Supply chain network works with top airlines. This ensures that machinery, clothes, and medicine from India never get delayed.
                                         </p>
                                     </div>
                                 </div>
@@ -232,7 +233,7 @@ export default function AirFreight() {
                                     <div className="flex-grow-1">
                                         <h5 className="color-brand-2 mb-15">Data-Driven Global Insights</h5>
                                         <p className="font-md color-grey-700">
-                                            Smart Global decisions powered by data insights and reports that turn India-based Freight logistics into a competitive business advantage.
+                                            Make smart business choices with our data reports. We turn India-based logistics into a competitive advantage for your business.
                                         </p>
                                     </div>
                                 </div>
@@ -261,7 +262,7 @@ export default function AirFreight() {
                                         </h5>
                                         <div className={isActive.key === 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                While we specialize in pharmaceutical exports from India, we handle a wide range of cargo including Dangerous Goods, Textiles, Machinery, and General Goods through a secure supply chain and cold chain process.
+                                                While we are experts in pharmaceutical import and export in India, we also handle dangerous goods, textiles, machinery, and general cargo through a secure Supply chain and Cold chain process.
                                             </div>
                                         </div>
                                     </div>
@@ -269,12 +270,12 @@ export default function AirFreight() {
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(2)}>
                                             <button className={isActive.key === 2 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                How do you maintain integrity during air freight exports?
+                                                How do you keep cargo safe during air freight import and export?
                                             </button>
                                         </h5>
                                         <div className={isActive.key === 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Our management includes temperature-controlled cold chain handling for medicine, and specialized safety protocols for Dangerous Goods and Industrial Machinery to ensure all India cargo remains stable during transit.
+                                                We use temperature-controlled Cold chain tools for medicine. We also use special safety rules for machinery to keep all India cargo stable during travel.
                                             </div>
                                         </div>
                                     </div>
@@ -282,12 +283,12 @@ export default function AirFreight() {
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(3)}>
                                             <button className={isActive.key === 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                Do you support end-to-end supply chain management for all exports?
+                                                Do you support end-to-end Supply chain management?
                                             </button>
                                         </h5>
                                         <div className={isActive.key === 3 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Yes, we manage the complete export supply chain from India, including pickup, airport handling, customs coordination for all types of cargo, and global delivery.
+                                                Yes, we manage the full import and export Supply chain in India. This includes pickup, airport tasks, customs help, and global delivery.
                                             </div>
                                         </div>
                                     </div>
@@ -295,12 +296,12 @@ export default function AirFreight() {
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(4)}>
                                             <button className={isActive.key === 4 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                Are your air freight services compliant with global standards?
+                                                Are your services compliant with global standards?
                                             </button>
                                         </h5>
                                         <div className={isActive.key === 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Our operations follow GDP-aligned processes to support a compliant supply chain and cold chain for pharmaceutical exports from India, while adhering to international safety standards for Dangerous Goods and General Cargo.
+                                                Our work follows strict global rules to support a safe Supply chain and Cold chain for India pharmaceutical import and export. We also follow international safety laws for all other goods.
                                             </div>
                                         </div>
                                     </div>
@@ -308,12 +309,12 @@ export default function AirFreight() {
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(5)}>
                                             <button className={isActive.key === 5 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                Why choose Transline Air Cargo for exports from India?
+                                                Why choose Transline Air Cargo for import and export in India?
                                             </button>
                                         </h5>
                                         <div className={isActive.key === 5 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Transline Air Cargo offers strong India-focused expertise, reliable cold chain handling, and transparent supply chain operations to support safe and timely global deliveries for both specialized and general industries.
+                                                Transline Air Cargo offers deep knowledge of India, reliable Cold chain tools, and honest Supply chain steps. We ensure safe and on-time global delivery for every industry.
                                             </div>
                                         </div>
                                     </div>

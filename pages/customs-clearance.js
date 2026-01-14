@@ -40,7 +40,7 @@ export default function CustomsClearance() {
                             <div className="col-lg-12">
                                 <div className="content-detail wow animate__animated animate__fadeIn">
                                     <p className="font-md color-grey-900 mb-30" style={{ fontSize: "16px", lineHeight: "1.8" }}>
-                                        Navigating Global Customs is seamless with Transline. While we specialize in Pharma, our teams manage intricate Documentations for Dangerous Goods, Textiles, and Machinery. We act as your strategic partner, ensuring that Global goods transition across borders without unnecessary friction or delay.
+                                    Moving goods through Global Customs is easy with Transline. We provide expert services for all business sectors, ensuring your cargo moves quickly regardless of the industry. Our team handles the difficult Documentations required for any type of shipment. We work as your partner to make sure your Global goods move across borders without any delays or problems.
                                     </p>
                                 </div>
                             </div>
@@ -54,7 +54,7 @@ export default function CustomsClearance() {
                         <div className="text-center mb-65">
                             <p className="font-md color-grey-700 wow animate__animated animate__fadeIn">Our Benefits</p>
                             <h2 className="color-brand-2 text-capitalize mb-15 mt-15 wow animate__animated animate__fadeInUp">
-                            Why Choose Our Customs Clearance Services
+                                Why Choose Our Customs Clearance Services
                             </h2>
                         </div>
                         <div className="row mt-35">
@@ -74,9 +74,9 @@ export default function CustomsClearance() {
                                         </div>
                                     </div>
                                     <div className="cardInfo">
-                                        <h6 className="color-brand-2 mb-15">Rapid Global Coordination</h6>
+                                        <h6 className="color-brand-2 mb-15">Fast Global Coordination</h6>
                                         <p className="font-md color-grey-700">
-                                            Accelerate timelines with proactive Customs coordination. Our team ensures Global delivery of medicine and Machinery faces minimal port delays.
+                                            We speed up your shipping by talking to Customs early. This ensures that Global deliveries for every sector do not get stuck at the port.
                                         </p>
                                     </div>
                                 </div>
@@ -99,7 +99,7 @@ export default function CustomsClearance() {
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2 mb-15">Expert Documentations</h6>
                                         <p className="font-md color-grey-700">
-                                            Control Minimize risk with flawless Documentations. Our professionals manage Global Customs to prevent costly queries or impoundments for all cargo types.
+                                            Avoid risks with perfect paperwork. Our experts manage Global Customs to prevent extra costs or seized goods for any type of cargo.
                                         </p>
                                     </div>
                                 </div>
@@ -122,34 +122,11 @@ export default function CustomsClearance() {
                                     <div className="cardInfo">
                                         <h6 className="color-brand-2 mb-15">Global Trade Support</h6>
                                         <p className="font-md color-grey-700">
-                                            We offer full support for Customs and Documentations. Our team handles all hurdles, allowing you to focus on expanding your Global footprint.
+                                            We handle all Customs and Documentations for you. We take care of the hard work for all industries so you can grow your Global business.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            {/* <div className="col-xl-4 col-lg-6 mb-30">
-                                <div className="cardGrid wow animate__animated animate__fadeIn" style={{ animationDelay: "0.6s" }}>
-                                    <div className="cardImage">
-                                        <div style={{ 
-                                            height: "200px", 
-                                            background: "linear-gradient(135deg, #2C7DA1 0%, #1C6180 100%)",
-                                            display: "flex",
-                                            alignItems: "center",
-                                            justifyContent: "center"
-                                        }}>
-                                            <svg width="64" height="64" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                                            </svg>
-                                        </div>
-                                    </div>
-                                    <div className="cardInfo">
-                                        <h6 className="color-brand-2 mb-15">Optimized Duty Compliance</h6>
-                                        <p className="font-md color-grey-700">
-                                            Ensure efficiency with expert HS Code classification. We verify Global details to prevent duty overpayment while maintaining total Customs compliance.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div> */}
                         </div>
                     </div>
                 </section>
@@ -181,9 +158,9 @@ export default function CustomsClearance() {
                                         </div>
                                     </div>
                                     <div className="flex-grow-1">
-                                        <h5 className="color-brand-2 mb-15">Ethical Global Integrity</h5>
+                                        <h5 className="color-brand-2 mb-15">Honest Global Service</h5>
                                         <p className="font-md color-grey-700">
-                                            Integrity is our core value. We ensure every Global shipment follows ethical Customs practices, providing a transparent and compliant process.
+                                            We believe in being honest. We make sure every Global shipment follows Customs laws, giving you a clear and legal process for any sector.
                                         </p>
                                     </div>
                                 </div>
@@ -205,9 +182,9 @@ export default function CustomsClearance() {
                                         </div>
                                     </div>
                                     <div className="flex-grow-1">
-                                        <h5 className="color-brand-2 mb-15">Rapid Customs Expertise</h5>
+                                        <h5 className="color-brand-2 mb-15">Quick Customs Knowledge</h5>
                                         <p className="font-md color-grey-700">
-                                            We specialize in fast clearance for Global medicine and Dangerous Goods. Our team prioritizes your Documentations for immediate port release.
+                                            We are experts at clearing Global cargo fast. Our team makes your Documentations a priority so your goods leave the port quickly.
                                         </p>
                                     </div>
                                 </div>
@@ -229,14 +206,13 @@ export default function CustomsClearance() {
                                         </div>
                                     </div>
                                     <div className="flex-grow-1">
-                                        <h5 className="color-brand-2 mb-15">Proactive Global Liaison</h5>
+                                        <h5 className="color-brand-2 mb-15">Active Global Contact</h5>
                                         <p className="font-md color-grey-700">
-                                            We prevent problems before they arise. Our experts maintain direct Customs contact to ensure your Global exports move without inspection delays.
+                                            We fix problems before they happen. Our experts talk directly to Customs to keep your Global exports moving without inspections.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            {/* Inserted col: Dedicated Documentation Accuracy Control */}
                             <div className="col-lg-6 col-md-6 mb-40">
                                 <div className="d-flex align-items-start wow animate__animated animate__fadeIn" style={{gap: "20px", animationDelay: "0.6s"}}>
                                     <div className="flex-shrink-0">
@@ -248,7 +224,6 @@ export default function CustomsClearance() {
                                             alignItems: "center",
                                             justifyContent: "center"
                                         }}>
-                                            {/* You may add an appropriate icon here */}
                                             <svg width="40" height="40" fill="none" stroke="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                                 <rect x="4" y="4" width="16" height="16" rx="2" strokeWidth={2} />
                                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 8h8M8 12h8M8 16h4" />
@@ -256,9 +231,9 @@ export default function CustomsClearance() {
                                         </div>
                                     </div>
                                     <div className="flex-grow-1">
-                                        <h5 className="color-brand-2 mb-15">Documentations Accuracy</h5>
+                                        <h5 className="color-brand-2 mb-15">Accurate Documentations</h5>
                                         <p className="font-md color-grey-700">
-                                            We follow strict checks across all Customs Documentations. This ensures your Global exports remain compliant without avoidable queries or holds.
+                                            We check all Customs Documentations very carefully. This keeps your Global exports safe from any holds or questions.
                                         </p>
                                     </div>
                                 </div>
@@ -279,6 +254,7 @@ export default function CustomsClearance() {
                         <div className="mt-35">
                             <div className="box-accordion">
                                 <div className="accordion" id="accordionCustomsClearance">
+
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(1)}>
                                             <button className={isActive.key === 1 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
@@ -287,7 +263,7 @@ export default function CustomsClearance() {
                                         </h5>
                                         <div className={isActive.key === 1 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Global Customs involves managing procedures and Documentations to move Pharma, DG, and Machinery smoothly across international borders.
+                                                It is the process of managing the rules and Documentations needed to move goods from all sectors across Global borders.
                                             </div>
                                         </div>
                                     </div>
@@ -300,7 +276,7 @@ export default function CustomsClearance() {
                                         </h5>
                                         <div className={isActive.key === 2 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Transline manages all Customs Documentations with accuracy, including compliance checks for Textiles and Industrial goods to avoid shipment delays.
+                                                Transline manages all Customs Documentations correctly. We check everything for your specific industry to make sure there are no delays.
                                             </div>
                                         </div>
                                     </div>
@@ -308,12 +284,12 @@ export default function CustomsClearance() {
                                     <div className="accordion-item wow animate__animated animate__fadeIn">
                                         <h5 className="accordion-header" onClick={() => handleToggle(3)}>
                                             <button className={isActive.key === 3 ? "accordion-button text-heading-5 " : "accordion-button text-heading-5 collapsed"}>
-                                                Do you handle all cargo types?
+                                                Do you handle all types of goods?
                                             </button>
                                         </h5>
                                         <div className={isActive.key === 3 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                Yes. While we are Pharma specialists, our Global Customs services cover Dangerous Goods, Machinery, and Textiles with expert Documentations.
+                                                Yes. We provide Global Customs services for every sector, handling all types of cargo with professional Documentations.
                                             </div>
                                         </div>
                                     </div>
@@ -326,10 +302,11 @@ export default function CustomsClearance() {
                                         </h5>
                                         <div className={isActive.key === 4 ? "accordion-collapse" : "accordion-collapse collapse"}>
                                             <div className="accordion-body">
-                                                We reduce delays through proactive coordination with Customs authorities and real-time monitoring of all Global Documentations and clearances.
+                                                We stop delays by working closely with Customs officers and watching your Global Documentations in real-time.
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
                             </div>
                         </div>

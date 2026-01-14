@@ -5990,7 +5990,7 @@ footer a {
   background-size: contain;
   padding: 60px 40px 60px 60px;
   box-shadow: 0px 10px 42px rgba(1, 9, 20, 0.06);
-  margin-top: 40px;
+  /* margin-top: 40px; */
 }
 
 .box-image-contact {
@@ -6336,7 +6336,7 @@ textarea.form-control {
 
 .box-form-request-quote-2 {
   position: relative;
-  top: -160px;
+  /* top: -160px; */
   padding: 0px 40px;
   background-image: url(../imgs/page/homepage2/bg-quote.png);
   background-position: bottom 15px center;
