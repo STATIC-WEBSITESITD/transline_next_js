@@ -27,9 +27,6 @@ const slides = [
     { src: "/assets/imgs/certifications/iso.png", alt: "ISO Certification Logo" },
     { src: "/assets/imgs/certifications/mto.jpg", alt: "MTO Certification Logo" },
     { src: "/assets/imgs/certifications/gdp.png", alt: "GDP Certification Logo" },
-    // { src: "/assets/imgs/certifications/jc trans.png", alt: "JC Trans Certification Logo" },
-    // { src: "/assets/imgs/certifications/sgs.jpg", alt: "SGS Certification Logo" },
-    // { src: "/assets/imgs/certifications/wca.png", alt: "WCA Certification Logo" },
 ];
 
 export default function Brand2Slider() {
@@ -37,7 +34,7 @@ export default function Brand2Slider() {
         <>
             <Swiper
                 modules={[Autoplay, Pagination, Navigation]}
-                slidesPerView={6}
+                slidesPerView={3}
                 spaceBetween={30}
                 loop={true}
                 autoplay={{
@@ -74,7 +71,7 @@ export default function Brand2Slider() {
                         spaceBetween: 30,
                     },
                     1350: {
-                        slidesPerView: 5,
+                        slidesPerView: 3,
                         spaceBetween: 30,
                     },
                 }}

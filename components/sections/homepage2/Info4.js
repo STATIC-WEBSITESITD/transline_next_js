@@ -21,7 +21,7 @@ export default function Info4() {
                                         Group Companies
                                     </h2>
                                     <p className="font-md color-grey-900 wow animate__animated animate__fadeIn">
-                                        The Transline Group consists of three main entities, allowing us to offer holistic solutions:
+                                        The Transline Group consists of two main entities, allowing us to offer holistic solutions:
                                     </p>
                                     <div className="mt-30">
                                         <ul className="list-ticks list-ticks-3" style={{ paddingLeft: 0, listStyle: "none" }}>
