@@ -78,7 +78,7 @@ export default function Requestquote3() {
                                                         <option value="MACHINARY PARTS">MACHINARY PARTS</option>
                                                         <option value="MEDICAL AND LAB EQUIPMENTS">MEDICAL AND LAB EQUIPMENTS</option>
                                                         <option value="MEDICINES/PHARMA - GENERAL">MEDICINES/PHARMA - GENERAL</option>
-                                                        <option value="MEDICINES/PHARMA -PERISHABLE">MEDICINES/PHARMA -PERISHABLE</option>
+                                                        <option value="MEDICINES/PHARMA - TEMPERATURE">MEDICINES/PHARMA - TEMPERATURE</option>
                                                         <option value="METAL PRODUCTS">METAL PRODUCTS</option>
                                                         <option value="MIAL STORES (ITEMS IMPORTED BY MIAL)">MIAL STORES (ITEMS IMPORTED BY MIAL)</option>
                                                         <option value="MMTC CARGO">MMTC CARGO</option>
