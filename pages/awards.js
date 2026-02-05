@@ -3,10 +3,33 @@ import { useState } from "react";
 
 // Add award names in the array, matching to image order.
 const box = [
-    { src: "/assets/imgs/awards/aw1.svg", name: "Ethiopian Airlines" },
-    { src: "/assets/imgs/awards/aw2.jpeg", name: "IAG Cargo" },
-    { src: "/assets/imgs/awards/aw3.jpeg", name: "Emirates SkyCargo" },
-    { src: "/assets/imgs/awards/aw4.jpeg", name: "WCA" },
+    { src: "/assets/imgs/awards/aw1.svg", name: "Award 1" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.13 (1).jpeg", name: "Award 2" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.14 (1).jpeg", name: "Award 3" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.14 (2).jpeg", name: "Award 4" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.14.jpeg", name: "Award 5" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.15 (1).jpeg", name: "Award 6" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.15 (2).jpeg", name: "Award 7" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.16 (1).jpeg", name: "Award 8" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.16 (2).jpeg", name: "Award 9" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.16.jpeg", name: "Award 10" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.17 (1).jpeg", name: "Award 11" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.17 (2).jpeg", name: "Award 12" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.17.jpeg", name: "Award 13" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.18.jpeg", name: "Award 14" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.19 (2).jpeg", name: "Award 15" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.20 (1).jpeg", name: "Award 16" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.20.jpeg", name: "Award 17" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.21 (1).jpeg", name: "Award 18" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.21 (2).jpeg", name: "Award 19" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.21.jpeg", name: "Award 20" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.22 (1).jpeg", name: "Award 21" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.22.jpeg", name: "Award 22" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.23 (1).jpeg", name: "Award 23" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.23.jpeg", name: "Award 24" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.24 (1).jpeg", name: "Award 25" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.24.jpeg", name: "Award 26" },
+    { src: "/assets/imgs/awards/WhatsApp Image 2026-02-05 at 11.14.25.jpeg", name: "Award 27" },
 ];
 
 const cardStyle = {
