@@ -222,6 +222,14 @@ export default function Contact() {
                                                     </a>
                                                 </p>
                                             </div>
+                                            <div style={{ display: 'flex', alignItems: 'center', marginTop: '15px' }}>
+                                                <svg fill="none" stroke="currentColor" strokeWidth="1.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style={{ width: '20px', height: '20px', color: '#ffe799', marginRight: '15px', flexShrink: 0 }}>
+                                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                                </svg>
+                                                <p className="font-md color-grey-700 mb-0">
+                                                    Working hours: Monday–Saturday, 9:30 AM – 5:30 PM
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
